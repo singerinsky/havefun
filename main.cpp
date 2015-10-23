@@ -10,7 +10,9 @@
 
 #define TO_STR(T)	printf("%s",#T);
 
-void function_push(CircleQueue<NullLock>* queue)
+typedef CircleQueue<SpainLock> QUEUE;
+
+void function_push(QUEUE* queue)
 {
 	std::string final_str;
 	int i = 0;
@@ -33,7 +35,7 @@ void function_push(CircleQueue<NullLock>* queue)
 	printf("md5 code:%s\n",md5(final_str.c_str()).c_str());
 }
 
-void function_pop(CircleQueue<NullLock>* queue)
+void function_pop(QUEUE* queue)
 {
 	std::string final_str;
 	int i = 0;
@@ -92,12 +94,16 @@ int main()
 	}
 */
 	
-	CircleQueue<NullLock> test_queue;
+	QUEUE test_queue;
 	
 	//rstll::RstThread _thread(function);	
-	std::thread _thread_push(function_push,&test_queue);
-	std::thread _thread_pop(function_pop,&test_queue);
-	_thread_push.join();
-	_thread_pop.join();
+	std::thread _thread_push1(function_push,&test_queue);
+	std::thread _thread_push2(function_push,&test_queue);
+	std::thread _thread_pop3(function_pop,&test_queue);
+	std::thread _thread_pop4(function_pop,&test_queue);
+	_thread_push1.join();
+	_thread_push2.join();
+	_thread_pop3.join();
+	_thread_pop4.join();
 	return 1;
 }
