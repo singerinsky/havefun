@@ -10,7 +10,6 @@
 
 #define TO_STR(T)	printf("%s",#T);
 
-
 void function_push(CircleQueue<NullLock>* queue)
 {
 	std::string final_str;
