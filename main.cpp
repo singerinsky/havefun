@@ -7,6 +7,7 @@
 #include "thread.h"
 #include <thread>
 #include "md5.h"
+#include "redis_connection.h"
 
 #define TO_STR(T)	printf("%s",#T);
 
@@ -62,6 +63,15 @@ void function_pop(QUEUE* queue)
 	printf("md5 code:%s\n",md5(final_str.c_str()).c_str());
 }
 
+
+void redis_test()
+{
+	RedisConnection* connection = new RedisConnection("127.0.0.1",6379);
+	bool rst = connection->Connect();
+	if(rst)printf("connect success!");
+	else printf("connect failed!");
+}
+
 int main()
 {
 /*
@@ -92,7 +102,6 @@ int main()
 			memset(buffer,0,1024);
 		}
 	}
-*/
 	
 	QUEUE test_queue;
 	
@@ -105,5 +114,7 @@ int main()
 	_thread_push2.join();
 	_thread_pop3.join();
 	_thread_pop4.join();
+*/
+	redis_test();
 	return 1;
 }

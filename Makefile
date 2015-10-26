@@ -141,6 +141,21 @@ md5.s:
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/md5.s
 .PHONY : md5.s
 
+# target to build an object file
+redis_connection.o:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/redis_connection.o
+.PHONY : redis_connection.o
+
+# target to preprocess a source file
+redis_connection.i:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/redis_connection.i
+.PHONY : redis_connection.i
+
+# target to generate assembly for a file
+redis_connection.s:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/redis_connection.s
+.PHONY : redis_connection.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -156,6 +171,9 @@ help:
 	@echo "... md5.o"
 	@echo "... md5.i"
 	@echo "... md5.s"
+	@echo "... redis_connection.o"
+	@echo "... redis_connection.i"
+	@echo "... redis_connection.s"
 .PHONY : help
 
 
