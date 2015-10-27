@@ -4,6 +4,7 @@
 #include <pthread.h>
 #include <assert.h>
 #include <atomic>
+#include <unistd.h>
 
 class LockBase
 {
@@ -73,6 +74,7 @@ private:
 	Lock* _lock;
 };
 
+//spain lock use stdc++11 atomic_flag
 class SpainLock:public LockBase
 {
 public:
@@ -89,7 +91,8 @@ public:
 	};
 	virtual void Lock()
 	{
-		while(!_lock.test_and_set());
+		while(!_lock.test_and_set())
+			usleep(10);
 	}
 	virtual void UnLock()
 	{

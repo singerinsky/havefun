@@ -8,6 +8,10 @@
 #include <thread>
 #include "md5.h"
 #include "redis_connection.h"
+#include "player_object.h"
+#include "db_thread.h"
+#include "glog/logging.h"
+#include <gflags/gflags.h>
 
 #define TO_STR(T)	printf("%s",#T);
 
@@ -70,10 +74,20 @@ void redis_test()
 	bool rst = connection->Connect();
 	if(rst)printf("connect success!");
 	else printf("connect failed!");
+	PlayerObject* player = new PlayerObject();
+	connection->ProcessCommand(player);
+	DBThread<RedisConnection,PlayerObject> _thread(connection);	
+	_thread.Push(player);
+	_thread.Start();
 }
 
-int main()
+DEFINE_bool(daemon,false,"if start not daemon");
+int main(int argc,char** argv)
 {
+	google::ParseCommandLineFlags(&argc,&argv,true);		
+	google::InitGoogleLogging(argv[0]);
+	FLAGS_logtostderr = true;
+	LOG(INFO)<<"start mini ";
 /*
 	TO_STR(name);
 	Car* pCard = Car::Create();

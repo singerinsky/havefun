@@ -7,9 +7,9 @@ template<class LockClass>
 class CircleQueue
 {
 public:
-	CircleQueue()
+	CircleQueue(size_t data_size = QUEUE_DEFAULT_LEN)
 	{
-	    _data = new char[QUEUE_DEFAULT_LEN];	
+	    _data = new char[data_size];	
 	    _lock.Init();
 	    _head = 0;
 	    _tail = 0;

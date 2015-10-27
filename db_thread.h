@@ -29,7 +29,7 @@ class DBThread
 				DB_OBJECT* object = Pop();
 				if(object == NULL)
 				{
-					usleep(5000000);
+					usleep(10000);
 					continue;
 				}
 				bool rst = _connection->ProcessCommand(object);
@@ -50,8 +50,8 @@ class DBThread
 		{
 			DB_OBJECT* object = NULL;
 			int rst = _queue.Pop(4,(char*)&object,4);
-			if(rst == 0)
-			printf("empty queue!\n");
+			//if(rst == 0)
+			//printf("empty queue!\n");
 			return object;
 		}
 
