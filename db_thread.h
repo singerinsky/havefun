@@ -3,6 +3,10 @@
 
 #include <thread>
 #include "queue.h"
+#include "head.h"
+#include <glog/logging.h>
+#include <gflags/gflags.h>
+
 
 template<class DB_CON,class DB_OBJECT>
 class DBThread
@@ -24,18 +28,20 @@ class DBThread
 	
 		void Run()
 		{
-			while(_work_flag)
+			while(true)
 			{
 				DB_OBJECT* object = Pop();
 				if(object == NULL)
 				{
+					if(_work_flag == false)
+						break;
 					usleep(10000);
 					continue;
 				}
 				bool rst = _connection->ProcessCommand(object);
 				if(rst == false)
 				{
-					printf("process command error!\n");
+					LOG(INFO)<<"process command error!\n";
 				}
 			}
 		}
