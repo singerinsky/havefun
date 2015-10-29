@@ -112,6 +112,21 @@ mini_run/fast:
 .PHONY : mini_run/fast
 
 # target to build an object file
+data.pb.o:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/data.pb.o
+.PHONY : data.pb.o
+
+# target to preprocess a source file
+data.pb.i:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/data.pb.i
+.PHONY : data.pb.i
+
+# target to generate assembly for a file
+data.pb.s:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/data.pb.s
+.PHONY : data.pb.s
+
+# target to build an object file
 main.o:
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/main.o
 .PHONY : main.o
@@ -165,6 +180,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... mini_run"
 	@echo "... rebuild_cache"
+	@echo "... data.pb.o"
+	@echo "... data.pb.i"
+	@echo "... data.pb.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,4 +1,7 @@
 #include "head.h"
+#include <iostream>
+#include <sstream>
+#include "data.pb.h"
 
 #define TO_STR(T)	printf("%s",#T);
 
@@ -63,18 +66,32 @@ void redis_test()
 	else printf("connect failed!");
 	PlayerObject* player = new PlayerObject();
 	connection->ProcessCommand(player);
-	DBThread<RedisConnection,PlayerObject> _thread(connection);	
-	_thread.Push(player);
-	_thread.Start();
+	DBThread<RedisConnection,RedisCallBackObject> *_thread = new DBThread<RedisConnection,RedisCallBackObject>(connection);	
+	_thread->Push(player);
+	
+	stringstream os_str;	
+	std::string  string_buff;
+	player_info info,new_info;	
+	info.set_player_id(89);
+	info.set_player_name("guanlei");
+	bool Srst = info.SerializeToString(&string_buff);	
+	if(Srst)
+	{
+		new_info.ParseFromString(string_buff);
+	}
+	std::string final_db = "SET PLAYER_1 ";
+	final_db.append(string_buff);
+	PlayerObjectSave* _save = new PlayerObjectSave();
+	_save->SetDBStr(final_db);
+	_thread->Push(_save);
+	LOG(INFO)<<"thread start!!!";	
+	PlayerObjectRequire* _req= new PlayerObjectRequire();
+	_req->SetDBStr("GET PLAYER_1");
+	_thread->Push(_req);
+	_thread->Start();
+	LOG(INFO)<<"thread start!!!";	
 }
 
-DEFINE_bool(daemon,false,"if start not daemon");
-int main(int argc,char** argv)
-{
-	google::ParseCommandLineFlags(&argc,&argv,true);		
-	google::InitGoogleLogging(argv[0]);
-	FLAGS_logtostderr = true;
-	LOG(INFO)<<"start mini ";
 /*
 	TO_STR(name);
 	Car* pCard = Car::Create();
@@ -116,6 +133,16 @@ int main(int argc,char** argv)
 	_thread_pop3.join();
 	_thread_pop4.join();
 */
+	
+DEFINE_bool(daemon,false,"if start not daemon");
+int main(int argc,char** argv)
+{
+	google::ParseCommandLineFlags(&argc,&argv,true);		
+	google::InitGoogleLogging(argv[0]);
+	FLAGS_logtostderr = true;
+	LOG(INFO)<<"start mini ";
+	
 	redis_test();
+	sleep(100);
 	return 1;
 }

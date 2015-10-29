@@ -2,7 +2,7 @@
 #define _QUEUE_H_
 #include "lock.h"
 
-#define QUEUE_DEFAULT_LEN 10
+#define QUEUE_DEFAULT_LEN 100
 template<class LockClass>
 class CircleQueue
 {

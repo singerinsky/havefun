@@ -23,7 +23,8 @@ class DBThread
 		{
 			_work_flag = true;
 			_thread = new std::thread(&DBThread<DB_CON,DB_OBJECT>::Run,this);
-			_thread->join();
+//			_thread->detach();
+			//_thread->join();
 		}
 	
 		void Run()
@@ -49,7 +50,7 @@ class DBThread
 		void Push(DB_OBJECT* object)
 		{
 			int rst = _queue.Push((char*)&object,sizeof(void*));
-			if(rst == 0)printf("error push db object!\n");
+			if(rst == 0)LOG(ERROR)<<"error push db object!\n";
 		}
 
 		DB_OBJECT* Pop()

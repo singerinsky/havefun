@@ -10,6 +10,8 @@ class RedisCallBackObject
 	public:
 		virtual int CallBack(redisReply* reply) = 0;
 		virtual std::string GetDBStr() = 0;
+	public:
+		std::string _dbStr;
 };
 
 class RedisConnection
@@ -45,7 +47,7 @@ class RedisConnection
 			return true;
 		}
 
-		bool ProcessCommand(RedisCallBackObject* object);
+		int ProcessCommand(RedisCallBackObject* object);
 
 	private:
 		std::string   _server_host;
