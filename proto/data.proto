@@ -1,0 +1,5 @@
+message player_info
+{
+	required int32 player_id = 1;
+	required string player_name = 2;
+}
