@@ -157,6 +157,21 @@ md5.s:
 .PHONY : md5.s
 
 # target to build an object file
+mysql_connection.o:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/mysql_connection.o
+.PHONY : mysql_connection.o
+
+# target to preprocess a source file
+mysql_connection.i:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/mysql_connection.i
+.PHONY : mysql_connection.i
+
+# target to generate assembly for a file
+mysql_connection.s:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/mysql_connection.s
+.PHONY : mysql_connection.s
+
+# target to build an object file
 redis_connection.o:
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/redis_connection.o
 .PHONY : redis_connection.o
@@ -189,6 +204,9 @@ help:
 	@echo "... md5.o"
 	@echo "... md5.i"
 	@echo "... md5.s"
+	@echo "... mysql_connection.o"
+	@echo "... mysql_connection.i"
+	@echo "... mysql_connection.s"
 	@echo "... redis_connection.o"
 	@echo "... redis_connection.i"
 	@echo "... redis_connection.s"

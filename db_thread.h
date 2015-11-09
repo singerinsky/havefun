@@ -23,6 +23,7 @@ class DBThread
 		{
 			_work_flag = true;
 			_thread = new std::thread(&DBThread<DB_CON,DB_OBJECT>::Run,this);
+            LOG(INFO)<<"Thread id is "<<_thread->get_id();
 //			_thread->detach();
 			//_thread->join();
 		}

@@ -2,7 +2,11 @@
 #include <iostream>
 #include <sstream>
 #include "data.pb.h"
+#include <time.h>
+#include <iomanip>
+#include "mysql_loader.h"
 
+using std::setw;
 #define TO_STR(T)	printf("%s",#T);
 
 typedef CircleQueue<SpainLock> QUEUE;
@@ -133,16 +137,50 @@ void redis_test()
 	_thread_pop3.join();
 	_thread_pop4.join();
 */
+
+void build_log_time()
+{
+    struct ::tm tm_time;
+    time_t time_st = time(NULL);
+    localtime_r(&time_st,&tm_time);
+    // The logfile's filename will have the date/time & pid in it
+    char time_pid_string[256];  // More than enough chars for time, pid, \0
+    ostrstream time_pid_stream(time_pid_string, sizeof(time_pid_string));
+    time_pid_stream.fill('0');
+    time_pid_stream << 1900+tm_time.tm_year
+        << setw(2) << 1+tm_time.tm_mon
+        << setw(2) << tm_time.tm_mday
+        << '-'
+        << setw(2) << tm_time.tm_hour
+        << setw(2) << tm_time.tm_min
+        << setw(2) << tm_time.tm_sec
+        << '.'
+        << '\0';
+    printf("----------> %s",time_pid_stream.str());
+
+}
+
+void test_mysql()
+{
+    //mysql_loader(const char* db_name,const char* ip_str,int port,const char* user_name,const char* pwd,const char* perfix="")
+    mysql_loader * loader = new mysql_loader("gl","127.0.0.1",3306,"root","firefly");   
+    bool rst = loader->init();
+    LOG(INFO)<<"Load init mysql connection "<<rst;
+
+    loader->start_load();
+}
 	
 DEFINE_bool(daemon,false,"if start not daemon");
 int main(int argc,char** argv)
 {
+    build_log_time();
 	google::ParseCommandLineFlags(&argc,&argv,true);		
 	google::InitGoogleLogging(argv[0]);
 	FLAGS_logtostderr = true;
 	LOG(INFO)<<"start mini ";
+    test_mysql();
 	
-	redis_test();
-	sleep(100);
+	//redis_test();
+	//sleep(100);
 	return 1;
 }

@@ -73,7 +73,12 @@ int PlayerObjectRequire::CallBack(redisReply* reply)
 
 	player_info info;
 	std::string str(reply->str);
-	info.ParseFromString(str);
+	bool rst = info.ParseFromString(str);
+	if(rst == false)
+	{
+		LOG(ERROR)<<"Parse player_info from string failed";
+		return -1;
+	}
 	return 1;
 }
 
