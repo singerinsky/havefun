@@ -112,21 +112,6 @@ mini_run/fast:
 .PHONY : mini_run/fast
 
 # target to build an object file
-data.pb.o:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/data.pb.o
-.PHONY : data.pb.o
-
-# target to preprocess a source file
-data.pb.i:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/data.pb.i
-.PHONY : data.pb.i
-
-# target to generate assembly for a file
-data.pb.s:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/data.pb.s
-.PHONY : data.pb.s
-
-# target to build an object file
 main.o:
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/main.o
 .PHONY : main.o
@@ -140,21 +125,6 @@ main.i:
 main.s:
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/main.s
 .PHONY : main.s
-
-# target to build an object file
-md5.o:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/md5.o
-.PHONY : md5.o
-
-# target to preprocess a source file
-md5.i:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/md5.i
-.PHONY : md5.i
-
-# target to generate assembly for a file
-md5.s:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/md5.s
-.PHONY : md5.s
 
 # target to build an object file
 mysql_connection.o:
@@ -186,21 +156,6 @@ mysql_loader.s:
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/mysql_loader.s
 .PHONY : mysql_loader.s
 
-# target to build an object file
-redis_connection.o:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/redis_connection.o
-.PHONY : redis_connection.o
-
-# target to preprocess a source file
-redis_connection.i:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/redis_connection.i
-.PHONY : redis_connection.i
-
-# target to generate assembly for a file
-redis_connection.s:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/redis_connection.s
-.PHONY : redis_connection.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,24 +165,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... mini_run"
 	@echo "... rebuild_cache"
-	@echo "... data.pb.o"
-	@echo "... data.pb.i"
-	@echo "... data.pb.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... md5.o"
-	@echo "... md5.i"
-	@echo "... md5.s"
 	@echo "... mysql_connection.o"
 	@echo "... mysql_connection.i"
 	@echo "... mysql_connection.s"
 	@echo "... mysql_loader.o"
 	@echo "... mysql_loader.i"
 	@echo "... mysql_loader.s"
-	@echo "... redis_connection.o"
-	@echo "... redis_connection.i"
-	@echo "... redis_connection.s"
 .PHONY : help
 
 
