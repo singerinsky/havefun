@@ -49,9 +49,32 @@ include CMakeFiles/mini_run.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mini_run.dir/flags.make
 
+CMakeFiles/mini_run.dir/mysql_loader.o: CMakeFiles/mini_run.dir/flags.make
+CMakeFiles/mini_run.dir/mysql_loader.o: mysql_loader.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/mysql_loader.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/mysql_loader.o -c /home/gl/workspace/havefun/mysql_loader.cpp
+
+CMakeFiles/mini_run.dir/mysql_loader.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mini_run.dir/mysql_loader.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gl/workspace/havefun/mysql_loader.cpp > CMakeFiles/mini_run.dir/mysql_loader.i
+
+CMakeFiles/mini_run.dir/mysql_loader.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mini_run.dir/mysql_loader.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gl/workspace/havefun/mysql_loader.cpp -o CMakeFiles/mini_run.dir/mysql_loader.s
+
+CMakeFiles/mini_run.dir/mysql_loader.o.requires:
+.PHONY : CMakeFiles/mini_run.dir/mysql_loader.o.requires
+
+CMakeFiles/mini_run.dir/mysql_loader.o.provides: CMakeFiles/mini_run.dir/mysql_loader.o.requires
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/mysql_loader.o.provides.build
+.PHONY : CMakeFiles/mini_run.dir/mysql_loader.o.provides
+
+CMakeFiles/mini_run.dir/mysql_loader.o.provides.build: CMakeFiles/mini_run.dir/mysql_loader.o
+
 CMakeFiles/mini_run.dir/redis_connection.o: CMakeFiles/mini_run.dir/flags.make
 CMakeFiles/mini_run.dir/redis_connection.o: redis_connection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/redis_connection.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/redis_connection.o -c /home/gl/workspace/havefun/redis_connection.cpp
 
@@ -74,7 +97,7 @@ CMakeFiles/mini_run.dir/redis_connection.o.provides.build: CMakeFiles/mini_run.d
 
 CMakeFiles/mini_run.dir/md5.o: CMakeFiles/mini_run.dir/flags.make
 CMakeFiles/mini_run.dir/md5.o: md5.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/md5.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/md5.o -c /home/gl/workspace/havefun/md5.cpp
 
@@ -97,7 +120,7 @@ CMakeFiles/mini_run.dir/md5.o.provides.build: CMakeFiles/mini_run.dir/md5.o
 
 CMakeFiles/mini_run.dir/mysql_connection.o: CMakeFiles/mini_run.dir/flags.make
 CMakeFiles/mini_run.dir/mysql_connection.o: mysql_connection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/mysql_connection.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/mysql_connection.o -c /home/gl/workspace/havefun/mysql_connection.cpp
 
@@ -120,7 +143,7 @@ CMakeFiles/mini_run.dir/mysql_connection.o.provides.build: CMakeFiles/mini_run.d
 
 CMakeFiles/mini_run.dir/data.pb.o: CMakeFiles/mini_run.dir/flags.make
 CMakeFiles/mini_run.dir/data.pb.o: data.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/data.pb.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/data.pb.o -c /home/gl/workspace/havefun/data.pb.cc
 
@@ -143,7 +166,7 @@ CMakeFiles/mini_run.dir/data.pb.o.provides.build: CMakeFiles/mini_run.dir/data.p
 
 CMakeFiles/mini_run.dir/main.o: CMakeFiles/mini_run.dir/flags.make
 CMakeFiles/mini_run.dir/main.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/main.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/main.o -c /home/gl/workspace/havefun/main.cpp
 
@@ -166,6 +189,7 @@ CMakeFiles/mini_run.dir/main.o.provides.build: CMakeFiles/mini_run.dir/main.o
 
 # Object files for target mini_run
 mini_run_OBJECTS = \
+"CMakeFiles/mini_run.dir/mysql_loader.o" \
 "CMakeFiles/mini_run.dir/redis_connection.o" \
 "CMakeFiles/mini_run.dir/md5.o" \
 "CMakeFiles/mini_run.dir/mysql_connection.o" \
@@ -175,6 +199,7 @@ mini_run_OBJECTS = \
 # External object files for target mini_run
 mini_run_EXTERNAL_OBJECTS =
 
+mini_run: CMakeFiles/mini_run.dir/mysql_loader.o
 mini_run: CMakeFiles/mini_run.dir/redis_connection.o
 mini_run: CMakeFiles/mini_run.dir/md5.o
 mini_run: CMakeFiles/mini_run.dir/mysql_connection.o
@@ -189,6 +214,7 @@ mini_run: CMakeFiles/mini_run.dir/link.txt
 CMakeFiles/mini_run.dir/build: mini_run
 .PHONY : CMakeFiles/mini_run.dir/build
 
+CMakeFiles/mini_run.dir/requires: CMakeFiles/mini_run.dir/mysql_loader.o.requires
 CMakeFiles/mini_run.dir/requires: CMakeFiles/mini_run.dir/redis_connection.o.requires
 CMakeFiles/mini_run.dir/requires: CMakeFiles/mini_run.dir/md5.o.requires
 CMakeFiles/mini_run.dir/requires: CMakeFiles/mini_run.dir/mysql_connection.o.requires

@@ -172,6 +172,21 @@ mysql_connection.s:
 .PHONY : mysql_connection.s
 
 # target to build an object file
+mysql_loader.o:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/mysql_loader.o
+.PHONY : mysql_loader.o
+
+# target to preprocess a source file
+mysql_loader.i:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/mysql_loader.i
+.PHONY : mysql_loader.i
+
+# target to generate assembly for a file
+mysql_loader.s:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/mysql_loader.s
+.PHONY : mysql_loader.s
+
+# target to build an object file
 redis_connection.o:
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/redis_connection.o
 .PHONY : redis_connection.o
@@ -207,6 +222,9 @@ help:
 	@echo "... mysql_connection.o"
 	@echo "... mysql_connection.i"
 	@echo "... mysql_connection.s"
+	@echo "... mysql_loader.o"
+	@echo "... mysql_loader.i"
+	@echo "... mysql_loader.s"
 	@echo "... redis_connection.o"
 	@echo "... redis_connection.i"
 	@echo "... redis_connection.s"

@@ -8,6 +8,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/gl/workspace/havefun/main.cpp" "/home/gl/workspace/havefun/CMakeFiles/mini_run.dir/main.o"
   "/home/gl/workspace/havefun/md5.cpp" "/home/gl/workspace/havefun/CMakeFiles/mini_run.dir/md5.o"
   "/home/gl/workspace/havefun/mysql_connection.cpp" "/home/gl/workspace/havefun/CMakeFiles/mini_run.dir/mysql_connection.o"
+  "/home/gl/workspace/havefun/mysql_loader.cpp" "/home/gl/workspace/havefun/CMakeFiles/mini_run.dir/mysql_loader.o"
   "/home/gl/workspace/havefun/redis_connection.cpp" "/home/gl/workspace/havefun/CMakeFiles/mini_run.dir/redis_connection.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")

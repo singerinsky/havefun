@@ -29,6 +29,10 @@ CMakeFiles/mini_run.dir/md5.o: md5.h
 CMakeFiles/mini_run.dir/mysql_connection.o: mysql_connection.cpp
 CMakeFiles/mini_run.dir/mysql_connection.o: mysql_connection.h
 
+CMakeFiles/mini_run.dir/mysql_loader.o: mysql_connection.h
+CMakeFiles/mini_run.dir/mysql_loader.o: mysql_loader.cpp
+CMakeFiles/mini_run.dir/mysql_loader.o: mysql_loader.h
+
 CMakeFiles/mini_run.dir/redis_connection.o: redis_connection.cpp
 CMakeFiles/mini_run.dir/redis_connection.o: redis_connection.h
 CMakeFiles/mini_run.dir/redis_connection.o: include/hiredis/hiredis.h
