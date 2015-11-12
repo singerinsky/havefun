@@ -25,6 +25,10 @@ bool mysql_loader::load_data_mysql2redis(const char* table_name)
         return false;
     }
     
+
+    //all key array...
+    char** key_array = malloc(sizeof(char*)*(itr->second.table_csize));
+    
     MysqlResult result = _conn.get_data_result();
     std::string per_key = this->_perfix;
     per_key.append("_").append(table_name).append("_");
@@ -121,9 +125,9 @@ bool mysql_loader::read_table_status(const char* table_name)
         {
             table_status.key_field_name = c_name; 
         }
-        allTable[table_name] = table_status;
     }
-
+    table_status.table_csize = table_status.all_column_type.size();
+    allTable[table_name] = table_status;
     if(table_status.key_field_name == "")
     {
         fprintf(stderr,"can't find pri key in table %s",table_name); 

@@ -5,8 +5,6 @@
 #include <vector>
 #include "string.h"
 
-extern "C" bool load_database(const char* db_name,const char* ip_str,int port);
-
 struct StableStatus
 {
     std::string table_name;
@@ -14,6 +12,7 @@ struct StableStatus
     std::vector<std::string> all_column_name;
     std::vector<std::string> all_column_type;
     std::string              key_field_name;
+    int     table_csize;
     int     table_rsize;
 };
 

@@ -50,6 +50,14 @@ mysql/mysql.h
 string
 -
 
+/home/gl/workspace/havefun/mysql_loader.cpp
+mysql_loader.h
+/home/gl/workspace/havefun/mysql_loader.h
+map
+-
+sstream
+-
+
 /home/gl/workspace/havefun/mysql_loader.h
 mysql_connection.h
 /home/gl/workspace/havefun/mysql_connection.h
