@@ -53,38 +53,103 @@ CMAKE_SOURCE_DIR = /home/gl/workspace/havefun
 CMAKE_BINARY_DIR = /home/gl/workspace/havefun
 
 #=============================================================================
-# Target rules for target CMakeFiles/mini_run.dir
+# Directory level rules for directory redis_mysql
+
+# Convenience name for "all" pass in the directory.
+redis_mysql/all: redis_mysql/CMakeFiles/mysql2redis.dir/all
+.PHONY : redis_mysql/all
+
+# Convenience name for "clean" pass in the directory.
+redis_mysql/clean: redis_mysql/CMakeFiles/mysql2redis.dir/clean
+.PHONY : redis_mysql/clean
+
+# Convenience name for "preinstall" pass in the directory.
+redis_mysql/preinstall:
+.PHONY : redis_mysql/preinstall
+
+#=============================================================================
+# Target rules for target redis_mysql/CMakeFiles/mysql2redis.dir
 
 # All Build rule for target.
-CMakeFiles/mini_run.dir/all:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/depend
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles  1 2 3
-	@echo "Built target mini_run"
-.PHONY : CMakeFiles/mini_run.dir/all
+redis_mysql/CMakeFiles/mysql2redis.dir/all:
+	$(MAKE) -f redis_mysql/CMakeFiles/mysql2redis.dir/build.make redis_mysql/CMakeFiles/mysql2redis.dir/depend
+	$(MAKE) -f redis_mysql/CMakeFiles/mysql2redis.dir/build.make redis_mysql/CMakeFiles/mysql2redis.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles  2 3 4
+	@echo "Built target mysql2redis"
+.PHONY : redis_mysql/CMakeFiles/mysql2redis.dir/all
 
 # Include target in all.
-all: CMakeFiles/mini_run.dir/all
+all: redis_mysql/CMakeFiles/mysql2redis.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/mini_run.dir/rule: cmake_check_build_system
+redis_mysql/CMakeFiles/mysql2redis.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gl/workspace/havefun/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mini_run.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 redis_mysql/CMakeFiles/mysql2redis.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gl/workspace/havefun/CMakeFiles 0
-.PHONY : CMakeFiles/mini_run.dir/rule
+.PHONY : redis_mysql/CMakeFiles/mysql2redis.dir/rule
 
 # Convenience name for target.
-mini_run: CMakeFiles/mini_run.dir/rule
+mysql2redis: redis_mysql/CMakeFiles/mysql2redis.dir/rule
+.PHONY : mysql2redis
+
+# clean rule for target.
+redis_mysql/CMakeFiles/mysql2redis.dir/clean:
+	$(MAKE) -f redis_mysql/CMakeFiles/mysql2redis.dir/build.make redis_mysql/CMakeFiles/mysql2redis.dir/clean
+.PHONY : redis_mysql/CMakeFiles/mysql2redis.dir/clean
+
+# clean rule for target.
+clean: redis_mysql/CMakeFiles/mysql2redis.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory test
+
+# Convenience name for "all" pass in the directory.
+test/all: test/CMakeFiles/mini_run.dir/all
+.PHONY : test/all
+
+# Convenience name for "clean" pass in the directory.
+test/clean: test/CMakeFiles/mini_run.dir/clean
+.PHONY : test/clean
+
+# Convenience name for "preinstall" pass in the directory.
+test/preinstall:
+.PHONY : test/preinstall
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/mini_run.dir
+
+# All Build rule for target.
+test/CMakeFiles/mini_run.dir/all: redis_mysql/CMakeFiles/mysql2redis.dir/all
+	$(MAKE) -f test/CMakeFiles/mini_run.dir/build.make test/CMakeFiles/mini_run.dir/depend
+	$(MAKE) -f test/CMakeFiles/mini_run.dir/build.make test/CMakeFiles/mini_run.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles  1
+	@echo "Built target mini_run"
+.PHONY : test/CMakeFiles/mini_run.dir/all
+
+# Include target in all.
+all: test/CMakeFiles/mini_run.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/mini_run.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gl/workspace/havefun/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/mini_run.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gl/workspace/havefun/CMakeFiles 0
+.PHONY : test/CMakeFiles/mini_run.dir/rule
+
+# Convenience name for target.
+mini_run: test/CMakeFiles/mini_run.dir/rule
 .PHONY : mini_run
 
 # clean rule for target.
-CMakeFiles/mini_run.dir/clean:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/clean
-.PHONY : CMakeFiles/mini_run.dir/clean
+test/CMakeFiles/mini_run.dir/clean:
+	$(MAKE) -f test/CMakeFiles/mini_run.dir/build.make test/CMakeFiles/mini_run.dir/clean
+.PHONY : test/CMakeFiles/mini_run.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/mini_run.dir/clean
+clean: test/CMakeFiles/mini_run.dir/clean
 .PHONY : clean
 
 #=============================================================================

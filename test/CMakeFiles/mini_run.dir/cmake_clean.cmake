@@ -1,9 +1,7 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/mini_run.dir/mysql_loader.o"
-  "CMakeFiles/mini_run.dir/mysql_connection.o"
-  "CMakeFiles/mini_run.dir/main.o"
-  "mini_run.pdb"
-  "mini_run"
+  "CMakeFiles/mini_run.dir/main.cpp.o"
+  "../mini_run.pdb"
+  "../mini_run"
 )
 
 # Per-language clean rules from dependency scanning.

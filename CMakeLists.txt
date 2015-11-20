@@ -1,4 +1,5 @@
 project(mini)
+cmake_minimum_required(VERSION 2.8)
 
 SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -std=c++11 -O0 -Wall -g -D_GNU_SOURCE -fPIC -pthread")
 SET(CMAKE_BUILD_TYPE DEBUG)
@@ -6,10 +7,9 @@ SET(CMAKE_BUILD_TYPE DEBUG)
 
 LINK_DIRECTORIES(/usr/lib)
 LINK_DIRECTORIES(/usr/local/lib)
-LINK_DIRECTORIES(lib)
+LINK_DIRECTORIES(/home/gl/workspace/havefun/lib)
 
 include_directories(include/hiredis)
-AUX_SOURCE_DIRECTORY(. SRC_LIST)
-ADD_EXECUTABLE(mini_run ${SRC_LIST})
-#TARGET_LINK_LIBRARIES(mini_run pthread gflag glog)
-TARGET_LINK_LIBRARIES(mini_run pthread gflags glog hiredis protobuf mysqlclient)
+#include_directories(redis_mysql)
+ADD_SUBDIRECTORY(redis_mysql)
+ADD_SUBDIRECTORY(test)

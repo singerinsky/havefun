@@ -69,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gl/workspace/havefun/CMakeFiles /home/gl/workspace/havefun/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/gl/workspace/havefun && $(CMAKE_COMMAND) -E cmake_progress_start /home/gl/workspace/havefun/CMakeFiles /home/gl/workspace/havefun/test/CMakeFiles/progress.marks
+	cd /home/gl/workspace/havefun && $(MAKE) -f CMakeFiles/Makefile2 test/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gl/workspace/havefun/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/gl/workspace/havefun && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -85,44 +85,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/gl/workspace/havefun && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/gl/workspace/havefun && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gl/workspace/havefun && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named mysql2redis
+# Convenience name for target.
+test/CMakeFiles/mini_run.dir/rule:
+	cd /home/gl/workspace/havefun && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/mini_run.dir/rule
+.PHONY : test/CMakeFiles/mini_run.dir/rule
 
-# Build rule for target.
-mysql2redis: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mysql2redis
-.PHONY : mysql2redis
-
-# fast build rule for target.
-mysql2redis/fast:
-	$(MAKE) -f redis_mysql/CMakeFiles/mysql2redis.dir/build.make redis_mysql/CMakeFiles/mysql2redis.dir/build
-.PHONY : mysql2redis/fast
-
-#=============================================================================
-# Target rules for targets named mini_run
-
-# Build rule for target.
-mini_run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mini_run
+# Convenience name for target.
+mini_run: test/CMakeFiles/mini_run.dir/rule
 .PHONY : mini_run
 
 # fast build rule for target.
 mini_run/fast:
-	$(MAKE) -f test/CMakeFiles/mini_run.dir/build.make test/CMakeFiles/mini_run.dir/build
+	cd /home/gl/workspace/havefun && $(MAKE) -f test/CMakeFiles/mini_run.dir/build.make test/CMakeFiles/mini_run.dir/build
 .PHONY : mini_run/fast
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/gl/workspace/havefun && $(MAKE) -f test/CMakeFiles/mini_run.dir/build.make test/CMakeFiles/mini_run.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/gl/workspace/havefun && $(MAKE) -f test/CMakeFiles/mini_run.dir/build.make test/CMakeFiles/mini_run.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/gl/workspace/havefun && $(MAKE) -f test/CMakeFiles/mini_run.dir/build.make test/CMakeFiles/mini_run.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -131,9 +143,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... rebuild_cache"
-	@echo "... mysql2redis"
 	@echo "... mini_run"
+	@echo "... rebuild_cache"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -145,6 +159,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gl/workspace/havefun && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gl/workspace/havefun/test/head.h
+stdio.h
+/home/gl/workspace/havefun/test/stdio.h
+string.h
+/home/gl/workspace/havefun/test/string.h
+time.h
+-
+unistd.h
+-
+thread
+-
+glog/logging.h
+-
+gflags/gflags.h
+-
+
+/home/gl/workspace/havefun/test/main.cpp
+head.h
+/home/gl/workspace/havefun/test/head.h
+iostream
+-
+sstream
+-
+time.h
+-
+iomanip
+-
+mysql2redis.h
+/home/gl/workspace/havefun/test/mysql2redis.h
+
+/home/gl/workspace/havefun/test/mysql2redis.h
+

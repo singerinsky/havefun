@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -O0 -Wall -g -D_GNU_SOURCE -fPIC -pthread    CMakeFiles/mini_run.dir/mysql_loader.o CMakeFiles/mini_run.dir/mysql_connection.o CMakeFiles/mini_run.dir/main.o  -o mini_run  -L/usr/local/lib  -Llib -rdynamic -lpthread -lgflags -lglog -lhiredis -lprotobuf -lmysqlclient -Wl,-rpath,/usr/local/lib:lib 

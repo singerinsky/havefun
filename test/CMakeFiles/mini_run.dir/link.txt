@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -O0 -Wall -g -D_GNU_SOURCE -fPIC -pthread    CMakeFiles/mini_run.dir/main.cpp.o  -o ../mini_run  -L/usr/local/lib  -L/home/gl/workspace/havefun/lib -rdynamic -lpthread -lgflags -lglog -lhiredis -lprotobuf ../lib/libmysql2redis.so -lmysqlclient -Wl,-rpath,/usr/local/lib:/home/gl/workspace/havefun/lib 
