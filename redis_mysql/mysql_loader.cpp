@@ -81,7 +81,7 @@ MySql2RedisTable* mysql_loader::load_data_mysql2redis(const char* table_name)
         redisrow->data = data_buff;
 
         redis_mysql->rows[row_index] = redisrow;
-        fprintf(stdout,"build new key:value [%s] [%s]\n",new_key.c_str(),sstr.c_str());
+        //fprintf(stdout,"build new key:value [%s] [%s]\n",new_key.c_str(),sstr.c_str());
         row_index++;
     }
 
@@ -165,7 +165,7 @@ bool mysql_loader::read_table_status(const char* table_name)
         std::string c_name = row.get_string(0);
         std::string c_type = row.get_string(1);
         std::string c_key = row.get_string(3);
-        fprintf(stdout,"table %s : %s == %s is key %s \n",table_name,c_name.c_str(),c_type.c_str(),c_key.c_str());
+   //     fprintf(stdout,"table %s : %s == %s is key %s \n",table_name,c_name.c_str(),c_type.c_str(),c_key.c_str());
         table_status.all_column[c_name] = c_type;
         table_status.all_column_name.push_back(c_name);
         table_status.all_column_type.push_back(c_type);
@@ -189,7 +189,7 @@ bool mysql_loader::read_table_status(const char* table_name)
 bool mysql_loader::read_db_status()
 {
     _conn.change_db("information_schema");
-    char sql[1024]= {};
+    char sql[1024]= {0};
     snprintf(sql,1024, "select concat(round(sum(data_length/1024/1024),2),'MB') as data_size from tables where  table_schema='%s';",_db_name.c_str());
     if(_conn.exec(sql) != 0)
     {

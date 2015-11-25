@@ -16,6 +16,7 @@ Mysql2RedisDatabase* load_database(const char* db_name,const char* ip_str,int po
     {
         return NULL; 
     }
+//    dump_data_base(database);
     return database;
 }
 

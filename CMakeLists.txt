@@ -1,7 +1,8 @@
 project(mini)
 cmake_minimum_required(VERSION 2.8)
 
-SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -std=c++11 -O0 -Wall -g -D_GNU_SOURCE -fPIC -pthread")
+#SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -std=c++11 -O0 -Wall -g -D_GNU_SOURCE -fPIC -pthread")
+SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -std=c++11 -O0 -Wall -g -D_GNU_SOURCE -pthread")
 SET(CMAKE_BUILD_TYPE DEBUG)
 #TARGET_LINK_LIBRARIES(pthread)
 

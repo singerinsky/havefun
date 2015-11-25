@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/gl/workspace/havefun/redis_mysql/mysql2redis.cpp
+mysql2redis.h
+/home/gl/workspace/havefun/redis_mysql/mysql2redis.h
+mysql_loader.h
+/home/gl/workspace/havefun/redis_mysql/mysql_loader.h
+
 /home/gl/workspace/havefun/redis_mysql/mysql2redis.h
 
 /home/gl/workspace/havefun/redis_mysql/mysql_connection.h
@@ -19,16 +25,6 @@ mysql/mysql.h
 /home/gl/workspace/havefun/redis_mysql/mysql/mysql.h
 string
 -
-
-/home/gl/workspace/havefun/redis_mysql/mysql_loader.cpp
-mysql_loader.h
-/home/gl/workspace/havefun/redis_mysql/mysql_loader.h
-map
--
-sstream
--
-mysql2redis.h
-/home/gl/workspace/havefun/redis_mysql/mysql2redis.h
 
 /home/gl/workspace/havefun/redis_mysql/mysql_loader.h
 mysql_connection.h
