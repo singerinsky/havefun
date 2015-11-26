@@ -36,8 +36,8 @@ MySql2RedisTable* mysql_loader::load_data_mysql2redis(const char* table_name)
     int i = 0;
     for(auto field_name:itr->second.all_column_name)
     {
-        char* str_buff = new char(field_name.length());
-        strcpy(str_buff,field_name.c_str());
+        char* str_buff = new char[field_name.length()+1];
+        strncpy(str_buff,field_name.c_str(),field_name.length());
         redis_mysql->mysql_fields[i] = str_buff;
         i++;
     }
@@ -46,10 +46,9 @@ MySql2RedisTable* mysql_loader::load_data_mysql2redis(const char* table_name)
     std::string per_key = this->_perfix;
     per_key.append("_").append(table_name).append("_");
     int row_index = 0;
-    while(result.next())
+    while(MysqlResultRow row = result.get_row())
     {
         std::string sstr;
-        MysqlResultRow row = result.get_next_row(); 
         MysqlRedisRow * redisrow = new MysqlRedisRow();
         int index = 0;
         std::string new_key;
@@ -67,9 +66,8 @@ MySql2RedisTable* mysql_loader::load_data_mysql2redis(const char* table_name)
         //copy key to buff
         redisrow->key = new char[new_key.size() + 1];
         memset(redisrow->key,0,new_key.size()+1);
-        //memcpy(redisrow->key,new_key.c_str(),new_key.length()+1);
         strcpy(redisrow->key,new_key.c_str());
-        //strncpy(redisrow->key,new_key.c_str(),new_key.length());
+        
         //copy data to buff
         const char** src_row_data = row.get_row_src_data();
         char** data_buff = (char**)malloc(sizeof(char*)*redis_mysql->data_column_size);

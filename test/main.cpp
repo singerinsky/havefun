@@ -9,7 +9,7 @@ void test_mysql()
 {
     //mysql_loader(const char* db_name,const char* ip_str,int port,const char* user_name,const char* pwd,const char* perfix="")
     Mysql2RedisDatabase* loader_db = load_database("gl","127.0.0.1",3306,"root","firefly");
-    dump_data_base(loader_db);
+    //dump_data_base(loader_db);
 }
 	
 DEFINE_bool(daemon,false,"if start not daemon");

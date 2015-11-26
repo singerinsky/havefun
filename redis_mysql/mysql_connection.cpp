@@ -161,6 +161,7 @@ int MysqlConnection::init(const char* host,const char* user,const char* password
 	mysql_options(&m_mysql,MYSQL_OPT_CONNECT_TIMEOUT,(const char*)&timeout) ;
 	mysql_options(&m_mysql,MYSQL_OPT_READ_TIMEOUT,(const char*)&timeout) ;
 	mysql_options(&m_mysql,MYSQL_OPT_WRITE_TIMEOUT,(const char*)&timeout) ;
+    mysql_options(&m_mysql,MYSQL_OPT_COMPRESS,0);
 
 	MYSQL* mysql = NULL;
 	if(strchr(host,'/') == NULL )

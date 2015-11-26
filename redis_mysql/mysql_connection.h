@@ -27,6 +27,17 @@ class MysqlResultRow
     }
     public:
 
+        bool operator!() const 
+        {
+            return (_data == NULL); 
+        }
+
+        operator bool () 
+        {
+            return (_data != NULL); 
+        }
+
+ 
         int get_int(int column)
         {
             assert(column < _field_column);
@@ -93,6 +104,13 @@ class MysqlResult
             MysqlResultRow row(_field_count,(const char**)mysql_fetch_row(_result)) ;
             return row; 
         }
+        
+        MysqlResultRow get_row()
+        {
+            MysqlResultRow row(_field_count,(const char**)mysql_fetch_row(_result)); 
+            return row;
+        }
+
     private:
         size_t       _start_index;
         size_t       _row_count;
