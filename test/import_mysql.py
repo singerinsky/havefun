@@ -8,8 +8,10 @@ try:
     name =['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u']
     index =0;
     for i in range(1,1000000):
-        rand_name = random.sample(name,10)
-        sql = "insert into role (name) values('%s');"%"".join(rand_name)
+        rand_name = ""
+        for j in range(1,100):
+            rand_name =rand_name + "".join(random.sample(name,10))
+        sql = "insert into role (name) values('%s');"%rand_name
     #    print sql
         index = index + 1
         cur.execute(sql)

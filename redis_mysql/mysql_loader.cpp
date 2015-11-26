@@ -5,6 +5,7 @@
 
 MySql2RedisTable* mysql_loader::load_data_mysql2redis(const char* table_name)
 {
+    fprintf(stdout,"load table %d\n",time(NULL));
     auto itr = allTable.find(table_name);
     if(itr == allTable.end())
     {
@@ -46,6 +47,7 @@ MySql2RedisTable* mysql_loader::load_data_mysql2redis(const char* table_name)
     std::string per_key = this->_perfix;
     per_key.append("_").append(table_name).append("_");
     int row_index = 0;
+    int column_size = redis_mysql->data_column_size;
     while(MysqlResultRow row = result.get_row())
     {
         std::string sstr;
@@ -64,14 +66,16 @@ MySql2RedisTable* mysql_loader::load_data_mysql2redis(const char* table_name)
         }
         sstr.erase(sstr.end()-1,sstr.end());
         //copy key to buff
-        redisrow->key = new char[new_key.size() + 1];
-        memset(redisrow->key,0,new_key.size()+1);
-        strcpy(redisrow->key,new_key.c_str());
+        int buff_size = new_key.size()+1;
+        redisrow->key = new char[buff_size];
+        memcpy(redisrow->key,new_key.c_str(),buff_size);
+        //memset(redisrow->key,0,buff_size);
+        //strcpy(redisrow->key,new_key.c_str());
         
         //copy data to buff
         const char** src_row_data = row.get_row_src_data();
-        char** data_buff = (char**)malloc(sizeof(char*)*redis_mysql->data_column_size);
-        for(int c =0; c< redis_mysql->data_column_size ;c++)
+        char** data_buff = (char**)malloc(sizeof(char*)*column_size);
+        for(int c =0; c< column_size ;c++)
         {
             data_buff[c] = new char[strlen(src_row_data[c])+1]; 
             memcpy(data_buff[c],src_row_data[c],strlen(src_row_data[c])+1); 
@@ -83,6 +87,7 @@ MySql2RedisTable* mysql_loader::load_data_mysql2redis(const char* table_name)
         row_index++;
     }
 
+    fprintf(stdout,"load table %s end %d\n",table_name,time(NULL));
     return redis_mysql;
 }
 
@@ -182,6 +187,7 @@ bool mysql_loader::read_table_status(const char* table_name)
     }
 
     return true;
+
 }
         
 bool mysql_loader::read_db_status()
@@ -199,7 +205,7 @@ bool mysql_loader::read_db_status()
     {
         MysqlResultRow row = result.get_next_row(); 
         float size_now = row.get_float(0);
-        if(size_now >1000)
+        if(size_now >100000)
         {
             fprintf(stderr,"too large"); 
             return false;
