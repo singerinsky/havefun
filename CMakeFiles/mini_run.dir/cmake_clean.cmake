@@ -1,7 +1,6 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/mini_run.dir/redis_connection.o"
+  "CMakeFiles/mini_run.dir/message_filter.o"
   "CMakeFiles/mini_run.dir/md5.o"
-  "CMakeFiles/mini_run.dir/mysql_connection.o"
   "CMakeFiles/mini_run.dir/data.pb.o"
   "CMakeFiles/mini_run.dir/main.o"
   "mini_run.pdb"

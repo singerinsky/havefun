@@ -1,4 +1,4 @@
-cscope 15 $HOME/workspace/havefun -q 0000003707 0000590414
+cscope 15 $HOME/workspace/havefun -q 0000003529 0000559153
 	@CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 
 4 #i‚de‡
@@ -1610,3430 +1610,6 @@ COMPILER_VERSION_MAJOR
 377 
 	}
 }
-
-	@car.h
-
-1 
-	~"r°.h
-"
-
-3 ˛as†
-	cBa£Obje˘
-
-
-5 
-	mpublic
-:
-
-9 
-˛ass
- 
-	gC¨
-:
-public
- 
-R°Cœss
-<
-C¨
-,
-	gBa£Obje˘
->
-
-11 
-	gpublic
-:
-
-12 
-Inô
-(
-C¨
-& 
-ˇr
-){}
-
-13 
-Rñó£
-(){
-
-14 
-¥ötf
-("Rñó£ Obje˘ %Œd",
-GëID
-());
-
-17 c⁄° * 
-GëCœssName
-(){ "Card";}
-
-	@data.pb.cc
-
-4 
-	#INTERNAL_SUPPRESS_PROTOBUF_FIELD_DEPRECATION
-
-
-	)
-
-5 
-	~"d©a.pb.h
-"
-
-7 
-	~<Æg‹ôhm
->
-
-9 
-	~<googÀ/¥Ÿobuf/°ubs/comm⁄.h
->
-
-10 
-	~<googÀ/¥Ÿobuf/°ubs/⁄˚.h
->
-
-11 
-	~<googÀ/¥Ÿobuf/io/coded_°ªam.h
->
-
-12 
-	~<googÀ/¥Ÿobuf/wúe_f‹m©_lôe_öl.h
->
-
-13 
-	~<googÀ/¥Ÿobuf/des¸ùt‹.h
->
-
-14 
-	~<googÀ/¥Ÿobuf/gíî©ed_mesßge_ªÊe˘i⁄.h
->
-
-15 
-	~<googÀ/¥Ÿobuf/ªÊe˘i⁄_›s.h
->
-
-16 
-	~<googÀ/¥Ÿobuf/wúe_f‹m©.h
->
-
-19 
-	g«me•a˚
- {
-
-21 c⁄° ::
-googÀ
-::
-¥Ÿobuf
-::
-Des¸ùt‹
-* 
-∂ayî_öfo_des¸ùt‹_
- = 
-NULL
-;
-
-22 c⁄° ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-Gíî©edMesßgeReÊe˘i⁄
-*
-
-23 
-∂ayî_öfo_ªÊe˘i⁄_
- = 
-NULL
-;
-
-28 
-	$¥Ÿobuf_AssignDesc_d©a_2ïrŸo
-() {
-
-29 
-	`¥Ÿobuf_AddDesc_d©a_2ïrŸo
-();
-
-30 c⁄° ::
-googÀ
-::
-¥Ÿobuf
-::
-FûeDes¸ùt‹
-* 
-fûe
- =
-
-31 ::
-googÀ
-::
-¥Ÿobuf
-::
-Des¸ùt‹Poﬁ
-::
-	`gíî©ed_poﬁ
-()->
-	`FödFûeByName
-(
-
-33 
-	`GOOGLE_CHECK
-(
-fûe
- !
-NULL
-);
-
-34 
-∂ayî_öfo_des¸ùt‹_
- = 
-fûe
-->
-	`mesßge_ty≥
-(0);
-
-35 c⁄° 
-∂ayî_öfo_off£ts_
-[2] = {
-
-36 
-	`GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET
-(
-∂ayî_öfo
-, 
-∂ayî_id_
-),
-
-37 
-	`GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET
-(
-∂ayî_öfo
-, 
-∂ayî_«me_
-),
-
-39 
-∂ayî_öfo_ªÊe˘i⁄_
- =
-
-40 
-√w
- ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-	`Gíî©edMesßgeReÊe˘i⁄
-(
-
-41 
-∂ayî_öfo_des¸ùt‹_
-,
-
-42 
-∂ayî_öfo
-::
-deÁu…_ö°™˚_
-,
-
-43 
-∂ayî_öfo_off£ts_
-,
-
-44 
-	`GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET
-(
-∂ayî_öfo
-, 
-_has_bôs_
-[0]),
-
-45 
-	`GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET
-(
-∂ayî_öfo
-, 
-_unknown_fõlds_
-),
-
-47 ::
-googÀ
-::
-¥Ÿobuf
-::
-Des¸ùt‹Poﬁ
-::
-	`gíî©ed_poﬁ
-(),
-
-48 ::
-googÀ
-::
-¥Ÿobuf
-::
-MesßgeFa˘‹y
-::
-	`gíî©ed_Á˘‹y
-(),
-
-49 (
-∂ayî_öfo
-));
-
-50 
-	}
-}
-
-52 
-	g«me•a˚
- {
-
-54 
-GOOGLE_PROTOBUF_DECLARE_ONCE
-(
-¥Ÿobuf_AssignDes¸ùt‹s_⁄˚_
-);
-
-55 
-ölöe
- 
-¥Ÿobuf_AssignDes¸ùt‹sOn˚
-() {
-
-56 ::
-googÀ
-::
-¥Ÿobuf
-::
-GoogÀOn˚Inô
-(&
-¥Ÿobuf_AssignDes¸ùt‹s_⁄˚_
-,
-
-57 &
-¥Ÿobuf_AssignDesc_d©a_2ïrŸo
-);
-
-60 
-¥Ÿobuf_Regi°îTy≥s
-(c⁄° ::
-°d
-::
-°rög
-&) {
-
-61 
-¥Ÿobuf_AssignDes¸ùt‹sOn˚
-();
-
-62 ::
-googÀ
-::
-¥Ÿobuf
-::
-MesßgeFa˘‹y
-::
-I¡î«lRegi°îGíî©edMesßge
-(
-
-63 
-∂ayî_öfo_des¸ùt‹_
-, &
-∂ayî_öfo
-::
-deÁu…_ö°™˚
-());
-
-68 
-	$¥Ÿobuf_ShutdownFûe_d©a_2ïrŸo
-() {
-
-69 
-dñëe
- 
-∂ayî_öfo
-::
-deÁu…_ö°™˚_
-;
-
-70 
-dñëe
- 
-∂ayî_öfo_ªÊe˘i⁄_
-;
-
-71 
-	}
-}
-
-73 
-	$¥Ÿobuf_AddDesc_d©a_2ïrŸo
-() {
-
-74 
-boﬁ
- 
-Æªady_hîe
- = 
-Ál£
-;
-
-75 i‡(
-Æªady_hîe
-) ;
-
-76 
-Æªady_hîe
- = 
-åue
-;
-
-77 
-GOOGLE_PROTOBUF_VERIFY_VERSION
-;
-
-79 ::
-googÀ
-::
-¥Ÿobuf
-::
-Des¸ùt‹Poﬁ
-::
-	`I¡î«lAddGíî©edFûe
-(
-
-82 ::
-googÀ
-::
-¥Ÿobuf
-::
-MesßgeFa˘‹y
-::
-	`I¡î«lRegi°îGíî©edFûe
-(
-
-83 "d©a.¥Ÿo", &
-¥Ÿobuf_Regi°îTy≥s
-);
-
-84 
-∂ayî_öfo
-::
-deÁu…_ö°™˚_
- = 
-√w
- 
-	`∂ayî_öfo
-();
-
-85 
-∂ayî_öfo
-::
-deÁu…_ö°™˚_
-->
-	`InôAsDeÁu…In°™˚
-();
-
-86 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-	`OnShutdown
-(&
-¥Ÿobuf_ShutdownFûe_d©a_2ïrŸo
-);
-
-87 
-	}
-}
-
-90 
-	sSèticDes¸ùt‹Inôülizî_d©a_2ïrŸo
- {
-
-91 
-SèticDes¸ùt‹Inôülizî_d©a_2ïrŸo
-() {
-
-92 
-¥Ÿobuf_AddDesc_d©a_2ïrŸo
-();
-
-94 } 
-	g°©ic_des¸ùt‹_öôülizî_d©a_2ïrŸo_
-;
-
-98 #i‚de‡
-_MSC_VER
-
-
-99 c⁄° 
-	g∂ayî_öfo
-::
-kPœyîIdFõldNumbî
-;
-
-100 c⁄° 
-	g∂ayî_öfo
-::
-kPœyîNameFõldNumbî
-;
-
-103 
-	g∂ayî_öfo
-::
-	$∂ayî_öfo
-()
-
-104 : ::
-googÀ
-::
-¥Ÿobuf
-::
-	$Mesßge
-() {
-
-105 
-	`Sh¨edCt‹
-();
-
-106 
-	}
-}
-
-108 
-	g∂ayî_öfo
-::
-	$InôAsDeÁu…In°™˚
-() {
-
-109 
-	}
-}
-
-111 
-∂ayî_öfo
-::
-	$∂ayî_öfo
-(c⁄° 
-∂ayî_öfo
-& 
-‰om
-)
-
-112 : ::
-googÀ
-::
-¥Ÿobuf
-::
-	$Mesßge
-() {
-
-113 
-	`Sh¨edCt‹
-();
-
-114 
-	`MîgeFrom
-(
-‰om
-);
-
-115 
-	}
-}
-
-117 
-	g∂ayî_öfo
-::
-	$Sh¨edCt‹
-() {
-
-118 
-_ˇched_size_
- = 0;
-
-119 
-∂ayî_id_
- = 0;
-
-120 
-∂ayî_«me_
- = 
-c⁄°_ˇ°
-< ::
-°d
-::
-°rög
-*>(&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-);
-
-121 ::
-	`mem£t
-(
-_has_bôs_
-, 0, (_has_bits_));
-
-122 
-	}
-}
-
-124 
-	g∂ayî_öfo
-::~
-	$∂ayî_öfo
-() {
-
-125 
-	`Sh¨edDt‹
-();
-
-126 
-	}
-}
-
-128 
-	g∂ayî_öfo
-::
-	$Sh¨edDt‹
-() {
-
-129 i‡(
-∂ayî_«me_
- !&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-) {
-
-130 
-dñëe
- 
-∂ayî_«me_
-;
-
-132 i‡(
-this
- !
-deÁu…_ö°™˚_
-) {
-
-134 
-	}
-}
-
-136 
-	g∂ayî_öfo
-::
-	$SëCachedSize
-(
-size
-) const {
-
-137 
-	`GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN
-();
-
-138 
-_ˇched_size_
- = 
-size
-;
-
-139 
-	`GOOGLE_SAFE_CONCURRENT_WRITES_END
-();
-
-140 
-	}
-}
-
-141 c⁄° ::
-googÀ
-::
-¥Ÿobuf
-::
-Des¸ùt‹
-* 
-∂ayî_öfo
-::
-	$des¸ùt‹
-() {
-
-142 
-	`¥Ÿobuf_AssignDes¸ùt‹sOn˚
-();
-
-143  
-∂ayî_öfo_des¸ùt‹_
-;
-
-144 
-	}
-}
-
-146 c⁄° 
-	g∂ayî_öfo
-&Öœyî_öfo::
-	$deÁu…_ö°™˚
-() {
-
-147 i‡(
-deÁu…_ö°™˚_
- =
-NULL
-Ë
-	`¥Ÿobuf_AddDesc_d©a_2ïrŸo
-();
-
-148  *
-deÁu…_ö°™˚_
-;
-
-149 
-	}
-}
-
-151 
-∂ayî_öfo
-* 
-	g∂ayî_öfo
-::
-deÁu…_ö°™˚_
- = 
-NULL
-;
-
-153 
-∂ayî_öfo
-* 
-	g∂ayî_öfo
-::
-	$New
-() const {
-
-154  
-√w
- 
-∂ayî_öfo
-;
-
-155 
-	}
-}
-
-157 
-	g∂ayî_öfo
-::
-	$CÀ¨
-() {
-
-158 i‡(
-_has_bôs_
-[0 / 32] & (0xffu << (0 % 32))) {
-
-159 
-∂ayî_id_
- = 0;
-
-160 i‡(
-	`has_∂ayî_«me
-()) {
-
-161 i‡(
-∂ayî_«me_
- !&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-) {
-
-162 
-∂ayî_«me_
-->
-	`˛ór
-();
-
-166 ::
-	`mem£t
-(
-_has_bôs_
-, 0, (_has_bits_));
-
-167 
-	`muèbÀ_unknown_fõlds
-()->
-	`CÀ¨
-();
-
-168 
-	}
-}
-
-170 
-boﬁ
- 
-	g∂ayî_öfo
-::
-	$MîgeP¨tülFromCodedSåóm
-(
-
-171 ::
-googÀ
-::
-¥Ÿobuf
-::
-io
-::
-CodedI≈utSåóm
-* 
-öput
-) {
-
-172 
-	#DO_
-(
-EXPRESSION
-Ëi‡(!(EXPRESSION)Ë 
-Ál£
-
-
-	)
-
-173 ::
-googÀ
-::
-¥Ÿobuf
-::
-uöt32
- 
-èg
-;
-
-174 (
-èg
- = 
-öput
-->
-	`RódTag
-()) != 0) {
-
-175 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-	`GëTagFõldNumbî
-(
-èg
-)) {
-
-178 i‡(::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-	`GëTagWúeTy≥
-(
-èg
-) ==
-
-179 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-WIRETYPE_VARINT
-) {
-
-180 
-	`DO_
-((::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-RódPrimôive
-<
-
-181 ::
-googÀ
-::
-¥Ÿobuf
-::
-öt32
-, ::googÀ::¥Ÿobuf::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-TYPE_INT32
->(
-
-182 
-öput
-, &
-∂ayî_id_
-)));
-
-183 
-	`£t_has_∂ayî_id
-();
-
-185 
-h™dÀ_unöãΩªãd
-;
-
-187 i‡(
-öput
-->
-	`Ex≥˘Tag
-(18)Ë
-∑r£_∂ayî_«me
-;
-
-193 i‡(::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-	`GëTagWúeTy≥
-(
-èg
-) ==
-
-194 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-WIRETYPE_LENGTH_DELIMITED
-) {
-
-195 
-∑r£_∂ayî_«me
-:
-
-196 
-	`DO_
-(::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-	`RódSåög
-(
-
-197 
-öput
-, 
-this
-->
-	`muèbÀ_∂ayî_«me
-()));
-
-198 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©
-::
-	`VîifyUTF8Såög
-(
-
-199 
-this
-->
-	`∂ayî_«me
-().
-	`d©a
-(),Åhis->∂ayî_«me().
-	`Àngth
-(),
-
-200 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©
-::
-PARSE
-);
-
-202 
-h™dÀ_unöãΩªãd
-;
-
-204 i‡(
-öput
-->
-	`Ex≥˘AtEnd
-()Ë 
-åue
-;
-
-209 
-h™dÀ_unöãΩªãd
-:
-
-210 i‡(::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-	`GëTagWúeTy≥
-(
-èg
-) ==
-
-211 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-WIRETYPE_END_GROUP
-) {
-
-212  
-åue
-;
-
-214 
-	`DO_
-(::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©
-::
-	`SkùFõld
-(
-
-215 
-öput
-, 
-èg
-, 
-	`muèbÀ_unknown_fõlds
-()));
-
-220  
-åue
-;
-
-221 #unde‡
-DO_
-
-
-222 
-	}
-}
-
-224 
-	g∂ayî_öfo
-::
-	$SîülizeWôhCachedSizes
-(
-
-225 ::
-googÀ
-::
-¥Ÿobuf
-::
-io
-::
-CodedOuçutSåóm
-* 
-ouçut
-) const {
-
-227 i‡(
-	`has_∂ayî_id
-()) {
-
-228 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-	`WrôeI¡32
-(1, 
-this
-->
-	`∂ayî_id
-(), 
-ouçut
-);
-
-232 i‡(
-	`has_∂ayî_«me
-()) {
-
-233 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©
-::
-	`VîifyUTF8Såög
-(
-
-234 
-this
-->
-	`∂ayî_«me
-().
-	`d©a
-(),Åhis->∂ayî_«me().
-	`Àngth
-(),
-
-235 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©
-::
-SERIALIZE
-);
-
-236 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-	`WrôeSåög
-(
-
-237 2, 
-this
-->
-	`∂ayî_«me
-(), 
-ouçut
-);
-
-240 i‡(!
-	`unknown_fõlds
-().
-	`em±y
-()) {
-
-241 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©
-::
-	`SîülizeUnknownFõlds
-(
-
-242 
-	`unknown_fõlds
-(), 
-ouçut
-);
-
-244 
-	}
-}
-
-246 ::
-googÀ
-::
-¥Ÿobuf
-::
-uöt8
-* 
-∂ayî_öfo
-::
-	$SîülizeWôhCachedSizesToAºay
-(
-
-247 ::
-googÀ
-::
-¥Ÿobuf
-::
-uöt8
-* 
-èrgë
-) const {
-
-249 i‡(
-	`has_∂ayî_id
-()) {
-
-250 
-èrgë
- = ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-	`WrôeI¡32ToAºay
-(1, 
-this
-->
-	`∂ayî_id
-(),Åarget);
-
-254 i‡(
-	`has_∂ayî_«me
-()) {
-
-255 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©
-::
-	`VîifyUTF8Såög
-(
-
-256 
-this
-->
-	`∂ayî_«me
-().
-	`d©a
-(),Åhis->∂ayî_«me().
-	`Àngth
-(),
-
-257 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©
-::
-SERIALIZE
-);
-
-258 
-èrgë
- =
-
-259 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-	`WrôeSåögToAºay
-(
-
-260 2, 
-this
-->
-	`∂ayî_«me
-(), 
-èrgë
-);
-
-263 i‡(!
-	`unknown_fõlds
-().
-	`em±y
-()) {
-
-264 
-èrgë
- = ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©
-::
-	`SîülizeUnknownFõldsToAºay
-(
-
-265 
-	`unknown_fõlds
-(), 
-èrgë
-);
-
-267  
-èrgë
-;
-
-268 
-	}
-}
-
-270 
-	g∂ayî_öfo
-::
-	$ByãSize
-() const {
-
-271 
-tŸÆ_size
- = 0;
-
-273 i‡(
-_has_bôs_
-[0 / 32] & (0xffu << (0 % 32))) {
-
-275 i‡(
-	`has_∂ayî_id
-()) {
-
-276 
-tŸÆ_size
- += 1 +
-
-277 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-	`I¡32Size
-(
-
-278 
-this
-->
-	`∂ayî_id
-());
-
-282 i‡(
-	`has_∂ayî_«me
-()) {
-
-283 
-tŸÆ_size
- += 1 +
-
-284 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©Lôe
-::
-	`SåögSize
-(
-
-285 
-this
-->
-	`∂ayî_«me
-());
-
-289 i‡(!
-	`unknown_fõlds
-().
-	`em±y
-()) {
-
-290 
-tŸÆ_size
- +=
-
-291 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-WúeF‹m©
-::
-	`CompuãUnknownFõldsSize
-(
-
-292 
-	`unknown_fõlds
-());
-
-294 
-	`GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN
-();
-
-295 
-_ˇched_size_
- = 
-tŸÆ_size
-;
-
-296 
-	`GOOGLE_SAFE_CONCURRENT_WRITES_END
-();
-
-297  
-tŸÆ_size
-;
-
-298 
-	}
-}
-
-300 
-	g∂ayî_öfo
-::
-	$MîgeFrom
-(c⁄° ::
-googÀ
-::
-¥Ÿobuf
-::
-Mesßge
-& 
-‰om
-) {
-
-301 
-	`GOOGLE_CHECK_NE
-(&
-‰om
-, 
-this
-);
-
-302 c⁄° 
-∂ayî_öfo
-* 
-sour˚
- =
-
-303 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-dy«mic_ˇ°_if_avaûabÀ
-<c⁄° 
-∂ayî_öfo
-*>(
-
-304 &
-‰om
-);
-
-305 i‡(
-sour˚
- =
-NULL
-) {
-
-306 ::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-ReÊe˘i⁄Ops
-::
-	`Mîge
-(
-‰om
-, 
-this
-);
-
-308 
-	`MîgeFrom
-(*
-sour˚
-);
-
-310 
-	}
-}
-
-312 
-	g∂ayî_öfo
-::
-	$MîgeFrom
-(c⁄° 
-∂ayî_öfo
-& 
-‰om
-) {
-
-313 
-	`GOOGLE_CHECK_NE
-(&
-‰om
-, 
-this
-);
-
-314 i‡(
-‰om
-.
-_has_bôs_
-[0 / 32] & (0xffu << (0 % 32))) {
-
-315 i‡(
-‰om
-.
-	`has_∂ayî_id
-()) {
-
-316 
-	`£t_∂ayî_id
-(
-‰om
-.
-	`∂ayî_id
-());
-
-318 i‡(
-‰om
-.
-	`has_∂ayî_«me
-()) {
-
-319 
-	`£t_∂ayî_«me
-(
-‰om
-.
-	`∂ayî_«me
-());
-
-322 
-	`muèbÀ_unknown_fõlds
-()->
-	`MîgeFrom
-(
-‰om
-.
-	`unknown_fõlds
-());
-
-323 
-	}
-}
-
-325 
-	g∂ayî_öfo
-::
-	$C›yFrom
-(c⁄° ::
-googÀ
-::
-¥Ÿobuf
-::
-Mesßge
-& 
-‰om
-) {
-
-326 i‡(&
-‰om
- =
-this
-) ;
-
-327 
-	`CÀ¨
-();
-
-328 
-	`MîgeFrom
-(
-‰om
-);
-
-329 
-	}
-}
-
-331 
-	g∂ayî_öfo
-::
-	$C›yFrom
-(c⁄° 
-∂ayî_öfo
-& 
-‰om
-) {
-
-332 i‡(&
-‰om
- =
-this
-) ;
-
-333 
-	`CÀ¨
-();
-
-334 
-	`MîgeFrom
-(
-‰om
-);
-
-335 
-	}
-}
-
-337 
-boﬁ
- 
-	g∂ayî_öfo
-::
-	$IsInôülized
-() const {
-
-338 i‡((
-_has_bôs_
-[0] & 0x00000003Ë!0x00000003Ë 
-Ál£
-;
-
-340  
-åue
-;
-
-341 
-	}
-}
-
-343 
-	g∂ayî_öfo
-::
-	$Sw≠
-(
-∂ayî_öfo
-* 
-Ÿhî
-) {
-
-344 i‡(
-Ÿhî
- !
-this
-) {
-
-345 
-°d
-::
-	`sw≠
-(
-∂ayî_id_
-, 
-Ÿhî
-->player_id_);
-
-346 
-°d
-::
-	`sw≠
-(
-∂ayî_«me_
-, 
-Ÿhî
-->player_name_);
-
-347 
-°d
-::
-	`sw≠
-(
-_has_bôs_
-[0], 
-Ÿhî
-->_has_bits_[0]);
-
-348 
-_unknown_fõlds_
-.
-	`Sw≠
-(&
-Ÿhî
-->_unknown_fields_);
-
-349 
-°d
-::
-	`sw≠
-(
-_ˇched_size_
-, 
-Ÿhî
-->_cached_size_);
-
-351 
-	}
-}
-
-353 ::
-googÀ
-::
-¥Ÿobuf
-::
-Mëad©a
- 
-∂ayî_öfo
-::
-	$GëMëad©a
-() const {
-
-354 
-	`¥Ÿobuf_AssignDes¸ùt‹sOn˚
-();
-
-355 ::
-googÀ
-::
-¥Ÿobuf
-::
-Mëad©a
- 
-mëad©a
-;
-
-356 
-mëad©a
-.
-des¸ùt‹
- = 
-∂ayî_öfo_des¸ùt‹_
-;
-
-357 
-mëad©a
-.
-ªÊe˘i⁄
- = 
-∂ayî_öfo_ªÊe˘i⁄_
-;
-
-358  
-mëad©a
-;
-
-359 
-	}
-}
-
-	@data.pb.h
-
-4 #i‚de‡
-PROTOBUF_d©a_2ïrŸo__INCLUDED
-
-
-5 
-	#PROTOBUF_d©a_2ïrŸo__INCLUDED
-
-
-	)
-
-7 
-	~<°rög
->
-
-9 
-	~<googÀ/¥Ÿobuf/°ubs/comm⁄.h
->
-
-11 #i‡
-GOOGLE_PROTOBUF_VERSION
- < 2005000
-
-12 #îr‹ 
-This
- 
-fûe
- 
-was
- 
-gíî©ed
- 
-by
- 
-a
- 
-√wî
- 
-vîsi⁄
- 
-of
- 
-¥Ÿoc
- 
-which
- 
-is
-
-
-13 #îr‹ 
-öcom∑tibÀ
- 
-wôh
- 
-your
- 
-PrŸocﬁ
- 
-Buf„r
- 
-hódîs
-. 
-PÀa£
- 
-upd©e
-
-
-14 #îr‹ 
-your
- 
-hódîs
-.
-
-16 #i‡2005000 < 
-GOOGLE_PROTOBUF_MIN_PROTOC_VERSION
-
-
-17 #îr‹ 
-This
- 
-fûe
- 
-was
- 
-gíî©ed
- 
-by
- 
-™
- 
-ﬁdî
- 
-vîsi⁄
- 
-of
- 
-¥Ÿoc
- 
-which
- 
-is
-
-
-18 #îr‹ 
-öcom∑tibÀ
- 
-wôh
- 
-your
- 
-PrŸocﬁ
- 
-Buf„r
- 
-hódîs
-. 
-PÀa£
-
-
-19 #îr‹ 
-ªgíî©e
- 
-this
- 
-fûe
- 
-wôh
- 
-a
- 
-√wî
- 
-vîsi⁄
- 
-of
- 
-¥Ÿoc
-.
-
-22 
-	~<googÀ/¥Ÿobuf/gíî©ed_mesßge_utû.h
->
-
-23 
-	~<googÀ/¥Ÿobuf/mesßge.h
->
-
-24 
-	~<googÀ/¥Ÿobuf/ª≥©ed_fõld.h
->
-
-25 
-	~<googÀ/¥Ÿobuf/exãnsi⁄_£t.h
->
-
-26 
-	~<googÀ/¥Ÿobuf/unknown_fõld_£t.h
->
-
-30 
-¥Ÿobuf_AddDesc_d©a_2ïrŸo
-();
-
-31 
-¥Ÿobuf_AssignDesc_d©a_2ïrŸo
-();
-
-32 
-¥Ÿobuf_ShutdownFûe_d©a_2ïrŸo
-();
-
-34 
-˛ass
- 
-	g∂ayî_öfo
-;
-
-38 ˛as†
-	c∂ayî_öfo
- : 
-public
- ::
-googÀ
-::
-¥Ÿobuf
-::
-Mesßge
- {
-
-39 
-public
-:
-
-40 
-∂ayî_öfo
-();
-
-41 
-	mvútuÆ
- ~
-∂ayî_öfo
-();
-
-43 
-∂ayî_öfo
-(c⁄°Öœyî_öfo& 
-‰om
-);
-
-45 
-ölöe
- 
-	m∂ayî_öfo
-& 
-	m›î©‹
-=(c⁄° 
-∂ayî_öfo
-& 
-‰om
-) {
-
-46 
-C›yFrom
-(
-‰om
-);
-
-47  *
-	mthis
-;
-
-50 
-ölöe
- c⁄° ::
-googÀ
-::
-¥Ÿobuf
-::
-UnknownFõldSë
-& 
-	$unknown_fõlds
-() const {
-
-51  
-_unknown_fõlds_
-;
-
-52 
-	}
-}
-
-54 
-	gölöe
- ::
-googÀ
-::
-¥Ÿobuf
-::
-UnknownFõldSë
-* 
-	$muèbÀ_unknown_fõlds
-() {
-
-55  &
-_unknown_fõlds_
-;
-
-56 
-	}
-}
-
-58 c⁄° ::
-googÀ
-::
-¥Ÿobuf
-::
-Des¸ùt‹
-* 
-des¸ùt‹
-();
-
-59 c⁄° 
-	g∂ayî_öfo
-& 
-deÁu…_ö°™˚
-();
-
-61 
-Sw≠
-(
-∂ayî_öfo
-* 
-Ÿhî
-);
-
-65 
-∂ayî_öfo
-* 
-	$New
-() const;
-
-66 
-	`C›yFrom
-(c⁄° ::
-googÀ
-::
-¥Ÿobuf
-::
-Mesßge
-& 
-‰om
-);
-
-67 
-	`MîgeFrom
-(c⁄° ::
-googÀ
-::
-¥Ÿobuf
-::
-Mesßge
-& 
-‰om
-);
-
-68 
-	`C›yFrom
-(c⁄° 
-∂ayî_öfo
-& 
-‰om
-);
-
-69 
-	`MîgeFrom
-(c⁄° 
-∂ayî_öfo
-& 
-‰om
-);
-
-70 
-	`CÀ¨
-();
-
-71 
-boﬁ
- 
-	$IsInôülized
-() const;
-
-73 
-	$ByãSize
-() const;
-
-74 
-boﬁ
- 
-	`MîgeP¨tülFromCodedSåóm
-(
-
-75 ::
-googÀ
-::
-¥Ÿobuf
-::
-io
-::
-CodedI≈utSåóm
-* 
-öput
-);
-
-76 
-	$SîülizeWôhCachedSizes
-(
-
-77 ::
-googÀ
-::
-¥Ÿobuf
-::
-io
-::
-CodedOuçutSåóm
-* 
-ouçut
-) const;
-
-78 ::
-googÀ
-::
-¥Ÿobuf
-::
-uöt8
-* 
-	$SîülizeWôhCachedSizesToAºay
-(::
-googÀ
-::
-¥Ÿobuf
-::
-uöt8
-* 
-ouçut
-) const;
-
-79 
-	$GëCachedSize
-(Ëc⁄° {  
-_ˇched_size_
-; 
-	}
-}
-
-80 
-	g¥iv©e
-:
-
-81 
-Sh¨edCt‹
-();
-
-82 
-Sh¨edDt‹
-();
-
-83 
-	$SëCachedSize
-(
-size
-) const;
-
-84 
-public
-:
-
-86 ::
-googÀ
-::
-¥Ÿobuf
-::
-Mëad©a
- 
-	$GëMëad©a
-() const;
-
-93 
-ölöe
- 
-boﬁ
- 
-	$has_∂ayî_id
-() const;
-
-94 
-ölöe
- 
-	`˛ór_∂ayî_id
-();
-
-95 c⁄° 
-kPœyîIdFõldNumbî
- = 1;
-
-96 
-ölöe
- ::
-googÀ
-::
-¥Ÿobuf
-::
-öt32
- 
-	$∂ayî_id
-() const;
-
-97 
-ölöe
- 
-	`£t_∂ayî_id
-(::
-googÀ
-::
-¥Ÿobuf
-::
-öt32
- 
-vÆue
-);
-
-100 
-ölöe
- 
-boﬁ
- 
-	$has_∂ayî_«me
-() const;
-
-101 
-ölöe
- 
-	`˛ór_∂ayî_«me
-();
-
-102 c⁄° 
-kPœyîNameFõldNumbî
- = 2;
-
-103 
-ölöe
- c⁄° ::
-°d
-::
-°rög
-& 
-	$∂ayî_«me
-() const;
-
-104 
-ölöe
- 
-	`£t_∂ayî_«me
-(c⁄° ::
-°d
-::
-°rög
-& 
-vÆue
-);
-
-105 
-ölöe
- 
-	`£t_∂ayî_«me
-(c⁄° * 
-vÆue
-);
-
-106 
-ölöe
- 
-	`£t_∂ayî_«me
-(c⁄° * 
-vÆue
-, 
-size_t
- 
-size
-);
-
-107 
-ölöe
- ::
-°d
-::
-°rög
-* 
-	`muèbÀ_∂ayî_«me
-();
-
-108 
-ölöe
- ::
-°d
-::
-°rög
-* 
-	`ªÀa£_∂ayî_«me
-();
-
-109 
-ölöe
- 
-	`£t_Æloˇãd_∂ayî_«me
-(::
-°d
-::
-°rög
-* 
-∂ayî_«me
-);
-
-112 
-¥iv©e
-:
-
-113 
-ölöe
- 
-	`£t_has_∂ayî_id
-();
-
-114 
-ölöe
- 
-	`˛ór_has_∂ayî_id
-();
-
-115 
-ölöe
- 
-	`£t_has_∂ayî_«me
-();
-
-116 
-ölöe
- 
-	`˛ór_has_∂ayî_«me
-();
-
-118 ::
-googÀ
-::
-¥Ÿobuf
-::
-UnknownFõldSë
- 
-_unknown_fõlds_
-;
-
-120 ::
-°d
-::
-°rög
-* 
-∂ayî_«me_
-;
-
-121 ::
-googÀ
-::
-¥Ÿobuf
-::
-öt32
- 
-∂ayî_id_
-;
-
-123 
-muèbÀ
- 
-_ˇched_size_
-;
-
-124 ::
-googÀ
-::
-¥Ÿobuf
-::
-uöt32
- 
-_has_bôs_
-[(2 + 31) / 32];
-
-126 
-‰õnd
- 
-	`¥Ÿobuf_AddDesc_d©a_2ïrŸo
-();
-
-127 
-‰õnd
- 
-	`¥Ÿobuf_AssignDesc_d©a_2ïrŸo
-();
-
-128 
-‰õnd
- 
-	`¥Ÿobuf_ShutdownFûe_d©a_2ïrŸo
-();
-
-130 
-	`InôAsDeÁu…In°™˚
-();
-
-131 
-∂ayî_öfo
-* 
-deÁu…_ö°™˚_
-;
-
-132 
-	}
-};
-
-141 
-ölöe
- 
-boﬁ
- 
-	g∂ayî_öfo
-::
-	$has_∂ayî_id
-() const {
-
-142  (
-_has_bôs_
-[0] & 0x00000001u) != 0;
-
-143 
-	}
-}
-
-144 
-ölöe
- 
-	g∂ayî_öfo
-::
-	$£t_has_∂ayî_id
-() {
-
-145 
-_has_bôs_
-[0] |= 0x00000001u;
-
-146 
-	}
-}
-
-147 
-ölöe
- 
-	g∂ayî_öfo
-::
-	$˛ór_has_∂ayî_id
-() {
-
-148 
-_has_bôs_
-[0] &= ~0x00000001u;
-
-149 
-	}
-}
-
-150 
-ölöe
- 
-	g∂ayî_öfo
-::
-	$˛ór_∂ayî_id
-() {
-
-151 
-∂ayî_id_
- = 0;
-
-152 
-	`˛ór_has_∂ayî_id
-();
-
-153 
-	}
-}
-
-154 
-	gölöe
- ::
-googÀ
-::
-¥Ÿobuf
-::
-öt32
- 
-∂ayî_öfo
-::
-	$∂ayî_id
-() const {
-
-155  
-∂ayî_id_
-;
-
-156 
-	}
-}
-
-157 
-ölöe
- 
-	g∂ayî_öfo
-::
-	$£t_∂ayî_id
-(::
-googÀ
-::
-¥Ÿobuf
-::
-öt32
- 
-vÆue
-) {
-
-158 
-	`£t_has_∂ayî_id
-();
-
-159 
-∂ayî_id_
- = 
-vÆue
-;
-
-160 
-	}
-}
-
-163 
-ölöe
- 
-boﬁ
- 
-	g∂ayî_öfo
-::
-	$has_∂ayî_«me
-() const {
-
-164  (
-_has_bôs_
-[0] & 0x00000002u) != 0;
-
-165 
-	}
-}
-
-166 
-ölöe
- 
-	g∂ayî_öfo
-::
-	$£t_has_∂ayî_«me
-() {
-
-167 
-_has_bôs_
-[0] |= 0x00000002u;
-
-168 
-	}
-}
-
-169 
-ölöe
- 
-	g∂ayî_öfo
-::
-	$˛ór_has_∂ayî_«me
-() {
-
-170 
-_has_bôs_
-[0] &= ~0x00000002u;
-
-171 
-	}
-}
-
-172 
-ölöe
- 
-	g∂ayî_öfo
-::
-	$˛ór_∂ayî_«me
-() {
-
-173 i‡(
-∂ayî_«me_
- !&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-) {
-
-174 
-∂ayî_«me_
-->
-	`˛ór
-();
-
-176 
-	`˛ór_has_∂ayî_«me
-();
-
-177 
-	}
-}
-
-178 
-ölöe
- c⁄° ::
-°d
-::
-°rög
-& 
-∂ayî_öfo
-::
-	$∂ayî_«me
-() const {
-
-179  *
-∂ayî_«me_
-;
-
-180 
-	}
-}
-
-181 
-ölöe
- 
-	g∂ayî_öfo
-::
-	$£t_∂ayî_«me
-(c⁄° ::
-°d
-::
-°rög
-& 
-vÆue
-) {
-
-182 
-	`£t_has_∂ayî_«me
-();
-
-183 i‡(
-∂ayî_«me_
- =&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-) {
-
-184 
-∂ayî_«me_
- = 
-√w
- ::
-°d
-::
-°rög
-;
-
-186 
-∂ayî_«me_
-->
-	`assign
-(
-vÆue
-);
-
-187 
-	}
-}
-
-188 
-ölöe
- 
-	g∂ayî_öfo
-::
-	$£t_∂ayî_«me
-(c⁄° * 
-vÆue
-) {
-
-189 
-	`£t_has_∂ayî_«me
-();
-
-190 i‡(
-∂ayî_«me_
- =&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-) {
-
-191 
-∂ayî_«me_
- = 
-√w
- ::
-°d
-::
-°rög
-;
-
-193 
-∂ayî_«me_
-->
-	`assign
-(
-vÆue
-);
-
-194 
-	}
-}
-
-195 
-ölöe
- 
-	g∂ayî_öfo
-::
-	$£t_∂ayî_«me
-(c⁄° * 
-vÆue
-, 
-size_t
- 
-size
-) {
-
-196 
-	`£t_has_∂ayî_«me
-();
-
-197 i‡(
-∂ayî_«me_
- =&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-) {
-
-198 
-∂ayî_«me_
- = 
-√w
- ::
-°d
-::
-°rög
-;
-
-200 
-∂ayî_«me_
-->
-	`assign
-(
-ªöãΩªt_ˇ°
-<c⁄° *>(
-vÆue
-), 
-size
-);
-
-201 
-	}
-}
-
-202 
-	gölöe
- ::
-°d
-::
-°rög
-* 
-∂ayî_öfo
-::
-	$muèbÀ_∂ayî_«me
-() {
-
-203 
-	`£t_has_∂ayî_«me
-();
-
-204 i‡(
-∂ayî_«me_
- =&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-) {
-
-205 
-∂ayî_«me_
- = 
-√w
- ::
-°d
-::
-°rög
-;
-
-207  
-∂ayî_«me_
-;
-
-208 
-	}
-}
-
-209 
-	gölöe
- ::
-°d
-::
-°rög
-* 
-∂ayî_öfo
-::
-	$ªÀa£_∂ayî_«me
-() {
-
-210 
-	`˛ór_has_∂ayî_«me
-();
-
-211 i‡(
-∂ayî_«me_
- =&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-) {
-
-212  
-NULL
-;
-
-214 ::
-°d
-::
-°rög
-* 
-ãmp
- = 
-∂ayî_«me_
-;
-
-215 
-∂ayî_«me_
- = 
-c⁄°_ˇ°
-< ::
-°d
-::
-°rög
-*>(&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-);
-
-216  
-ãmp
-;
-
-218 
-	}
-}
-
-219 
-ölöe
- 
-	g∂ayî_öfo
-::
-	$£t_Æloˇãd_∂ayî_«me
-(::
-°d
-::
-°rög
-* 
-∂ayî_«me
-) {
-
-220 i‡(
-∂ayî_«me_
- !&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-) {
-
-221 
-dñëe
- 
-∂ayî_«me_
-;
-
-223 i‡(
-∂ayî_«me
-) {
-
-224 
-	`£t_has_∂ayî_«me
-();
-
-225 
-∂ayî_«me_
- = 
-∂ayî_«me
-;
-
-227 
-	`˛ór_has_∂ayî_«me
-();
-
-228 
-∂ayî_«me_
- = 
-c⁄°_ˇ°
-< ::
-°d
-::
-°rög
-*>(&::
-googÀ
-::
-¥Ÿobuf
-::
-öã∫Æ
-::
-kEm±ySåög
-);
-
-230 
-	}
-}
-
-235 #i‚de‡
-SWIG
-
-
-236 
-«me•a˚
- 
-	ggoogÀ
- {
-
-237 
-«me•a˚
- 
-	g¥Ÿobuf
- {
-
-	@db_thread.h
-
-1 #i‚de‡
-_DB_THREAD_H_
-
-
-2 
-	#_DB_THREAD_H_
-
-
-	)
-
-4 
-	~<thªad
->
-
-5 
-	~"queue.h
-"
-
-6 
-	~"hód.h
-"
-
-7 
-	~<glog/loggög.h
->
-
-8 
-	~<gÊags/gÊags.h
->
-
-11 
-	gãm∂©e
-<
-˛ass
- 
-	gDB_CON
-,˛as†
-	gDB_OBJECT
->
-
-12 ˛as†
-	cDBThªad
-
-
-14 
-	mpublic
-:
-
-15 
-	$DBThªad
-(
-DB_CON
-* 
-t
-):
-	$_c⁄√˘i⁄
-(
-t
-)
-
-17 
-_w‹k_Êag
- = 
-Ál£
-;
-
-20 
-	$St›
-(){
-_w‹k_Êag
- = 
-Ál£
-;
-	}
-}
-
-22 
-	$Sèπ
-()
-
-24 
-_w‹k_Êag
- = 
-åue
-;
-
-25 
-_thªad
- = 
-√w
- 
-°d
-::
-	`thªad
-(&
-DBThªad
-<
-DB_CON
-,
-DB_OBJECT
->::
-Run
-,
-this
-);
-
-26 
-	`LOG
-(
-INFO
-)<<"Thªad id i†"<<
-_thªad
-->
-	`gë_id
-();
-
-29 
-	}
-}
-
-31 
-	$Run
-()
-
-33 
-åue
-)
-
-35 
-DB_OBJECT
-* 
-obje˘
- = 
-	`P›
-();
-
-36 if(
-obje˘
- =
-NULL
-)
-
-38 if(
-_w‹k_Êag
- =
-Ál£
-)
-
-40 
-	`u¶ìp
-(10000);
-
-43 
-boﬁ
- 
-r°
- = 
-_c⁄√˘i⁄
-->
-	`Pro˚ssComm™d
-(
-obje˘
-);
-
-44 if(
-r°
- =
-Ál£
-)
-
-46 
-	`LOG
-(
-INFO
-)<<"process commandÉrror!\n";
-
-49 
-	}
-}
-
-51 
-	$Push
-(
-DB_OBJECT
-* 
-obje˘
-)
-
-53 
-r°
- = 
-_queue
-.
-	`Push
-((*)&
-obje˘
-,(*));
-
-54 if(
-r°
- =0)
-	`LOG
-(
-ERROR
-)<<"errorÖush db object!\n";
-
-55 
-	}
-}
-
-57 
-DB_OBJECT
-* 
-	$P›
-()
-
-59 
-DB_OBJECT
-* 
-obje˘
- = 
-NULL
-;
-
-60 
-r°
- = 
-_queue
-.
-	`P›
-(4,(*)&
-obje˘
-,4);
-
-63  
-obje˘
-;
-
-64 
-	}
-}
-
-66 
-	g¥iv©e
-:
-
-67 
-boﬁ
- 
-_w‹k_Êag
-;
-
-68 
-DB_CON
-* 
-	g_c⁄√˘i⁄
-;
-
-69 
-	g°d
-::
-thªad
-* 
-_thªad
-;
-
-70 
-	gCú˛eQueue
-<
-	gNuŒLock
-> 
-	g_queue
-;
-
-	@head.h
-
-1 #i‚de‡
-_HEAD_H_
-
-
-2 
-	#_HEAD_H_
-
-
-	)
-
-4 
-	~"°dio.h
-"
-
-5 
-	~"°rög.h
-"
-
-6 
-	~"ˇr.h
-"
-
-7 
-	~"queue.h
-"
-
-8 
-	~<time.h
->
-
-9 
-	~<uni°d.h
->
-
-10 
-	~"thªad.h
-"
-
-11 
-	~<thªad
->
-
-12 
-	~"md5.h
-"
-
-13 
-	~"ªdis_c⁄√˘i⁄.h
-"
-
-14 
-	~"∂ayî_obje˘.h
-"
-
-15 
-	~"db_thªad.h
-"
-
-16 
-	~<glog/loggög.h
->
-
-17 
-	~<gÊags/gÊags.h
->
 
 	@include/gflags/gflags.h
 
@@ -97633,3633 +94209,393 @@ V¨ötSize32
 Àngth
 ) +Üength;
 
-	@io_handler.h
+	@redis_mysql/head.h
 
 1 #i‚de‡
-_IO_HANDLER_H_
+_HEAD_H_
 
 
 2 
-	#_IO_HANDLER_H_
-
-
-	)
-
-4 ˛as†
-	cio_h™dÀ
-
-
-6 
-	mpublic
-:
-
-7 
-vútuÆ
- 
-ªcv_msg
-() = 0;
-
-8 
-vútuÆ
- 
-¥o˚ss_msg
-() = 0;
-
-	@key_builder.h
-
-1 #i‚de‡
-_KEY_BUILDER_H_
-
-
-2 
-	#_KEY_BUILDER_H_
-
-
-	)
-
-4 
-	esub_ty≥
-
-
-6 
-	mROLE_TYPE
- = 1,
-
-7 
-	mGUILD_TYPE
- = 2,
-
-8 
-	mRANK_TYPE
- = 3,
-
-11 
-	g°d
-::
-°rög
- 
-	$buûd_key
-(
-£rvî_id
-,
-sub_ty≥
-,
-‹dî_id
-)
-
-14 
-	}
-}
-
-	@lock.h
-
-1 #i‚de‡
-__RST_LOCK_H_
-
-
-2 
-	#__RST_LOCK_H_
+	#_HEAD_H_
 
 
 	)
 
 4 
-	~<±hªad.h
->
+	~"°dio.h
+"
 
 5 
-	~<as£π.h
->
+	~"°rög.h
+"
 
 6 
-	~<©omic
+	~<time.h
 >
 
 7 
 	~<uni°d.h
 >
 
-9 ˛as†
-	cLockBa£
+8 
+	~"thªad.h
+"
 
-
-11 
-	mpublic
-:
-
-12 
-	$LockBa£
-(){}
-
-13 
-vútuÆ
- ~
-	$LockBa£
-(){
-	}
-};
-
-14 
-vútuÆ
- 
-boﬁ
- 
-Inô
-() = 0;
-
-15 
-vútuÆ
- 
-Lock
-() = 0;
-
-16 
-vútuÆ
- 
-UnLock
-() = 0;
-
-19 ˛as†
-	cNuŒLock
-:
-public
- 
-LockBa£
-
-
-21 
-public
-:
-
-22 
-vútuÆ
- ~
-	$NuŒLock
-()
-
-25 
-vútuÆ
- 
-boﬁ
- 
-	$Inô
-(){ 
-åue
-;
-	}
-}
-
-26 
-vútuÆ
- 
-	$Lock
-(){;
-	}
-}
-
-27 
-vútuÆ
- 
-	$UnLock
-(){;
-	}
-}
-
-30 ˛as†
-	cMuãxLock
-:
-public
- 
-LockBa£
-
-
-32 
-public
-:
-
-33 
-vútuÆ
- ~ 
-	$MuãxLock
-(){
-
-34 
-	`±hªad_muãx_de°roy
-(&
-_muãx_t
-);
-
-37 
-boﬁ
- 
-	$Inô
-()
-
-39 if(
-	`±hªad_muãx_öô
-(&
-_muãx_t
-,
-NULL
-) == 0)
-
-41  
-åue
-;
-
-43  
-Ál£
-;
-
-44 
-	}
-}
-
-46 
-	$Lock
-()
-
-48 
-	`±hªad_muãx_lock
-(&
-_muãx_t
-);
-
-49 
-	}
-}
-
-50 
-	$UnLock
-()
-
-52 
-	`±hªad_muãx_u∆ock
-(&
-_muãx_t
-);
-
-53 
-	}
-}
-
-56 
-	g¥iv©e
-:
-
-57 
-±hªad_muãx_t
- 
-_muãx_t
-;
-
-60 
-	gãm∂©e
-<
-˛ass
- 
-	gLock
+9 
+	~<thªad
 >
 
-61 ˛as†
-	cAutoLock
+10 
+	~<glog/loggög.h
+>
 
+11 
+	~<gÊags/gÊags.h
+>
 
-63 
-	mpublic
-:
-
-64 
-	$AutoLock
-(
-Lock
-* 
-lock
-)
-
-66 
-_lock
- = 
-lock
-;
-
-67 
-_lock
-->
-	`Lock
-();
-
-69 ~
-	$AutoLock
-()
-
-71 
-_lock
-->
-	`UnLock
-();
-
-72 
-	}
-}
-
-73 
-	g¥iv©e
-:
-
-74 
-Lock
-* 
-_lock
-;
-
-78 ˛as†
-	cS∑öLock
-:
-public
- 
-LockBa£
-
-
-80 
-public
-:
-
-81 
-	$S∑öLock
-()
-
-84 
-vútuÆ
- ~
-	$S∑öLock
-()
-
-86 
-_lock
-.
-	`˛ór
-();
-
-87 
-	}
-};
-
-88 
-vútuÆ
- 
-boﬁ
- 
-	$Inô
-()
-
-90  
-åue
-;
-
-91 
-	}
-};
-
-92 
-vútuÆ
- 
-	$Lock
-()
-
-94 !
-_lock
-.
-	`ã°_™d_£t
-())
-
-95 
-	`u¶ìp
-(10);
-
-96 
-	}
-}
-
-97 
-vútuÆ
- 
-	$UnLock
-()
-
-99 
-_lock
-.
-	`˛ór
-();
-
-100 
-	}
-}
-
-102 
-	g¥iv©e
-:
-
-103 
-°d
-::
-©omic_Êag
- 
-_lock
- = 
-ATOMIC_FLAG_INIT
-;
-
-	@main.cpp
+	@redis_mysql/mysql2redis.cpp
 
 1 
-	~"hód.h
+	~"mysql2ªdis.h
 "
 
 2 
-	~<io°ªam
->
-
-3 
-	~<s°ªam
->
-
-4 
-	~"d©a.pb.h
-"
-
-5 
-	~<time.h
->
-
-6 
-	~<iom™ù
->
-
-7 
 	~"mysql_lﬂdî.h
 "
 
-9 
-usög
- 
-	g°d
-::
-£tw
-;
-
-10 
-	#TO_STR
-(
-T
-Ë
-	`¥ötf
-("%s",#T);
-
-	)
-
-12 
-	gCú˛eQueue
-<
-	tS∑öLock
-> 
-	tQUEUE
-;
-
-14 
-	$fun˘i⁄_push
-(
-QUEUE
+5 
+Mysql2RedisD©aba£
 * 
-queue
+	$lﬂd_d©aba£
+(c⁄° * 
+db_«me
+,c⁄° * 
+ù_°r
+,
+p‹t
+,c⁄° * 
+u£r_«me
+,c⁄° * 
+pwd
 )
 
-16 
-°d
-::
-°rög
- 
-föÆ_°r
-;
-
-17 
-i
- = 0;
-
-18 
-åue
-&&(
-i
- != 1000))
-
-20 
-r°
- = 
-queue
-->
-	`Push
-("123",3);
-
-21 if(
-r°
- != 0)
-
-23 
-	`¥ötf
-("push %d size:%d hód%dÅaû%d cuºít: %d\n",
-i
-,
-r°
-,
-queue
-->
-	`GëHód
-(),queue->
-	`GëTaû
-(),queue->
-	`GëD©aSize
-());
-
-24 
-föÆ_°r
-.
-	`≠≥nd
-("123");
-
-25 
-i
-++;
-
-29 
-	`u¶ìp
-(10);
-
-33 
-	`¥ötf
-("push : i'm ouàföÆÜí%d\n",
-föÆ_°r
-.
-	`Àngth
-());
-
-34 
-	`¥ötf
-("md5 code:%s\n",
-	`md5
-(
-föÆ_°r
-.
-	`c_°r
-()).c_str());
-
-35 
-	}
-}
-
-37 
-	$fun˘i⁄_p›
-(
-QUEUE
-* 
-queue
-)
-
-39 
-°d
-::
-°rög
- 
-föÆ_°r
-;
-
-40 
-i
- = 0;
-
-41 
-åue
-&&(
-i
- != 1000))
-
-43 
-buf„r
-[10];
-
-44 
-	`mem£t
-(
-buf„r
-,0,10);
-
-47 
-r°
- = 
-queue
-->
-	`RódFr⁄t
-(3,
-buf„r
-,10);
-
-48 if(
-r°
- != 0)
-
-50 
-queue
-->
-	`Disˇrd
-(
-r°
-);
-
-51 
-	`¥ötf
-("p› %d size:%d hód%dÅaû%d cuºít:%d \n",
-i
-,
-r°
-,
-queue
-->
-	`GëHód
-(),queue->
-	`GëTaû
-(),queue->
-	`GëD©aSize
-());
-
-52 
-föÆ_°r
-.
-	`≠≥nd
-(
-buf„r
-);
-
-53 
-i
-++;
-
-57 
-	`u¶ìp
-(10);
-
-60 
-	`¥ötf
-("p›: i'm out, föÆÜí:%d\n",
-föÆ_°r
-.
-	`Àngth
-());
-
-61 
-	`¥ötf
-("md5 code:%s\n",
-	`md5
-(
-föÆ_°r
-.
-	`c_°r
-()).c_str());
-
-62 
-	}
-}
-
-65 
-	$ªdis_ã°
-()
-
-67 
-RedisC⁄√˘i⁄
-* 
-c⁄√˘i⁄
- = 
-√w
- 
-	`RedisC⁄√˘i⁄
-("127.0.0.1",6379);
-
-68 
-boﬁ
- 
-r°
- = 
-c⁄√˘i⁄
-->
-	`C⁄√˘
-();
-
-69 if(
-r°
-)
-	`¥ötf
-("connect success!");
-
-70 
-	`¥ötf
-("connect failed!");
-
-71 
-PœyîObje˘
-* 
-∂ayî
- = 
-√w
- 
-	`PœyîObje˘
-();
-
-72 
-c⁄√˘i⁄
-->
-	`Pro˚ssComm™d
-(
-∂ayî
-);
-
-73 
-DBThªad
-<
-RedisC⁄√˘i⁄
-,
-RedisCÆlBackObje˘
-> *
-_thªad
- = 
-√w
- DBThªad<RedisC⁄√˘i⁄,RedisCÆlBackObje˘>(
-c⁄√˘i⁄
-);
-
-74 
-_thªad
-->
-	`Push
-(
-∂ayî
-);
-
-76 
-°rög°ªam
- 
-os_°r
-;
-
-77 
-°d
-::
-°rög
- 
-°rög_buff
-;
-
-78 
-∂ayî_öfo
- 
-öfo
-,
-√w_öfo
-;
-
-79 
-öfo
-.
-	`£t_∂ayî_id
-(89);
-
-80 
-öfo
-.
-	`£t_∂ayî_«me
-("guanlei");
-
-81 
-boﬁ
- 
-Sr°
- = 
-öfo
-.
-	`SîülizeToSåög
-(&
-°rög_buff
-);
-
-82 if(
-Sr°
-)
-
-84 
-√w_öfo
-.
-	`P¨£FromSåög
-(
-°rög_buff
-);
-
-86 
-°d
-::
-°rög
- 
-föÆ_db
- = "SET PLAYER_1 ";
-
-87 
-föÆ_db
-.
-	`≠≥nd
-(
-°rög_buff
-);
-
-88 
-PœyîObje˘Save
-* 
-_ßve
- = 
-√w
- 
-	`PœyîObje˘Save
-();
-
-89 
-_ßve
-->
-	`SëDBSå
-(
-föÆ_db
-);
-
-90 
-_thªad
-->
-	`Push
-(
-_ßve
-);
-
-91 
-	`LOG
-(
-INFO
-)<<"thread start!!!";
-
-92 
-PœyîObje˘Requúe
-* 
-_ªq
-
-√w
- 
-	`PœyîObje˘Requúe
-();
-
-93 
-_ªq
-->
-	`SëDBSå
-("GET PLAYER_1");
-
-94 
-_thªad
-->
-	`Push
-(
-_ªq
-);
-
-95 
-_thªad
-->
-	`Sèπ
-();
-
-96 
-	`LOG
-(
-INFO
-)<<"thread start!!!";
-
-97 
-	}
-}
-
-141 
-	$buûd_log_time
-()
-
-143 ::
-tm
- 
-tm_time
-;
-
-144 
-time_t
- 
-time_°
- = 
-	`time
-(
-NULL
-);
-
-145 
-	`loˇ…ime_r
-(&
-time_°
-,&
-tm_time
-);
-
-147 
-time_pid_°rög
-[256];
-
-148 
-o°r°ªam
- 
-	`time_pid_°ªam
-(
-time_pid_°rög
-, (time_pid_string));
-
-149 
-time_pid_°ªam
-.
-	`fûl
-('0');
-
-150 
-time_pid_°ªam
- << 1900+
-tm_time
-.
-tm_yór
-
-
-151 << 
-	`£tw
-(2Ë<< 1+
-tm_time
-.
-tm_m⁄
-
-
-152 << 
-	`£tw
-(2Ë<< 
-tm_time
-.
-tm_mday
-
-
-154 << 
-	`£tw
-(2Ë<< 
-tm_time
-.
-tm_hour
-
-
-155 << 
-	`£tw
-(2Ë<< 
-tm_time
-.
-tm_mö
-
-
-156 << 
-	`£tw
-(2Ë<< 
-tm_time
-.
-tm_£c
-
-
-159 
-	`¥ötf
-("----------> %s",
-time_pid_°ªam
-.
-	`°r
-());
-
-161 
-	}
-}
-
-163 
-	$ã°_mysql
-()
-
-165 
+7 
 mysql_lﬂdî
  * 
 lﬂdî
  = 
+√w
+ 
 	`mysql_lﬂdî
-();
-
-167 
-	}
-}
-
-169 
-DEFINE_boﬁ
 (
-d´m⁄
+db_«me
 ,
-Ál£
-,"if startÇot daemon");
-
-170 
-	$maö
-(
-¨gc
-,** 
-¨gv
-)
-
-172 
-	`buûd_log_time
-();
-
-173 
-googÀ
-::
-	`P¨£Comm™dLöeFœgs
-(&
-¨gc
-,&
-¨gv
+ù_°r
 ,
-åue
-);
-
-174 
-googÀ
-::
-	`InôGoogÀLoggög
-(
-¨gv
-[0]);
-
-175 
-FLAGS_logto°dîr
- = 
-åue
-;
-
-176 
-	`LOG
-(
-INFO
-)<<"start mini ";
-
-178 
-	`ªdis_ã°
-();
-
-179 
-	`¶ìp
-(100);
-
-181 
-	}
-}
-
-	@md5.cpp
-
-35 
-	~"md5.h
-"
-
-38 
-	~<°dio.h
->
-
-39 
-	~"°rög.h
-"
-
-43 
-	#S11
- 7
-
-	)
-
-44 
-	#S12
- 12
-
-	)
-
-45 
-	#S13
- 17
-
-	)
-
-46 
-	#S14
- 22
-
-	)
-
-47 
-	#S21
- 5
-
-	)
-
-48 
-	#S22
- 9
-
-	)
-
-49 
-	#S23
- 14
-
-	)
-
-50 
-	#S24
- 20
-
-	)
-
-51 
-	#S31
- 4
-
-	)
-
-52 
-	#S32
- 11
-
-	)
-
-53 
-	#S33
- 16
-
-	)
-
-54 
-	#S34
- 23
-
-	)
-
-55 
-	#S41
- 6
-
-	)
-
-56 
-	#S42
- 10
-
-	)
-
-57 
-	#S43
- 15
-
-	)
-
-58 
-	#S44
- 21
-
-	)
-
-63 
-ölöe
- 
-	gMD5
-::
-uöt4
- 
-MD5
-::
-	$F
-(
-uöt4
- 
-x
-, uöt4 
-y
-, uöt4 
-z
-) {
-
-64  
-x
-&
-y
- | ~x&
-z
-;
-
-65 
-	}
-}
-
-67 
-ölöe
- 
-	gMD5
-::
-uöt4
- 
-MD5
-::
-	$G
-(
-uöt4
- 
-x
-, uöt4 
-y
-, uöt4 
-z
-) {
-
-68  
-x
-&
-z
- | 
-y
-&~z;
-
-69 
-	}
-}
-
-71 
-ölöe
- 
-	gMD5
-::
-uöt4
- 
-MD5
-::
-	$H
-(
-uöt4
- 
-x
-, uöt4 
-y
-, uöt4 
-z
-) {
-
-72  
-x
-^
-y
-^
-z
-;
-
-73 
-	}
-}
-
-75 
-ölöe
- 
-	gMD5
-::
-uöt4
- 
-MD5
-::
-	$I
-(
-uöt4
- 
-x
-, uöt4 
-y
-, uöt4 
-z
-) {
-
-76  
-y
- ^ (
-x
- | ~
-z
-);
-
-77 
-	}
-}
-
-80 
-ölöe
- 
-	gMD5
-::
-uöt4
- 
-MD5
-::
-	$rŸ©e_À·
-(
-uöt4
- 
-x
-, 
-n
-) {
-
-81  (
-x
- << 
-n
-) | (x >> (32-n));
-
-82 
-	}
-}
-
-86 
-ölöe
- 
-	gMD5
-::
-	$FF
-(
-uöt4
- &
-a
-, uöt4 
-b
-, uöt4 
-c
-, uöt4 
-d
-, uöt4 
-x
-, uöt4 
-s
-, uöt4 
-ac
-) {
-
-87 
-a
- = 
-	`rŸ©e_À·
-◊+ 
-	`F
-(
-b
+p‹t
 ,
-c
+u£r_«me
 ,
-d
-Ë+ 
-x
- + 
-ac
-, 
-s
-) + b;
-
-88 
-	}
-}
-
-90 
-ölöe
- 
-	gMD5
-::
-	$GG
-(
-uöt4
- &
-a
-, uöt4 
-b
-, uöt4 
-c
-, uöt4 
-d
-, uöt4 
-x
-, uöt4 
-s
-, uöt4 
-ac
-) {
-
-91 
-a
- = 
-	`rŸ©e_À·
-◊ + 
-	`G
-(
-b
-,
-c
-,
-d
-Ë+ 
-x
- + 
-ac
-, 
-s
-) + b;
-
-92 
-	}
-}
-
-94 
-ölöe
- 
-	gMD5
-::
-	$HH
-(
-uöt4
- &
-a
-, uöt4 
-b
-, uöt4 
-c
-, uöt4 
-d
-, uöt4 
-x
-, uöt4 
-s
-, uöt4 
-ac
-) {
-
-95 
-a
- = 
-	`rŸ©e_À·
-◊ + 
-	`H
-(
-b
-,
-c
-,
-d
-Ë+ 
-x
- + 
-ac
-, 
-s
-) + b;
-
-96 
-	}
-}
-
-98 
-ölöe
- 
-	gMD5
-::
-	$II
-(
-uöt4
- &
-a
-, uöt4 
-b
-, uöt4 
-c
-, uöt4 
-d
-, uöt4 
-x
-, uöt4 
-s
-, uöt4 
-ac
-) {
-
-99 
-a
- = 
-	`rŸ©e_À·
-◊ + 
-	`I
-(
-b
-,
-c
-,
-d
-Ë+ 
-x
- + 
-ac
-, 
-s
-) + b;
-
-100 
-	}
-}
-
-105 
-	gMD5
-::
-	$MD5
-()
-
-107 
-	`öô
-();
-
-108 
-	}
-}
-
-113 
-	gMD5
-::
-	$MD5
-(c⁄° 
-°d
-::
-°rög
- &
-ãxt
-)
-
-115 
-	`öô
-();
-
-116 
-	`upd©e
-(
-ãxt
-.
-	`c_°r
-(),Åext.
-	`Àngth
-());
-
-117 
-	`föÆize
-();
-
-118 
-	}
-}
-
-122 
-	gMD5
-::
-	$öô
-()
-
-124 
-föÆized
-=
-Ál£
-;
-
-126 
-cou¡
-[0] = 0;
-
-127 
-cou¡
-[1] = 0;
-
-130 
-°©e
-[0] = 0x67452301;
-
-131 
-°©e
-[1] = 0xefcdab89;
-
-132 
-°©e
-[2] = 0x98badcfe;
-
-133 
-°©e
-[3] = 0x10325476;
-
-134 
-	}
-}
-
-139 
-	gMD5
-::
-	$decode
-(
-uöt4
- 
-ouçut
-[], c⁄° 
-uöt1
- 
-öput
-[], 
-size_ty≥
- 
-Àn
-)
-
-141 
-i
- = 0, 
-j
- = 0; j < 
-Àn
-; i++, j += 4)
-
-142 
-ouçut
-[
-i
-] = ((
-uöt4
-)
-öput
-[
-j
-]) | (((uint4)input[j+1]) << 8) |
-
-143 (((
-uöt4
-)
-öput
-[
-j
-+2]) << 16) | (((uint4)input[j+3]) << 24);
-
-144 
-	}
-}
-
-150 
-	gMD5
-::
-	$ícode
-(
-uöt1
- 
-ouçut
-[], c⁄° 
-uöt4
- 
-öput
-[], 
-size_ty≥
- 
-Àn
-)
-
-152 
-size_ty≥
- 
-i
- = 0, 
-j
- = 0; j < 
-Àn
-; i++, j += 4) {
-
-153 
-ouçut
-[
-j
-] = 
-öput
-[
-i
-] & 0xff;
-
-154 
-ouçut
-[
-j
-+1] = (
-öput
-[
-i
-] >> 8) & 0xff;
-
-155 
-ouçut
-[
-j
-+2] = (
-öput
-[
-i
-] >> 16) & 0xff;
-
-156 
-ouçut
-[
-j
-+3] = (
-öput
-[
-i
-] >> 24) & 0xff;
-
-158 
-	}
-}
-
-163 
-	gMD5
-::
-	$å™sf‹m
-(c⁄° 
-uöt1
- 
-block
-[
-blocksize
-])
-
-165 
-uöt4
- 
-a
- = 
-°©e
-[0], 
-b
- = sèã[1], 
-c
- = sèã[2], 
-d
- = sèã[3], 
-x
-[16];
-
-166 
-	`decode
- (
-x
-, 
-block
-, 
-blocksize
+pwd
 );
 
-169 
-	`FF
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 0], 
-S11
-, 0xd76aa478);
-
-170 
-	`FF
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[ 1], 
-S12
-, 0xe8c7b756);
-
-171 
-	`FF
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[ 2], 
-S13
-, 0x242070db);
-
-172 
-	`FF
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[ 3], 
-S14
-, 0xc1bdceee);
-
-173 
-	`FF
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 4], 
-S11
-, 0xf57c0faf);
-
-174 
-	`FF
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[ 5], 
-S12
-, 0x4787c62a);
-
-175 
-	`FF
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[ 6], 
-S13
-, 0xa8304613);
-
-176 
-	`FF
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[ 7], 
-S14
-, 0xfd469501);
-
-177 
-	`FF
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 8], 
-S11
-, 0x698098d8);
-
-178 
-	`FF
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[ 9], 
-S12
-, 0x8b44f7af);
-
-179 
-	`FF
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[10], 
-S13
-, 0xffff5bb1);
-
-180 
-	`FF
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[11], 
-S14
-, 0x895cd7be);
-
-181 
-	`FF
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[12], 
-S11
-, 0x6b901122);
-
-182 
-	`FF
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[13], 
-S12
-, 0xfd987193);
-
-183 
-	`FF
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[14], 
-S13
-, 0xa679438e);
-
-184 
-	`FF
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[15], 
-S14
-, 0x49b40821);
-
-187 
-	`GG
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 1], 
-S21
-, 0xf61e2562);
-
-188 
-	`GG
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[ 6], 
-S22
-, 0xc040b340);
-
-189 
-	`GG
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[11], 
-S23
-, 0x265e5a51);
-
-190 
-	`GG
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[ 0], 
-S24
-, 0xe9b6c7aa);
-
-191 
-	`GG
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 5], 
-S21
-, 0xd62f105d);
-
-192 
-	`GG
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[10], 
-S22
-, 0x2441453);
-
-193 
-	`GG
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[15], 
-S23
-, 0xd8a1e681);
-
-194 
-	`GG
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[ 4], 
-S24
-, 0xe7d3fbc8);
-
-195 
-	`GG
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 9], 
-S21
-, 0x21e1cde6);
-
-196 
-	`GG
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[14], 
-S22
-, 0xc33707d6);
-
-197 
-	`GG
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[ 3], 
-S23
-, 0xf4d50d87);
-
-198 
-	`GG
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[ 8], 
-S24
-, 0x455a14ed);
-
-199 
-	`GG
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[13], 
-S21
-, 0xa9e3e905);
-
-200 
-	`GG
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[ 2], 
-S22
-, 0xfcefa3f8);
-
-201 
-	`GG
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[ 7], 
-S23
-, 0x676f02d9);
-
-202 
-	`GG
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[12], 
-S24
-, 0x8d2a4c8a);
-
-205 
-	`HH
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 5], 
-S31
-, 0xfffa3942);
-
-206 
-	`HH
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[ 8], 
-S32
-, 0x8771f681);
-
-207 
-	`HH
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[11], 
-S33
-, 0x6d9d6122);
-
-208 
-	`HH
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[14], 
-S34
-, 0xfde5380c);
-
-209 
-	`HH
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 1], 
-S31
-, 0xa4beea44);
-
-210 
-	`HH
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[ 4], 
-S32
-, 0x4bdecfa9);
-
-211 
-	`HH
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[ 7], 
-S33
-, 0xf6bb4b60);
-
-212 
-	`HH
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[10], 
-S34
-, 0xbebfbc70);
-
-213 
-	`HH
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[13], 
-S31
-, 0x289b7ec6);
-
-214 
-	`HH
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[ 0], 
-S32
-, 0xeaa127fa);
-
-215 
-	`HH
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[ 3], 
-S33
-, 0xd4ef3085);
-
-216 
-	`HH
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[ 6], 
-S34
-, 0x4881d05);
-
-217 
-	`HH
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 9], 
-S31
-, 0xd9d4d039);
-
-218 
-	`HH
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[12], 
-S32
-, 0xe6db99e5);
-
-219 
-	`HH
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[15], 
-S33
-, 0x1fa27cf8);
-
-220 
-	`HH
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[ 2], 
-S34
-, 0xc4ac5665);
-
-223 
-	`II
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 0], 
-S41
-, 0xf4292244);
-
-224 
-	`II
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[ 7], 
-S42
-, 0x432aff97);
-
-225 
-	`II
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[14], 
-S43
-, 0xab9423a7);
-
-226 
-	`II
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[ 5], 
-S44
-, 0xfc93a039);
-
-227 
-	`II
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[12], 
-S41
-, 0x655b59c3);
-
-228 
-	`II
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[ 3], 
-S42
-, 0x8f0ccc92);
-
-229 
-	`II
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[10], 
-S43
-, 0xffeff47d);
-
-230 
-	`II
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[ 1], 
-S44
-, 0x85845dd1);
-
-231 
-	`II
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 8], 
-S41
-, 0x6fa87e4f);
-
-232 
-	`II
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[15], 
-S42
-, 0xfe2ce6e0);
-
-233 
-	`II
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[ 6], 
-S43
-, 0xa3014314);
-
-234 
-	`II
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[13], 
-S44
-, 0x4e0811a1);
-
-235 
-	`II
- (
-a
-, 
-b
-, 
-c
-, 
-d
-, 
-x
-[ 4], 
-S41
-, 0xf7537e82);
-
-236 
-	`II
- (
-d
-, 
-a
-, 
-b
-, 
-c
-, 
-x
-[11], 
-S42
-, 0xbd3af235);
-
-237 
-	`II
- (
-c
-, 
-d
-, 
-a
-, 
-b
-, 
-x
-[ 2], 
-S43
-, 0x2ad7d2bb);
-
-238 
-	`II
- (
-b
-, 
-c
-, 
-d
-, 
-a
-, 
-x
-[ 9], 
-S44
-, 0xeb86d391);
-
-240 
-°©e
-[0] +
-a
-;
-
-241 
-°©e
-[1] +
-b
-;
-
-242 
-°©e
-[2] +
-c
-;
-
-243 
-°©e
-[3] +
-d
-;
-
-246 
-	`mem£t
-(
-x
-, 0,  x);
-
-247 
-	}
-}
-
-253 
-	gMD5
-::
-	$upd©e
-(c⁄° 
-öput
-[], 
-size_ty≥
- 
-Àngth
-)
-
-256 
-size_ty≥
- 
-ödex
- = 
-cou¡
-[0] / 8 % 
-blocksize
-;
-
-259 i‡((
-cou¡
-[0] +(
-Àngth
- << 3)) < (length << 3))
-
-260 
-cou¡
-[1]++;
-
-261 
-cou¡
-[1] +(
-Àngth
- >> 29);
-
-264 
-size_ty≥
- 
-fú°∑π
- = 64 - 
-ödex
-;
-
-266 
-size_ty≥
- 
-i
-;
-
-269 i‡(
-Àngth
- >
-fú°∑π
-)
-
-272 
-	`mem˝y
-(&
-buf„r
-[
-ödex
-], 
-öput
-, 
-fú°∑π
-);
-
-273 
-	`å™sf‹m
-(
-buf„r
-);
-
-276 
-i
- = 
-fú°∑π
-; i + 
-blocksize
- <
-Àngth
-; i += blocksize)
-
-277 
-	`å™sf‹m
-(&
-öput
-[
-i
-]);
-
-279 
-ödex
- = 0;
-
-282 
-i
- = 0;
-
-285 
-	`mem˝y
-(&
-buf„r
-[
-ödex
-], &
-öput
-[
-i
-], 
-Àngth
--i);
-
-286 
-	}
-}
-
-291 
-	gMD5
-::
-	$upd©e
-(c⁄° 
-öput
-[], 
-size_ty≥
- 
-Àngth
-)
-
-293 
-	`upd©e
-((c⁄° *)
-öput
-, 
-Àngth
-);
-
-294 
-	}
-}
-
-300 
-	gMD5
-& MD5::
-	$föÆize
-()
-
-302 
-∑ddög
-[64] = {
-
-308 i‡(!
-föÆized
-) {
-
-310 
-bôs
-[8];
-
-311 
-	`ícode
-(
-bôs
-, 
-cou¡
-, 8);
-
-314 
-size_ty≥
- 
-ödex
- = 
-cou¡
-[0] / 8 % 64;
-
-315 
-size_ty≥
- 
-∑dLí
- = (
-ödex
- < 56) ? (56 - index) : (120 - index);
-
-316 
-	`upd©e
-(
-∑ddög
-, 
-∑dLí
-);
-
-319 
-	`upd©e
-(
-bôs
-, 8);
-
-322 
-	`ícode
-(
-dige°
-, 
-°©e
-, 16);
-
-325 
-	`mem£t
-(
-buf„r
-, 0,  buffer);
-
-326 
-	`mem£t
-(
-cou¡
-, 0,  count);
-
-328 
-föÆized
-=
-åue
-;
-
-331  *
-this
-;
-
-332 
-	}
-}
-
-337 
-	g°d
-::
-°rög
- 
-MD5
-::
-	$hexdige°
-() const
-
-339 i‡(!
-föÆized
-)
-
-342 
-buf
-[33];
-
-343 
-i
-=0; i<16; i++)
-
-344 
-	`•rötf
-(
-buf
-+
-i
-*2, "%02x", 
-dige°
-[i]);
-
-345 
-buf
-[32]=0;
-
-347  
-°d
-::
-	`°rög
-(
-buf
-);
-
-348 
-	}
-}
-
-352 
-	g°d
-::
-o°ªam
-& 
-›î©‹
-<<(
-°d
-::o°ªam& 
-out
-, 
-MD5
- 
-	gmd5
-)
-
-354  
-	gout
- << 
-	gmd5
-.
-hexdige°
-();
-
-359 
-	g°d
-::
-°rög
- 
-	$md5
-(c⁄° 
-°d
-::
-°rög
- 
-°r
-)
-
-361 
-MD5
- 
-md5
- = 
-	`MD5
-(
-°r
-);
-
-363  
-md5
-.
-	`hexdige°
-();
-
-364 
-	}
-}
-
-	@md5.h
-
-2 #i‚de‡
-BZF_MD5_H
-
-
-3 
-	#BZF_MD5_H
-
-
-	)
-
-5 
-	~<°rög
->
-
-6 
-	~<io°ªam
->
-
-19 ˛as†
-	cMD5
-
-
-21 
-	mpublic
-:
-
-22 
-	tsize_ty≥
-;
-
-24 
-MD5
-();
-
-25 
-MD5
-(c⁄° 
-°d
-::
-°rög
-& 
-ãxt
-);
-
-26 
-upd©e
-(c⁄° *
-buf
-, 
-size_ty≥
- 
-Àngth
-);
-
-27 
-upd©e
-(c⁄° *
-buf
-, 
-size_ty≥
- 
-Àngth
-);
-
-28 
-	mMD5
-& 
-föÆize
-();
-
-29 
-	m°d
-::
-°rög
- 
-	$hexdige°
-() const;
-
-30 
-‰õnd
- 
-°d
-::
-o°ªam
-& 
-›î©‹
-<<(°d::o°ªam&, 
-MD5
- 
-md5
-);
-
-32 
-¥iv©e
-:
-
-33 
-	`öô
-();
-
-34 
-	tuöt1
-;
-
-35 
-	tuöt4
-;
-
-36 íum {
-blocksize
- = 64};
-
-38 
-	`å™sf‹m
-(c⁄° 
-uöt1
- 
-block
-[
-blocksize
-]);
-
-39 
-	`decode
-(
-uöt4
- 
-ouçut
-[], c⁄° 
-uöt1
- 
-öput
-[], 
-size_ty≥
- 
-Àn
-);
-
-40 
-	`ícode
-(
-uöt1
- 
-ouçut
-[], c⁄° 
-uöt4
- 
-öput
-[], 
-size_ty≥
- 
-Àn
-);
-
-42 
+8 
 boﬁ
  
-föÆized
+r°
+ = 
+lﬂdî
+->
+	`öô
+();
+
+9 if(
+r°
+ =
+Ál£
+)
+
+11 
+	`Ârötf
+(
+°dîr
+,"öôÜﬂdîÉº‹ %s:%d:%s:%s:%s",
+db_«me
+,
+p‹t
+,
+ù_°r
+,
+u£r_«me
+,
+pwd
+);
+
+12  
+NULL
 ;
 
-43 
-uöt1
+14 
+Mysql2RedisD©aba£
+* 
+d©aba£
+ = 
+√w
  
-buf„r
-[
-blocksize
-];
+	`Mysql2RedisD©aba£
+();
 
-44 
-uöt4
- 
-cou¡
-[2];
-
-45 
-uöt4
- 
-°©e
-[4];
-
-46 
-uöt1
- 
-dige°
-[16];
-
-49 
-ölöe
- 
-uöt4
- 
-	`F
-(uöt4 
-x
-, uöt4 
-y
-, uöt4 
-z
-);
-
-50 
-ölöe
- 
-uöt4
- 
-	`G
-(uöt4 
-x
-, uöt4 
-y
-, uöt4 
-z
-);
-
-51 
-ölöe
- 
-uöt4
- 
-	`H
-(uöt4 
-x
-, uöt4 
-y
-, uöt4 
-z
-);
-
-52 
-ölöe
- 
-uöt4
- 
-	`I
-(uöt4 
-x
-, uöt4 
-y
-, uöt4 
-z
-);
-
-53 
-ölöe
- 
-uöt4
- 
-	`rŸ©e_À·
-(uöt4 
-x
-, 
-n
-);
-
-54 
-ölöe
- 
-	`FF
+15 if(!
+lﬂdî
+->
+	`°¨t_lﬂd
 (
-uöt4
- &
-a
-, uöt4 
-b
-, uöt4 
-c
-, uöt4 
-d
-, uöt4 
-x
-, uöt4 
-s
-, uöt4 
-ac
-);
+d©aba£
+))
 
-55 
-ölöe
- 
-	`GG
-(
-uöt4
- &
-a
-, uöt4 
-b
-, uöt4 
-c
-, uöt4 
-d
-, uöt4 
-x
-, uöt4 
-s
-, uöt4 
-ac
-);
+17  
+NULL
+;
 
-56 
-ölöe
- 
-	`HH
-(
-uöt4
- &
-a
-, uöt4 
-b
-, uöt4 
-c
-, uöt4 
-d
-, uöt4 
-x
-, uöt4 
-s
-, uöt4 
-ac
-);
+20  
+d©aba£
+;
 
-57 
-ölöe
- 
-	`II
-(
-uöt4
- &
-a
-, uöt4 
-b
-, uöt4 
-c
-, uöt4 
-d
-, uöt4 
-x
-, uöt4 
-s
-, uöt4 
-ac
-);
-
-58 
+21 
 	}
-};
+}
 
-60 
-	g°d
-::
-°rög
- 
-md5
-(c⁄° 
-°d
-::°rög 
-°r
+23 
+	$dump_d©a_ba£
+(
+Mysql2RedisD©aba£
+* 
+d©a
+)
+
+25 
+	`Ârötf
+(
+°dout
+,"dbÇamêi†%s\n",
+d©a
+->
+db_«me
 );
 
-	@msg_event.h
+26 
+	`Ârötf
+(
+°dout
+,"havêèbÀ %d\n",
+d©a
+->
+èbÀ_size
+);
+
+27 
+i
+ =0;ò<
+d©a
+->
+èbÀ_size
+;i++)
+
+29 
+	`Ârötf
+(
+°dout
+,"èbÀÇame:%s\n",
+d©a
+->
+Æl_èbÀ
+[
+i
+]->
+èbÀ_«me
+);
+
+30 
+r
+ = 0;∏< 
+d©a
+->
+Æl_èbÀ
+[
+i
+]->
+d©a_row_size
+;Ñ++)
+
+32 
+	`Ârötf
+(
+°dout
+,"|-[%s][",
+d©a
+->
+Æl_èbÀ
+[
+i
+]->
+rows
+[
+r
+]->
+key
+);
+
+33 
+c
+ = 0;¯<
+d©a
+->
+Æl_èbÀ
+[
+i
+]->
+d©a_cﬁumn_size
+; c++)
+
+35 
+	`Ârötf
+(
+°dout
+,"%s",
+d©a
+->
+Æl_èbÀ
+[
+i
+]->
+rows
+[
+r
+]->d©a[
+c
+]);
+
+37 
+	`Ârötf
+(
+°dout
+,"]\n");
+
+40 
+	}
+}
+
+	@redis_mysql/mysql2redis.h
 
 1 #i‚de‡
-_MSG_EVENT_H_
+_MYSQL2REDIS_H_
 
 
 2 
-	#_MSG_EVENT_H_
+	#_MYSQL2REDIS_H_
 
 
 	)
 
-4 
-	eevít_ty≥
+6 
+	sMysqlRedisRow
 
 
-6 
-	mEVENT_NONE
-,
-
-7 
-	mEVENT_NEW_CONNECTION
-,
-
-8 
-	mEVENT_READ
-,
-
-9 
-	mEVENT_WRITE
-,
-
-10 
-	mEVENT_CLOST
-,
-
-13 
-	smsg_ba£
-
-
-15 
-uöt16_t
- 
-	m_evít_ty≥
+8 * 
+key
 ;
 
-18 
-	g√w_c⁄_msg
-:
-public
- 
-msg_ba£
+9 ** 
+d©a
+;
 
+12 
+	sMySql2RedisTabÀ
+
+
+14 
+d©a_cﬁumn_size
+;
+
+15 
+d©a_row_size
+;
+
+16 
+èbÀ_«me
+[100];
+
+18 
+MysqlRedisRow
+** 
+rows
+;
+
+19 ** 
+mysql_fõlds
+;
 
 20 
-uöt32_t
- 
-_sockë_fd
+MySql2RedisTabÀ
+()
+
+22 
+d©a_cﬁumn_size
+ = 0;
+
+23 
+d©a_row_size
+ = 0;
+
+27 
+	#MAX_TABLE_SIZE
+ 100
+
+	)
+
+28 
+	sMysql2RedisD©aba£
+
+
+30 
+db_«me
+[100];
+
+31 
+MySql2RedisTabÀ
+* 
+Æl_èbÀ
+[
+MAX_TABLE_SIZE
+];
+
+32 
+èbÀ_size
 ;
 
-	@mysql_connection.cpp
+43 
+Mysql2RedisD©aba£
+* 
+lﬂd_d©aba£
+(c⁄° * 
+db_«me
+,c⁄° * 
+ù_°r
+,
+p‹t
+,c⁄° * 
+u£r_«me
+,c⁄° * 
+pwd
+);
+
+44 
+dump_d©a_ba£
+(
+Mysql2RedisD©aba£
+*);
+
+	@redis_mysql/mysql_connection.cpp
 
 8 
 	~<°rög.h
@@ -101369,7 +94705,15 @@ MYSQL_OPT_WRITE_TIMEOUT
 timeout
 ) ;
 
-165 
+164 
+	`mysql_›ti⁄s
+(&
+m_mysql
+,
+MYSQL_OPT_COMPRESS
+,0);
+
+166 
 MYSQL
 * 
 mysql
@@ -101377,7 +94721,7 @@ mysql
 NULL
 ;
 
-166 if(
+167 if(
 	`°rchr
 (
 ho°
@@ -101385,7 +94729,7 @@ ho°
 NULL
  )
 
-168 
+169 
 mysql
  = 
 	`mysql_ªÆ_c⁄√˘
@@ -101395,7 +94739,7 @@ m_mysql
 ho°
 ,
 
-169 
+170 
 u£r
 ,
 ∑ssw‹d
@@ -101407,7 +94751,7 @@ p‹t
 CLIENT_FOUND_ROWS
  ) ;
 
-173 
+174 
 mysql
  = 
 	`mysql_ªÆ_c⁄√˘
@@ -101417,7 +94761,7 @@ m_mysql
 NULL
 ,
 
-174 
+175 
 u£r
 ,
 ∑ssw‹d
@@ -101429,51 +94773,51 @@ ho°
 CLIENT_FOUND_ROWS
  ) ;
 
-177 
+178 
 m_c⁄√˘ed
  = 1 ;
 
-179  
+180  
 mysql
  ? 0 : -1 ;
 
-180 
+181 
 	}
 }
 
-183 
+184 
 	gMysqlC⁄√˘i⁄
 ::
 	$föi
 ()
 
-185 if(
+186 if(
 m_c⁄√˘ed
 )
 
-187 
+188 
 	`‰ì_ªsu…
 () ;
 
-188 
+189 
 	`mysql_˛o£
 (&
 m_mysql
 ) ;
 
-189 
+190 
 	`mysql_thªad_íd
 () ;
 
-190 
+191 
 m_c⁄√˘ed
  = 0 ;
 
-193 
+194 
 	}
 }
 
-195 
+196 
 	gMysqlC⁄√˘i⁄
 ::
 	$exec_f‹m©
@@ -101481,17 +94825,17 @@ m_c⁄√˘ed
 fmt
 ,...)
 
-197 
+198 
 buf_d©a
 [8192] = {0} ;
 
-198 
+199 
 va_li°
  
 ≠
  ;
 
-199 
+200 
 	`va_°¨t
 (
 ≠
@@ -101499,7 +94843,7 @@ va_li°
 fmt
 );
 
-200 
+201 
 Àngth
  = 
 	`v¢¥ötf
@@ -101511,27 +94855,71 @@ fmt
 ≠
 ) ;
 
-201 
+202 
 	`va_íd
 (
 ≠
 );
 
-202 if(
+203 if(
 Àngth
  < 1 )  -1 ;
 
-204  
+205  
 	`exec
 (
 buf_d©a
 ) ;
 
-205 
+206 
 	}
 }
 
-207 
+208 
+boﬁ
+ 
+	gMysqlC⁄√˘i⁄
+::
+	$ch™ge_db
+(c⁄° * 
+db_«me
+)
+
+210 if(
+m_c⁄√˘ed
+ == 0 )  -1 ;
+
+211 
+r°
+ = 0;
+
+212 
+sql
+[100] = {};
+
+213 
+	`¢¥ötf
+(
+sql
+,100,"u£ %s",
+db_«me
+);
+
+214 if((
+r°
+ = 
+	`mysql_quîy
+(&
+m_mysql
+,
+sql
+)) != 1 )
+
+219 
+	}
+}
+
+221 
 	gMysqlC⁄√˘i⁄
 ::
 	$exec
@@ -101539,19 +94927,25 @@ buf_d©a
 sql
 )
 
-209 if(
+223 if(
 m_c⁄√˘ed
  == 0 )  -1 ;
 
-210 if(
+224 
+r°
+ = 0;
+
+225 if((
+r°
+ = 
 	`mysql_quîy
 (&
 m_mysql
 ,
 sql
-) != 0 )  -1 ;
+)) != 0 )
 
-212 
+230 
 MYSQL_RES
 * 
 ªsu…
@@ -101561,7 +94955,7 @@ MYSQL_RES
 m_mysql
 );
 
-213 if(
+231 if(
 ªsu…
  =
 NULL
@@ -101571,7 +94965,7 @@ NULL
 m_mysql
 ) != 0) )
 
-218 if(
+236 if(
 m_ªsu…
  !
 NULL
@@ -101579,17 +94973,17 @@ NULL
 	`mysql_‰ì_ªsu…
 (m_result) ;
 
-219 
+237 
 m_ªsu…
  = 
 ªsu…
  ;
 
-223 
+241 
 	}
 }
 
-	@mysql_connection.h
+	@redis_mysql/mysql_connection.h
 
 8 #i‚de‡
 MYSQL_CONNECTION_H_
@@ -101671,13 +95065,45 @@ d©a
 public
 :
 
-30 
+30 
+boﬁ
+ 
+›î©‹
+!() const
+
+32  (
+_d©a
+ =
+NULL
+);
+
+33 
+	}
+}
+
+35 
+›î©‹
+ 
+	$boﬁ
+ ()
+
+37  (
+_d©a
+ !
+NULL
+);
+
+38 
+	}
+}
+
+41 
 	$gë_öt
 (
 cﬁumn
 )
 
-32 
+43 
 	`as£π
 (
 cﬁumn
@@ -101685,7 +95111,7 @@ cﬁumn
 _fõld_cﬁumn
 );
 
-33  
+44  
 	`©oi
 (
 _d©a
@@ -101693,11 +95119,11 @@ _d©a
 cﬁumn
 ]);
 
-34 
+45 
 	}
 }
 
-36 
+47 
 öt64_t
  
 	$gë_öt64
@@ -101705,7 +95131,7 @@ cﬁumn
 cﬁumn
 )
 
-38 
+49 
 	`as£π
 (
 cﬁumn
@@ -101713,7 +95139,7 @@ cﬁumn
 _fõld_cﬁumn
 );
 
-39  
+50  
 	`©ﬁ
 (
 _d©a
@@ -101721,11 +95147,11 @@ _d©a
 cﬁumn
 ]);
 
-40 
+51 
 	}
 }
 
-42 
+53 
 	g°d
 ::
 °rög
@@ -101735,7 +95161,7 @@ cﬁumn
 cﬁumn
 )
 
-44 
+55 
 	`as£π
 (
 cﬁumn
@@ -101743,7 +95169,7 @@ cﬁumn
 _fõld_cﬁumn
 );
 
-45 
+56 
 °d
 ::
 °rög
@@ -101751,7 +95177,7 @@ _fõld_cﬁumn
 °r
 ;
 
-46 
+57 
 °r
 .
 	`assign
@@ -101761,35 +95187,97 @@ _d©a
 cﬁumn
 ]);
 
-47  
+58  
 °r
 ;
 
-48 
+59 
 	}
 }
 
-50 
+61 
+	$gë_Êﬂt
+(
+cﬁumn
+)
+
+63 
+	`as£π
+(
+cﬁumn
+ < 
+_fõld_cﬁumn
+);
+
+64  
+	`©of
+(
+_d©a
+[
+cﬁumn
+]);
+
+65 
+	}
+}
+
+67 c⁄° * 
+	$gë_§c_d©a
+(
+cﬁumn
+)
+
+69 
+	`as£π
+(
+cﬁumn
+ < 
+_fõld_cﬁumn
+);
+
+70  
+_d©a
+[
+cﬁumn
+];
+
+71 
+	}
+}
+
+73 c⁄° ** 
+	$gë_row_§c_d©a
+()
+
+75  
+_d©a
+;
+
+76 
+	}
+}
+
+78 
 	g¥iv©e
 :
 
-51 
+79 
 _fõld_cﬁumn
 ;
 
-52 c⁄° ** 
+80 c⁄° ** 
 	g_d©a
 ;
 
-55 ˛as†
+83 ˛as†
 	cMysqlResu…
 
 
-57 
+85 
 	mpublic
 :
 
-58 
+86 
 	$MysqlResu…
 (
 MYSQL_RES
@@ -101801,7 +95289,7 @@ MYSQL_RES
 ªsu…
 )
 
-60 
+88 
 _row_cou¡
  = 
 	`mysql_num_rows
@@ -101809,7 +95297,7 @@ _row_cou¡
 ªsu…
 ) ;
 
-61 
+89 
 _fõld_cou¡
  = 
 	`mysql_num_fõlds
@@ -101817,21 +95305,21 @@ _fõld_cou¡
 ªsu…
 );
 
-62 
+90 
 _°¨t_ödex
  = 0;
 
-65 
+93 
 public
 :
 
-66 
+94 
 boﬁ
  
 	$√xt
 ()
 
-68 if(
+96 if(
 _°¨t_ödex
  >
 _row_cou¡
@@ -101839,7 +95327,7 @@ _row_cou¡
 Ál£
 ;
 
-69 
+97 
 	`mysql_d©a_£ek
 (
 _ªsu…
@@ -101847,25 +95335,25 @@ _ªsu…
 _°¨t_ödex
 ) ;
 
-70 
+98 
 _°¨t_ödex
 ++;
 
-71  
+99  
 åue
 ;
 
-72 
+100 
 	}
 }
 
-74 
+102 
 MysqlResu…Row
  
 	$gë_√xt_row
 ()
 
-76 
+104 
 MysqlResu…Row
  
 	`row
@@ -101877,51 +95365,77 @@ _fõld_cou¡
 _ªsu…
 )) ;
 
-77  
+105  
 row
 ;
 
-78 
+106 
 	}
 }
 
-79 
+108 
+MysqlResu…Row
+ 
+	$gë_row
+()
+
+110 
+MysqlResu…Row
+ 
+	`row
+(
+_fõld_cou¡
+,(c⁄° **)
+	`mysql_„tch_row
+(
+_ªsu…
+));
+
+111  
+row
+;
+
+112 
+	}
+}
+
+114 
 	g¥iv©e
 :
 
-80 
+115 
 size_t
  
 _°¨t_ödex
 ;
 
-81 
+116 
 size_t
  
 	g_row_cou¡
 ;
 
-82 
+117 
 size_t
  
 	g_fõld_cou¡
 ;
 
-83 
+118 
 MYSQL_RES
 * 
 	g_ªsu…
  ;
 
-87 ˛as†
+122 ˛as†
 	cMysqlC⁄√˘i⁄
 
 
-89 
+124 
 	mpublic
 :
 
-90 
+125 
 	$MysqlC⁄√˘i⁄
 ():
 	`m_ªsu…
@@ -101931,7 +95445,7 @@ NULL
 	$m_c⁄√˘ed
 (0) { } ;
 
-91 ~
+126 ~
 	$MysqlC⁄√˘i⁄
 (Ë{ 
 	`föi
@@ -101939,7 +95453,7 @@ NULL
 	}
 } ;
 
-101 
+136 
 öô
 (c⁄° * 
 ho°
@@ -101951,21 +95465,21 @@ u£r
 p‹t
  = 3306) ;
 
-105 
+140 
 föi
 () ;
 
-112 
+147 
 	$u£
 (c⁄° * 
 db«me
 )
 
-114 if(
+149 if(
 m_c⁄√˘ed
  == 0 )  -1 ;
 
-115  
+150  
 	`mysql_£À˘_db
 (&
 m_mysql
@@ -101973,21 +95487,21 @@ m_mysql
 db«me
 ) ;
 
-116 
+151 
 	}
 }
 
-118 
+153 
 	$£t_ch¨£t
 (c⁄° * 
 ch¨£t_«me
 )
 
-120 if(
+155 if(
 m_c⁄√˘ed
  == 0 )  -1 ;
 
-121  
+156  
 	`mysql_£t_ch¨a˘î_£t
 (&
 m_mysql
@@ -101995,25 +95509,25 @@ m_mysql
 ch¨£t_«me
 );
 
-122 
+157 
 	}
 }
 
-128 
+163 
 	$gë_î∫o
 ()
 
-130  ()
+165  ()
 	`mysql_î∫o
 (&
 m_mysql
 ) ;
 
-131 
+166 
 	}
 }
 
-133 
+168 
 boﬁ
  
 	$c⁄√˘ed
@@ -102023,147 +95537,155 @@ m_c⁄√˘ed
 	}
 } ;
 
-134 
+169 
 	$pög
 ()
 
-136 if(
+171 if(
 m_c⁄√˘ed
  == 0 )  -1 ;
 
-137  
+172  
 	`mysql_pög
 (&
 m_mysql
 ) ;
 
-138 
+173 
 	}
 }
 
-145 
+180 
 exec
 (c⁄° * 
 sql
 ) ;
 
-147 
+182 
 exec_f‹m©
 (c⁄° * 
 fmt
 ,...) ;
 
-149 
+184 
 öt64_t
  
 	$ªsu…_ö£π_id
 ()
 
-151  
+186  
 	`mysql_ö£π_id
 (&
 m_mysql
 ) ;
 
-152 
+187 
 	}
 }
 
-154 
+189 
 öt64_t
  
 	$ªsu…_af„˘ed_rows
 ()
 
-156  
+191  
 	`mysql_af„˘ed_rows
 (&
 m_mysql
 ) ;
 
-157 
+192 
 	}
 }
 
-159 
+194 
 	$‰ì_ªsu…
 ()
 
-161 if(
+196 if(
 m_ªsu…
  !
 NULL
  )
 
-163 
+198 
 	`mysql_‰ì_ªsu…
 (
 m_ªsu…
 ) ;
 
-164 
+199 
 m_ªsu…
  = 
 NULL
  ;
 
-166 
+201 
 	}
 }
 
-168 
+203 
 	$ªsu…_row_cou¡
 ()
 
-170 if(
+205 if(
 m_ªsu…
  =
 NULL
 )  0 ;
 
-171  
+206  
 	`mysql_num_rows
 (
 m_ªsu…
 ) ;
 
-172 
+207 
 	}
 }
 
-174 
+209 
 	$ªsu…_fõld_cou¡
 ()
 
-176 if(
+211 if(
 m_ªsu…
  =
 NULL
 )  0 ;
 
-177  
+212  
 	`mysql_num_fõlds
 (
 m_ªsu…
 ) ;
 
-178 
+213 
 	}
 }
 
-181 c⁄° ** 
+215 
+boﬁ
+ 
+ch™ge_db
+(c⁄° * 
+db_«me
+);
+
+218 c⁄° ** 
 	$ªsu…_row_d©a
 (
 rowno
 )
 
-183 if(
+220 if(
 m_ªsu…
  =
 NULL
 )  NULL ;
 
-184 
+221 
 	`mysql_d©a_£ek
 (
 m_ªsu…
@@ -102171,23 +95693,23 @@ m_ªsu…
 rowno
 ) ;
 
-185  (c⁄° **)
+222  (c⁄° **)
 	`mysql_„tch_row
 (
 m_ªsu…
 ) ;
 
-186 
+223 
 	}
 }
 
-188 
+225 
 MysqlResu…
  
 	$gë_d©a_ªsu…
 ()
 
-190 
+227 
 MysqlResu…
  
 	`ªsu…
@@ -102195,25 +95717,25 @@ MysqlResu…
 m_ªsu…
 );
 
-191  
+228  
 ªsu…
 ;
 
-192 
+229 
 	}
 }
 
-195 
+232 
 	g¥iv©e
 :
 
-196 
+233 
 MysqlC⁄√˘i⁄
 (c⁄° MysqlC⁄√˘i⁄& 
 o
 ) ;
 
-197 
+234 
 	gMysqlC⁄√˘i⁄
 & 
 	g›î©‹
@@ -102223,27 +95745,1249 @@ MysqlC⁄√˘i⁄
 o
 ) ;
 
-198 
+235 
 	g¥iv©e
 :
 
-199 
+236 
 MYSQL
  
 m_mysql
  ;
 
-200 
+237 
 MYSQL_RES
 * 
 	gm_ªsu…
  ;
 
-201 
+238 
 	gm_c⁄√˘ed
  ;
 
-	@mysql_loader.h
+	@redis_mysql/mysql_loader.cpp
+
+1 
+	~"mysql_lﬂdî.h
+"
+
+2 
+	~<m≠
+>
+
+3 
+	~<s°ªam
+>
+
+4 
+	~"mysql2ªdis.h
+"
+
+6 
+MySql2RedisTabÀ
+* 
+	gmysql_lﬂdî
+::
+	$lﬂd_d©a_mysql2ªdis
+(c⁄° * 
+èbÀ_«me
+)
+
+8 
+	`Ârötf
+(
+°dout
+,"lﬂdÅabÀ %d\n",
+	`time
+(
+NULL
+));
+
+9 autÿ
+ôr
+ = 
+ÆlTabÀ
+.
+	`föd
+(
+èbÀ_«me
+);
+
+10 if(
+ôr
+ =
+ÆlTabÀ
+.
+	`íd
+())
+
+12 
+	`Ârötf
+(
+°dîr
+,"èbÀ %†°©u†nŸÑód yë",
+èbÀ_«me
+);
+
+13  
+NULL
+;
+
+16 if(
+ôr
+->
+£c⁄d
+.
+key_fõld_«me
+ == "")
+
+18 
+	`Ârötf
+(
+°dîr
+," %†nÿ¥im¨ykey deföê",
+èbÀ_«me
+);
+
+19  
+NULL
+;
+
+21 
+sql
+[1024] = {0};
+
+22 
+	`¢¥ötf
+(
+sql
+,1024,"£À˘ * from %s",
+èbÀ_«me
+);
+
+23 
+boﬁ
+ 
+r°
+ = 
+_c⁄n
+.
+	`exec
+(
+sql
+);
+
+24 if(
+r°
+ != 0)
+
+26 
+	`Ârötf
+(
+°dîr
+,"lﬂdÅabÀ %†d©®îr‹",
+èbÀ_«me
+);
+
+27  
+NULL
+;
+
+30 
+MySql2RedisTabÀ
+* 
+ªdis_mysql
+ = 
+√w
+ 
+	`MySql2RedisTabÀ
+();
+
+31 
+	`mem£t
+(
+ªdis_mysql
+->
+èbÀ_«me
+,0,100);
+
+32 
+	`¢¥ötf
+(
+ªdis_mysql
+->
+èbÀ_«me
+,100,"%s",table_name);
+
+33 
+ªdis_mysql
+->
+d©a_cﬁumn_size
+ = 
+ôr
+->
+£c⁄d
+.
+èbÀ_csize
+;
+
+34 
+ªdis_mysql
+->
+d©a_row_size
+ = 
+ôr
+->
+£c⁄d
+.
+èbÀ_rsize
+;
+
+35 
+ªdis_mysql
+->
+mysql_fõlds
+ = (**)
+	`mÆloc
+((*)*ªdis_mysql->
+d©a_cﬁumn_size
+);
+
+36 
+ªdis_mysql
+->
+rows
+ = (
+MysqlRedisRow
+**)
+	`mÆloc
+((MysqlRedisRow*)*ªdis_mysql->
+d©a_row_size
+);
+
+37 
+i
+ = 0;
+
+38 autÿ
+fõld_«me
+:
+ôr
+->
+£c⁄d
+.
+Æl_cﬁumn_«me
+)
+
+40 * 
+°r_buff
+ = 
+√w
+ [
+fõld_«me
+.
+	`Àngth
+()+1];
+
+41 
+	`°∫˝y
+(
+°r_buff
+,
+fõld_«me
+.
+	`c_°r
+(),fõld_«me.
+	`Àngth
+());
+
+42 
+ªdis_mysql
+->
+mysql_fõlds
+[
+i
+] = 
+°r_buff
+;
+
+43 
+i
+++;
+
+46 
+MysqlResu…
+ 
+ªsu…
+ = 
+_c⁄n
+.
+	`gë_d©a_ªsu…
+();
+
+47 
+°d
+::
+°rög
+ 
+≥r_key
+ = 
+this
+->
+_≥rfix
+;
+
+48 
+≥r_key
+.
+	`≠≥nd
+("_").≠≥nd(
+èbÀ_«me
+).append("_");
+
+49 
+row_ödex
+ = 0;
+
+50 
+cﬁumn_size
+ = 
+ªdis_mysql
+->
+d©a_cﬁumn_size
+;
+
+51 
+MysqlResu…Row
+ 
+row
+ = 
+ªsu…
+.
+	`gë_row
+())
+
+53 
+°d
+::
+°rög
+ 
+s°r
+;
+
+54 
+MysqlRedisRow
+ * 
+ªdi§ow
+ = 
+√w
+ 
+	`MysqlRedisRow
+();
+
+55 
+ödex
+ = 0;
+
+56 
+°d
+::
+°rög
+ 
+√w_key
+;
+
+57 autÿ
+ty≥_ôr
+:
+ôr
+->
+£c⁄d
+.
+Æl_cﬁumn_«me
+)
+
+59 c⁄° * 
+row_c_d©a
+ = 
+row
+.
+	`gë_§c_d©a
+(
+ödex
+);
+
+60 
+s°r
+.
+	`≠≥nd
+(
+ty≥_ôr
+).≠≥nd(" ").≠≥nd(
+row_c_d©a
+).append(" ");
+
+61 if(
+ty≥_ôr
+ =
+ôr
+->
+£c⁄d
+.
+key_fõld_«me
+)
+
+63 
+√w_key
+.
+	`≠≥nd
+(
+≥r_key
+).≠≥nd(
+row_c_d©a
+);
+
+65 
+ödex
+++;
+
+67 
+s°r
+.
+	`îa£
+(s°r.
+	`íd
+()-1,sstr.end());
+
+69 
+buff_size
+ = 
+√w_key
+.
+	`size
+()+1;
+
+70 
+ªdi§ow
+->
+key
+ = 
+√w
+ [
+buff_size
+];
+
+71 
+	`mem˝y
+(
+ªdi§ow
+->
+key
+,
+√w_key
+.
+	`c_°r
+(),
+buff_size
+);
+
+76 c⁄° ** 
+§c_row_d©a
+ = 
+row
+.
+	`gë_row_§c_d©a
+();
+
+77 ** 
+d©a_buff
+ = (**)
+	`mÆloc
+((*)*
+cﬁumn_size
+);
+
+78 
+c
+ =0; c< 
+cﬁumn_size
+ ;c++)
+
+80 
+d©a_buff
+[
+c
+] = 
+√w
+ [
+	`°æí
+(
+§c_row_d©a
+[c])+1];
+
+81 
+	`mem˝y
+(
+d©a_buff
+[
+c
+],
+§c_row_d©a
+[c],
+	`°æí
+(src_row_data[c])+1);
+
+83 
+ªdi§ow
+->
+d©a
+ = 
+d©a_buff
+;
+
+85 
+ªdis_mysql
+->
+rows
+[
+row_ödex
+] = 
+ªdi§ow
+;
+
+87 
+row_ödex
+++;
+
+90 
+	`Ârötf
+(
+°dout
+,"lﬂdÅabÀ %†íd %d\n",
+èbÀ_«me
+,
+	`time
+(
+NULL
+));
+
+91  
+ªdis_mysql
+;
+
+92 
+	}
+}
+
+94 
+boﬁ
+ 
+	gmysql_lﬂdî
+::
+	$°¨t_lﬂd
+(
+Mysql2RedisD©aba£
+* 
+d©a_ba£
+)
+
+96 if(
+d©a_ba£
+ =
+NULL
+)
+
+98 
+	`Ârötf
+(
+°dîr
+,"Null Point!!!");
+
+99  
+Ál£
+;
+
+101 
+boﬁ
+ 
+ªad_db
+ = 
+	`ªad_db_°©us
+();
+
+102 if(!
+ªad_db
+)
+
+104 
+	`Ârötf
+(
+°dîr
+,"error ofÑead db!");
+
+105  
+Ál£
+;
+
+107 
+	`¢¥ötf
+(
+d©a_ba£
+->
+db_«me
+,100,"%s",
+_db_«me
+.
+	`c_°r
+());
+
+108 
+d©a_ba£
+->
+èbÀ_size
+ = 
+ÆlTabÀ
+.
+	`size
+();
+
+109 if(
+d©a_ba£
+->
+èbÀ_size
+ > 
+MAX_TABLE_SIZE
+)
+
+111 
+	`Ârötf
+(
+°dîr
+,"errorÅoo muchÅable");
+
+112  
+Ál£
+;
+
+115 
+ödex
+ = 0;
+
+116 autÿ
+ôr
+:
+ÆlTabÀ
+)
+
+118 
+MySql2RedisTabÀ
+ * 
+èbÀ
+ = 
+	`lﬂd_d©a_mysql2ªdis
+(
+ôr
+.
+£c⁄d
+.
+èbÀ_«me
+.
+	`c_°r
+());
+
+119 if(
+èbÀ
+ =
+NULL
+)
+
+121 
+	`Ârötf
+(
+°dîr
+,"îr‹ o‡lﬂdÅabÀ %s",
+ôr
+.
+£c⁄d
+.
+èbÀ_«me
+.
+	`c_°r
+());
+
+122  
+Ál£
+;
+
+124 
+d©a_ba£
+->
+Æl_èbÀ
+[
+ödex
+] = 
+èbÀ
+;
+
+125 
+ödex
+++;
+
+127  
+åue
+;
+
+128 
+	}
+}
+
+130 
+boﬁ
+ 
+	gmysql_lﬂdî
+::
+	$ªad_èbÀ_°©us
+(c⁄° * 
+èbÀ_«me
+)
+
+132 
+sql
+[1024] = {};
+
+133 
+	`¢¥ötf
+(
+sql
+,1024,"£À˘ cou¡(1Ë‰om %s;",
+èbÀ_«me
+);
+
+134 
+	`¥ötf
+("%s",
+sql
+);
+
+135 if(
+_c⁄n
+.
+	`exec
+(
+sql
+) != 0)
+
+137 
+	`Ârötf
+(
+°dîr
+,"gëÅabÀ %†rowÇumbîÉº‹\n",
+èbÀ_«me
+);
+
+138  
+Ál£
+;
+
+141 
+SèbÀSètus
+ 
+èbÀ_°©us
+;
+
+142 
+èbÀ_°©us
+.
+èbÀ_«me
+ =Åable_name;
+
+143 
+MysqlResu…
+ 
+ªsu…
+ = 
+_c⁄n
+.
+	`gë_d©a_ªsu…
+();
+
+144 if(
+ªsu…
+.
+	`√xt
+())
+
+146 
+MysqlResu…Row
+ 
+row
+ = 
+ªsu…
+.
+	`gë_√xt_row
+();
+
+147 
+d©a_size
+ = 
+row
+.
+	`gë_öt
+(0);
+
+148 
+èbÀ_°©us
+.
+èbÀ_rsize
+ = 
+d©a_size
+;
+
+149 
+	`Ârötf
+(
+°dout
+,"èbÀ %†row†numbî i†%d\n",
+èbÀ_«me
+,
+d©a_size
+);
+
+153 
+	`Ârötf
+(
+°dîr
+,"gëÅabÀ %†rowÇumbîÉº‹\n",
+èbÀ_«me
+);
+
+154  
+Ál£
+;
+
+157 
+	`mem£t
+(
+sql
+,0,1024);
+
+158 
+	`¢¥ötf
+(
+sql
+,1024,"des¯%s;",
+èbÀ_«me
+);
+
+159 if(
+_c⁄n
+.
+	`exec
+(
+sql
+) != 0)
+
+161 
+	`Ârötf
+(
+°dout
+,"gë cﬁumn†‰omÅabÀ %s\n",
+èbÀ_«me
+);
+
+162  
+Ál£
+;
+
+164 
+ªsu…
+ = 
+_c⁄n
+.
+	`gë_d©a_ªsu…
+();
+
+165 
+ªsu…
+.
+	`√xt
+())
+
+167 
+MysqlResu…Row
+ 
+row
+ = 
+ªsu…
+.
+	`gë_√xt_row
+();
+
+168 
+°d
+::
+°rög
+ 
+c_«me
+ = 
+row
+.
+	`gë_°rög
+(0);
+
+169 
+°d
+::
+°rög
+ 
+c_ty≥
+ = 
+row
+.
+	`gë_°rög
+(1);
+
+170 
+°d
+::
+°rög
+ 
+c_key
+ = 
+row
+.
+	`gë_°rög
+(3);
+
+172 
+èbÀ_°©us
+.
+Æl_cﬁumn
+[
+c_«me
+] = 
+c_ty≥
+;
+
+173 
+èbÀ_°©us
+.
+Æl_cﬁumn_«me
+.
+	`push_back
+(
+c_«me
+);
+
+174 
+èbÀ_°©us
+.
+Æl_cﬁumn_ty≥
+.
+	`push_back
+(
+c_ty≥
+);
+
+176 if(
+c_key
+ == "PRI")
+
+178 
+èbÀ_°©us
+.
+key_fõld_«me
+ = 
+c_«me
+;
+
+181 
+èbÀ_°©us
+.
+èbÀ_csize
+ =ÅabÀ_°©us.
+Æl_cﬁumn_ty≥
+.
+	`size
+();
+
+182 
+ÆlTabÀ
+[
+èbÀ_«me
+] = 
+èbÀ_°©us
+;
+
+183 if(
+èbÀ_°©us
+.
+key_fõld_«me
+ == "")
+
+185 
+	`Ârötf
+(
+°dîr
+,"ˇn'àfödÖròkey i¿èbÀ %s",
+èbÀ_«me
+);
+
+186  
+Ál£
+;
+
+189  
+åue
+;
+
+191 
+	}
+}
+
+193 
+boﬁ
+ 
+	gmysql_lﬂdî
+::
+	$ªad_db_°©us
+()
+
+195 
+_c⁄n
+.
+	`ch™ge_db
+("information_schema");
+
+196 
+sql
+[1024]= {0};
+
+197 
+	`¢¥ötf
+(
+sql
+,1024, "£À˘ c⁄ˇt‘ound(sum(d©a_Àngth/1024/1024),2),'MB'Ëa†d©a_sizê‰omÅabÀ†whîêÅabÀ_schema='%s';",
+_db_«me
+.
+	`c_°r
+());
+
+198 if(
+_c⁄n
+.
+	`exec
+(
+sql
+) != 0)
+
+200 
+	`Ârötf
+(
+°dîr
+,"îr‹ o‡gë d©asizê%s",
+_db_«me
+.
+	`c_°r
+());
+
+201  
+Ál£
+;
+
+203 
+MysqlResu…
+ 
+ªsu…
+ = 
+_c⁄n
+.
+	`gë_d©a_ªsu…
+();
+
+204 if(
+ªsu…
+.
+	`√xt
+())
+
+206 
+MysqlResu…Row
+ 
+row
+ = 
+ªsu…
+.
+	`gë_√xt_row
+();
+
+207 
+size_now
+ = 
+row
+.
+	`gë_Êﬂt
+(0);
+
+208 if(
+size_now
+ >100000)
+
+210 
+	`Ârötf
+(
+°dîr
+,"tooÜarge");
+
+211  
+Ál£
+;
+
+216 
+	`mem£t
+(
+sql
+,0,1024);
+
+217 
+	`¢¥ötf
+(
+sql
+,1024,"SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = '%s'",
+_db_«me
+.
+	`c_°r
+());
+
+218 if(
+_c⁄n
+.
+	`exec
+(
+sql
+) != 0)
+
+220 
+	`Ârötf
+(
+°dîr
+,"îr‹ o‡gëáŒÅabÀ o‡db %s",
+_db_«me
+.
+	`c_°r
+());
+
+221  
+Ál£
+;
+
+223 
+ªsu…
+ = 
+_c⁄n
+.
+	`gë_d©a_ªsu…
+();
+
+224 
+°d
+::
+ve˘‹
+<
+°rög
+> 
+Æl_èbÀs
+;
+
+225 
+ªsu…
+.
+	`√xt
+())
+
+227 
+MysqlResu…Row
+ 
+row
+ = 
+ªsu…
+.
+	`gë_√xt_row
+();
+
+228 
+°d
+::
+°rög
+ 
+èbÀ_«me
+ = 
+row
+.
+	`gë_°rög
+(0);
+
+229 
+Æl_èbÀs
+.
+	`push_back
+(
+èbÀ_«me
+);
+
+233 
+_c⁄n
+.
+	`ch™ge_db
+(
+_db_«me
+.
+	`c_°r
+());
+
+235 autÿ
+èbÀ_«me
+:
+Æl_èbÀs
+)
+
+237 
+boﬁ
+ 
+ªad_r°
+ = 
+	`ªad_èbÀ_°©us
+(
+èbÀ_«me
+.
+	`c_°r
+());
+
+238 if(
+ªad_r°
+ =
+Ál£
+)
+
+240 
+	`Ârötf
+(
+°dîr
+,"ªadÅabÀ %†°©u†Áûed",
+èbÀ_«me
+.
+	`c_°r
+());
+
+244  
+åue
+;
+
+245 
+	}
+}
+
+	@redis_mysql/mysql_loader.h
 
 1 #i‚de‡
 _MYSQL_LOADER_H_
@@ -102259,35 +97003,87 @@ _MYSQL_LOADER_H_
 	~"mysql_c⁄√˘i⁄.h
 "
 
-5 "C" 
-boﬁ
- 
-lﬂd_d©aba£
-(c⁄° * 
-db_«me
-,c⁄° * 
-ù_°r
-,
-p‹t
-);
+4 
+	~<m≠
+>
 
-7 
+5 
+	~<ve˘‹
+>
+
+6 
+	~"°rög.h
+"
+
+7 
+	~"mysql2ªdis.h
+"
+
+9 
 	sSèbÀSètus
 
 
-9 
-	mèbÀ«me
-[64];
+11 
+	m°d
+::
+°rög
+ 
+èbÀ_«me
+;
 
-10 
+12 
+	m°d
+::
+m≠
+<
+°d
+::
+°rög
+,°d::°rög> 
+Æl_cﬁumn
+;
+
+13 
+	m°d
+::
+ve˘‹
+<
+°d
+::
+°rög
+> 
+Æl_cﬁumn_«me
+;
+
+14 
+	m°d
+::
+ve˘‹
+<
+°d
+::
+°rög
+> 
+Æl_cﬁumn_ty≥
+;
+
+15 
+	m°d
+::
+°rög
+ 
+key_fõld_«me
+;
+
+16 
 	mèbÀ_csize
 ;
 
-11 
+17 
 	mèbÀ_rsize
 ;
 
-15 
+21 
 	g°d
 ::
 	tve˘‹
@@ -102297,22 +97093,8 @@ p‹t
 	tDBTabÀsVec
 ;
 
-17 ˛as†
-	cˇche_ad≠ãr
-
-
-19 
-	mpublic
-:
-
-20 
-vútuÆ
- 
-add_d©a_to_ˇche
-() = 0;
-
 23 ˛as†
-	cdb_lﬂdî
+	cˇche_ad≠ãr
 
 
 25 
@@ -102320,26 +97102,46 @@ add_d©a_to_ˇche
 :
 
 26 
+vútuÆ
+ 
+add_d©a_to_ˇche
+() = 0;
+
+29 ˛as†
+	cdb_lﬂdî
+
+
+31 
+	mpublic
+:
+
+32 
 	$db_lﬂdî
 (){}
 
-27 
+33 
 vútuÆ
  
 boﬁ
  
 	`°¨t_lﬂd
-() = 0;
+(
+Mysql2RedisD©aba£
+* 
+d©a
+) = 0;
 
-28 
+34 
 vútuÆ
  
 boﬁ
  
 	`ªad_èbÀ_°©us
-() = 0;
+(c⁄° * 
+èbÀ_«me
+) = 0;
 
-29 
+35 
 vútuÆ
  
 boﬁ
@@ -102347,11 +97149,11 @@ boﬁ
 	`ªad_db_°©us
 () = 0;
 
-30 
+36 
 	}
 };
 
-32 ˛as†
+38 ˛as†
 	cmysql_lﬂdî
 :
 public
@@ -102359,15 +97161,15 @@ public
 db_lﬂdî
 
 
-34 
+40 
 public
 :
 
-35 
+41 
 	$mysql_lﬂdî
 (){}
 
-36 
+42 
 	`mysql_lﬂdî
 (c⁄° * 
 db_«me
@@ -102383,41 +97185,59 @@ pwd
 ≥rfix
 ="")
 
-38 
+44 
 _db_«me
  = 
 db_«me
 ;
 
-39 
+45 
 _ù_°r
  = 
 ù_°r
 ;
 
-40 
+46 
 _p‹t
  = 
 p‹t
 ;
 
-41 
+47 
 _≥rfix
  = 
 ≥rfix
 ;
 
-42 
+48 
+_u£r_«me
+ = 
+u£r_«me
+;
+
+49 
+_pwd
+ = 
+pwd
+;
+
+50 if(
+_≥rfix
+ ="")_≥rfix = 
+db_«me
+;
+
+51 
 	}
 }
 
-44 
+53 
 boﬁ
  
 	$öô
 ()
 
-46 
+55 
 r°
  = 
 _c⁄n
@@ -102435,11 +97255,11 @@ _pwd
 _p‹t
 );
 
-47 if(
+56 if(
 r°
  == 1)
 
-49 
+58 
 	`Ârötf
 (
 °dîr
@@ -102451,47 +97271,61 @@ _ù_°r
 _p‹t
 );
 
-50  
+59  
 Ál£
 ;
 
-52  
+61  
 åue
 ;
 
-53 
+62 
 	}
 }
 
-55 ~
+64 ~
 	$mysql_lﬂdî
 (){
 	}
 };
 
-56 
+65 
 boﬁ
  
 °¨t_lﬂd
-();
+(
+Mysql2RedisD©aba£
+* 
+d©a
+);
 
-57 
+67 
 boﬁ
  
 ªad_èbÀ_°©us
-();
+(c⁄° * 
+èbÀ_«me
+);
 
-58 
+68 
 boﬁ
  
 ªad_db_°©us
 ();
 
-60 
+70 
+MySql2RedisTabÀ
+ *
+lﬂd_d©a_mysql2ªdis
+(c⁄° * 
+èbÀ_«me
+);
+
+72 
 	g¥iv©e
 :
 
-61 
+73 
 °d
 ::
 °rög
@@ -102499,7 +97333,7 @@ boﬁ
 _db_«me
 ;
 
-62 
+74 
 	g°d
 ::
 °rög
@@ -102507,7 +97341,7 @@ _db_«me
 _ù_°r
 ;
 
-63 
+75 
 	g°d
 ::
 °rög
@@ -102515,7 +97349,7 @@ _ù_°r
 _≥rfix
  ;
 
-64 
+76 
 	g°d
 ::
 °rög
@@ -102523,7 +97357,7 @@ _≥rfix
 _u£r_«me
 ;
 
-65 
+77 
 	g°d
 ::
 °rög
@@ -102531,11 +97365,11 @@ _u£r_«me
 _pwd
 ;
 
-66 
+78 
 	g_p‹t
 ;
 
-67 
+79 
 	g°d
 ::
 m≠
@@ -102544,1694 +97378,18 @@ m≠
 ::
 °rög
 ,
-	gDBTabÀsVec
+	gSèbÀSètus
 > 
 	gÆlTabÀ
 ;
 
-68 
+80 
 MysqlC⁄√˘i⁄
  
 	g_c⁄n
 ;
 
-72 
-boﬁ
- 
-	gmysql_lﬂdî
-::
-	$°¨t_lﬂd
-()
-
-74 
-boﬁ
- 
-ªad_db
- = 
-	`ªad_db_°©us
-();
-
-75 if(!
-ªad_db
-)
-
-77 
-	`Ârötf
-(
-°dîr
-,"error ofÑead db!");
-
-78  
-Ál£
-;
-
-81 
-	}
-}
-
-83 
-boﬁ
- 
-	gmysql_lﬂdî
-::
-	$ªad_èbÀ_°©us
-()
-
-87 
-	}
-}
-
-89 
-boﬁ
- 
-mysql_lﬂdî
-::
-	$ªad_db_°©us
-()
-
-91 
-sql
-[1024] = {};
-
-92 
-	`¢¥ötf
-(
-sql
-,1024,"use information_schema");
-
-93 
-_c⁄n
-.
-	`exec
-(
-sql
-);
-
-94 
-	`¢¥ötf
-(
-sql
-,1024,
-
-96 
-_db_«me
-.
-	`c_°r
-());
-
-97 
-	}
-}
-
-	@net/io_handler.h
-
-1 #i‚de‡
-_IO_HEANDLER_H_
-
-
-2 
-	#_IO_HEANDLER_H_
-
-
-	)
-
-	@player_object.h
-
-1 
-	~"ªdis_c⁄√˘i⁄.h
-"
-
-2 
-	~"hód.h
-"
-
-3 
-	~<glog/loggög.h
->
-
-4 
-	~<gÊags/gÊags.h
->
-
-5 
-	~"d©a.pb.h
-"
-
-9 ˛as†
-	cPœyîObje˘
-:
-public
- 
-RedisCÆlBackObje˘
-
-
-11 
-public
-:
-
-12 
-CÆlBack
-(
-ªdisRïly
-* 
-ª∂y
-);
-
-13 
-	m°d
-::
-°rög
- 
-GëDBSå
-() ;
-
-16 ˛as†
-	cPœyîObje˘Save
-:
-public
- 
-RedisCÆlBackObje˘
-
-
-18 
-public
-:
-
-19 
-CÆlBack
-(
-ªdisRïly
-* 
-ª∂y
-);
-
-20 
-	m°d
-::
-°rög
- 
-GëDBSå
-();
-
-21 
-	$SëDBSå
-(
-°d
-::
-°rög
- 
-buûdSå
-)
-
-23 
-_buûdSå
- = 
-buûdSå
-;
-
-26 
-¥iv©e
-:
-
-27 
-°d
-::
-°rög
- 
-_buûdSå
-;
-
-28 
-	}
-};
-
-30 ˛as†
-	cPœyîObje˘Requúe
-:
-public
- 
-RedisCÆlBackObje˘
-
-
-32 
-public
-:
-
-33 
-CÆlBack
-(
-ªdisRïly
-* 
-ª∂y
-);
-
-34 
-	m°d
-::
-°rög
- 
-GëDBSå
-();
-
-35 
-	$SëDBSå
-(
-°d
-::
-°rög
- 
-buûdSå
-)
-
-37 
-_buûdSå
- = 
-buûdSå
-;
-
-39 
-¥iv©e
-:
-
-40 
-°d
-::
-°rög
- 
-_buûdSå
-;
-
-41 
-	}
-};
-
-43 
-	gPœyîObje˘
-::
-	$CÆlBack
-(
-ªdisRïly
-* 
-ª∂y
-)
-
-45 
-	`¥ötf
-("∂ayî %Œd\n",
-ª∂y
-->
-öãgî
-);
-
-46 
-	`¥ötf
-("∂ayî %s\n",
-ª∂y
-->
-°r
-);
-
-48 
-	}
-}
-
-50 
-	g°d
-::
-°rög
- 
-PœyîObje˘
-::
-	$GëDBSå
-()
-
-53 
-	}
-}
-
-55 
-	gPœyîObje˘Save
-::
-	$CÆlBack
-(
-ªdisRïly
-* 
-ª∂y
-)
-
-57 
-	`LOG
-(
-INFO
-)<<"SAVEÖlayer object success";
-
-59 
-	}
-}
-
-61 
-	g°d
-::
-°rög
- 
-PœyîObje˘Save
-::
-	$GëDBSå
-()
-
-63  
-_buûdSå
-;
-
-64 
-	}
-}
-
-66 
-	gPœyîObje˘Requúe
-::
-	$CÆlBack
-(
-ªdisRïly
-* 
-ª∂y
-)
-
-68 if(
-ª∂y
-->
-ty≥
- =
-REDIS_REPLY_NIL
-)
-
-70 
-	`LOG
-(
-INFO
-)<<"no PLAYER_1 DATA EXIST";
-
-74 
-∂ayî_öfo
- 
-öfo
-;
-
-75 
-°d
-::
-°rög
- 
-	`°r
-(
-ª∂y
-->
-°r
-);
-
-76 
-boﬁ
- 
-r°
- = 
-öfo
-.
-	`P¨£FromSåög
-(
-°r
-);
-
-77 if(
-r°
- =
-Ál£
-)
-
-79 
-	`LOG
-(
-ERROR
-)<<"ParseÖlayer_info from string failed";
-
-83 
-	}
-}
-
-85 
-	g°d
-::
-°rög
- 
-PœyîObje˘Requúe
-::
-	$GëDBSå
-()
-
-88 
-	}
-}
-
-	@queue.h
-
-1 #i‚de‡
-_QUEUE_H_
-
-
-2 
-	#_QUEUE_H_
-
-
-	)
-
-3 
-	~"lock.h
-"
-
-5 
-	#QUEUE_DEFAULT_LEN
- 100
-
-	)
-
-6 
-	gãm∂©e
-<
-˛ass
- 
-	gLockCœss
->
-
-7 ˛as†
-	cCú˛eQueue
-
-
-9 
-	mpublic
-:
-
-10 
-	$Cú˛eQueue
-(
-size_t
- 
-d©a_size
- = 
-QUEUE_DEFAULT_LEN
-)
-
-12 
-_d©a
- = 
-√w
- [
-d©a_size
-];
-
-13 
-_lock
-.
-	`Inô
-();
-
-14 
-_hód
- = 0;
-
-15 
-_èû
- = 0;
-
-20 ~
-	$Cú˛eQueue
-()
-
-22 
-dñëe
-[] 
-_d©a
-;
-
-23 
-_hód
- = 0;
-
-24 
-_èû
- = 0;
-
-25 
-	}
-}
-
-27 
-size_t
- 
-	$GëHód
-(){ 
-_hód
-;
-	}
-}
-
-28 
-size_t
- 
-	$GëTaû
-(){ 
-_èû
-;
-	}
-}
-
-30 
-	$Push
-(c⁄° * 
-pD©a
-,
-size_t
- 
-size
-)
-
-32 
-	`as£π
-(
-size
- > 0);
-
-33 if(
-size
- <= 0)
-
-37 
-AutoLock
-<
-LockCœss
-> 
-	`lock
-(&
-_lock
-);
-
-38 if(
-_èû
- >
-_hód
-)
-
-41 if(
-_èû
- + 
-size
- < 
-_tŸﬂl_size
-)
-
-43 
-	`mem˝y
-(
-_d©a
-+
-_èû
-,
-pD©a
-,
-size
-);
-
-44 
-_èû
- +
-size
-;
-
-45  
-size
-;
-
-46 }if((
-_tŸﬂl_size
- - 
-_èû
- + 
-_hód
-Ë> 
-size
-)
-
-48 
-	`mem˝y
-(
-_d©a
-+
-_èû
-,
-pD©a
-,(
-_tŸﬂl_size
- - _tail));
-
-49 
-	`mem˝y
-(
-_d©a
-,
-pD©a
-+(
-_tŸﬂl_size
- - 
-_èû
-),(
-size
- -(_totoal_size - _tail)));
-
-50 
-_èû
- = 
-size
- - (
-_tŸﬂl_size
- - _tail);
-
-51  
-size
-;
-
-59 if(
-_hód
- - 
-_èû
- > 
-size
-)
-
-61 
-	`mem˝y
-(
-_d©a
- + 
-_èû
-,
-pD©a
-,
-size
-);
-
-62 
-_èû
- +
-size
-;
-
-63  
-size
-;
-
-71 
-	}
-}
-
-73 
-	$RódFr⁄t
-(
-size_t
- 
-size
-,* 
-pD©a
-,size_à
-buff_size
-)
-
-75 
-	`as£π
-(
-buff_size
- >
-size
-);
-
-76 if(
-buff_size
- < 
-size
-)
-
-78 
-AutoLock
-<
-LockCœss
-> 
-	`lock
-(&
-_lock
-);
-
-79 
-size_t
- 
-nDi°
- = 
-_èû
- + 
-_tŸﬂl_size
- - 
-_hód
-;
-
-80 
-size_t
- 
-nU£d
- = 
-nDi°
- >
-_tŸﬂl_size
- ? (nDist - _totoal_size):nDist;
-
-81 if(
-size
- > 
-nU£d
-)
-
-84 if(
-_hód
- < 
-_èû
-)
-
-86 
-	`mem˝y
-(
-pD©a
-,
-_d©a
-+
-_hód
-,
-size
-);
-
-87  
-size
-;
-
-91 if(
-_tŸﬂl_size
- - 
-_hód
- >
-size
-)
-
-93 
-	`mem˝y
-(
-pD©a
-,
-_d©a
-+
-_hód
-,
-size
-);
-
-96 
-	`mem˝y
-(
-pD©a
-,
-_d©a
-+
-_hód
-,(
-_tŸﬂl_size
--_head));
-
-97 
-	`mem˝y
-(
-pD©a
-+(
-_tŸﬂl_size
- - 
-_hód
-),
-_d©a
-,(
-size
- - _totoal_size + _head) );
-
-99  
-size
-;
-
-102 
-	}
-}
-
-104 
-	$Disˇrd
-(
-size_t
- 
-size
-)
-
-106 
-AutoLock
-<
-LockCœss
-> 
-	`lock
-(&
-_lock
-);
-
-107 if(
-_hód
- <
-_èû
-)
-
-109 if(
-_èû
- - 
-_hód
- >
-size
-)
-
-111 
-_hód
- +
-size
-;
-
-112  
-size
-;
-
-119 if(
-_tŸﬂl_size
- - 
-_hód
- + 
-_èû
- >
-size
-)
-
-121 if(
-_tŸﬂl_size
- - 
-_hód
- >
-size
-)
-
-123 
-_hód
- +
-size
-;
-
-126 
-_hód
- = 
-size
- - 
-_tŸﬂl_size
- + _head;
-
-128  
-size
-;
-
-135 
-	}
-}
-
-137 
-	$P›
-(
-size_t
- 
-size
-,* 
-pD©a
-,size_à
-buff_size
-)
-
-139 
-	`as£π
-(
-buff_size
- >
-size
-);
-
-140 if(
-buff_size
- < 
-size
-)
-
-142 
-AutoLock
-<
-LockCœss
-> 
-	`lock
-(&
-_lock
-);
-
-144 if(
-_hód
- <
-_èû
-)
-
-146 if(
-_èû
- - 
-_hód
- >
-size
-)
-
-148 
-	`mem˝y
-(
-pD©a
-,
-_d©a
-+
-_hód
-,
-size
-);
-
-149 
-_hód
- +
-size
-;
-
-150  
-size
-;
-
-157 if(
-_tŸﬂl_size
- - 
-_hód
- + 
-_èû
- >
-size
-)
-
-159 if(
-_tŸﬂl_size
- - 
-_hód
- >
-size
-)
-
-161 
-	`mem˝y
-(
-pD©a
-,
-_d©a
-+
-_hód
-,
-size
-);
-
-162 
-_hód
- +
-size
-;
-
-165 
-	`mem˝y
-(
-pD©a
-,
-_d©a
-+
-_hód
-,(
-_tŸﬂl_size
--_head));
-
-166 
-	`mem˝y
-(
-pD©a
-+(
-_tŸﬂl_size
- - 
-_hód
-),
-_d©a
-,(
-size
- - _totoal_size + _head) );
-
-167 
-_hód
- = 
-size
- - 
-_tŸﬂl_size
- + _head;
-
-169  
-size
-;
-
-174 
-	}
-}
-
-176 
-	$GëD©aSize
-()
-
-178 
-AutoLock
-<
-LockCœss
-> 
-	`lock
-(&
-_lock
-);
-
-179 
-size_t
- 
-nDi°
- = 
-_èû
- + 
-_tŸﬂl_size
- - 
-_hód
-;
-
-180 
-size_t
- 
-nU£d
- = 
-nDi°
- >
-_tŸﬂl_size
- ? (nDist - _totoal_size):nDist;
-
-181  
-nU£d
-;
-
-182 
-	}
-}
-
-184 
-	$CÀ¨
-()
-
-186 
-AutoLock
-<
-LockCœss
-> 
-	`lock
-(&
-_lock
-);
-
-187 
-_hód
- = 0;
-
-188 
-_èû
- = 0;
-
-189 
-	}
-}
-
-191 
-	g¥iv©e
-:
-
-192 
-LockCœss
- 
-_lock
-;
-
-193 * 
-	g_d©a
-;
-
-194 
-size_t
- 
-	g_hód
-;
-
-195 
-size_t
- 
-	g_èû
-;
-
-196 
-size_t
- 
-	g_tŸﬂl_size
- = 
-QUEUE_DEFAULT_LEN
-;
-
-	@redis_connection.cpp
-
-1 
-	~"ªdis_c⁄√˘i⁄.h
-"
-
-2 
-	~<glog/loggög.h
->
-
-3 
-	~<gÊags/gÊags.h
->
-
-7 
-	gRedisC⁄√˘i⁄
-::
-	$Pro˚ssComm™d
-(
-RedisCÆlBackObje˘
-* 
-obje˘
-)
-
-9 if(
-_c⁄√˘i⁄
- =
-NULL
-)
-
-11 
-	`¥ötf
-("redis disconnection!");
-
-15 
-ªdisRïly
-* 
-ª∂y
- = (ªdisRïly*)
-	`ªdisComm™d
-(
-_c⁄√˘i⁄
-,
-obje˘
-->
-	`GëDBSå
-().
-	`c_°r
-());
-
-16 if(
-ª∂y
- =
-NULL
-)
-
-18 
-	`LOG
-(
-INFO
-)<<"îr‹Éxê"<<
-obje˘
-->
-	`GëDBSå
-();
-
-23 if(
-ª∂y
-->
-ty≥
- =
-REDIS_REPLY_STATUS
- && 
-	`°rˇ£cmp
-‘ïly->
-°r
-,"OK")!= 0)
-
-25 
-	`LOG
-(
-ERROR
-)<<"îr‹ o‡SET COMMAND :"<<
-obje˘
-->
-	`GëDBSå
-().
-	`c_°r
-();
-
-26 }if(
-ª∂y
-->
-ty≥
- =
-REDIS_REPLY_ERROR
-)
-
-28 
-	`LOG
-(
-ERROR
-)<<"îr‹ o‡COMMAND"<<
-obje˘
-->
-	`GëDBSå
-().
-	`c_°r
-();
-
-31 
-obje˘
-->
-	`CÆlBack
-(
-ª∂y
-);
-
-33 
-	`‰ìRïlyObje˘
-(
-ª∂y
-);
-
-35  
-åue
-;
-
-36 
-	}
-}
-
-	@redis_connection.h
-
-1 #i‚de‡
-_REDIS_CONNETION_H_
-
-
-2 
-	#_REDIS_CONNETION_H_
-
-
-	)
-
-4 
-	~"húedis.h
-"
-
-5 
-	~<°rög
->
-
-6 
-usög
- 
-«me•a˚
- 
-	g°d
-;
-
-8 ˛as†
-	cRedisCÆlBackObje˘
-
-
-10 
-	mpublic
-:
-
-11 
-vútuÆ
- 
-CÆlBack
-(
-ªdisRïly
-* 
-ª∂y
-) = 0;
-
-12 
-vútuÆ
- 
-	m°d
-::
-°rög
- 
-GëDBSå
-() = 0;
-
-13 
-	mpublic
-:
-
-14 
-°d
-::
-°rög
- 
-_dbSå
-;
-
-17 ˛as†
-	cRedisC⁄√˘i⁄
-
-
-19 
-	mpublic
-:
-
-20 
-	$RedisC⁄√˘i⁄
-(c⁄° * 
-ho°
-,
-p‹t
-):
-	`_£rvî_ho°
-(ho°),
-	$_p‹t
-(
-p‹t
-)
-
-25 ~
-	$RedisC⁄√˘i⁄
-()
-
-27 
-	`ªdisFªe
-(
-_c⁄√˘i⁄
-);
-
-28 
-	}
-}
-
-30 
-boﬁ
- 
-	$C⁄√˘
-()
-
-33 
-timevÆ
- 
-timeout
- = {2,0};
-
-34 
-_c⁄√˘i⁄
- = 
-	`ªdisC⁄√˘WôhTimeout
-(
-_£rvî_ho°
-.
-	`c_°r
-(),
-_p‹t
-,
-timeout
-);
-
-35 if(
-_c⁄√˘i⁄
- =
-NULL
- || _c⁄√˘i⁄->
-îr
-)
-
-37 if(
-_c⁄√˘i⁄
- =
-NULL
-)
-
-39 
-	`¥ötf
-("allocateÑedis connectÉrror!");
-
-42 
-	`¥ötf
-("îrÿ%s",
-_c⁄√˘i⁄
-->
-îr°r
-);
-
-43 
-	`ªdisFªe
-(
-_c⁄√˘i⁄
-);
-
-45  
-Ál£
-;
-
-47  
-åue
-;
-
-48 
-	}
-}
-
-50 
-Pro˚ssComm™d
-(
-RedisCÆlBackObje˘
-* 
-obje˘
-);
-
-52 
-	g¥iv©e
-:
-
-53 
-°d
-::
-°rög
- 
-_£rvî_ho°
-;
-
-54 
-	g_p‹t
-;
-
-55 
-ªdisC⁄ãxt
- *
-	g_c⁄√˘i⁄
-;
-
-	@redis_object.h
-
-1 #i‚de‡
-_REDIS_OBJECT_H_
-
-
-2 
-	#_REDIS_OBJECT_H_
-
-
-	)
-
-4 
-	g°d
-::
-°rög
- 
-	$buûd_ªdis_key
-()
-
-6 "rﬁe_"+
-£rvî_id
-+"_"+
-rﬁe_id
-;
-
-7 
-	}
-}
-
-	@rst.h
-
-1 #i‚de‡
-_RST_LL_H_
-
-
-2 
-	#_RST_LL_H_
-
-
-	)
-
-3 
-	~<˘y≥.h
->
-
-4 
-	~<°döt.h
->
-
-6 
-	gãm∂©e
-<
-˛ass
- 
-	gT
-,˛as†
-	gBa£Cœss
->
-
-7 ˛as†
-	cR°Cœss
-:
-public
- 
-Ba£Cœss
-
-
-9 
-public
-:
-
-10 
-	$R°Cœss
-()
-
-12 
-_uid
- = 
-_guid
-++;
-
-14 
-vútuÆ
- 
-	`Inô
-(
-T
-& 
-t
-) = 0;
-
-15 
-T
-* 
-	$Cª©e
-()
-
-17  
-√w
- 
-T
-;
-
-18 
-	}
-}
-
-20 
-vútuÆ
- 
-Rñó£
-() = 0;
-
-22 
-vútuÆ
- c⁄° * 
-GëCœssName
-() = 0;
-
-24 
-öt64_t
- 
-	$GëID
-(){ 
-_uid
-;
-	}
-}
-
-26 
-	g¥iv©e
-:
-
-27 
-öt64_t
- 
-_guid
-;
-
-28 
-öt64_t
- 
-	g_uid
-;
-
-31 
-	gãm∂©e
-<
-˛ass
- 
-	gT
-,˛as†
-	gBa£Cœss
->
-
-32 
-öt64_t
- 
-	gR°Cœss
-<
-	gT
-,
-	gBa£Cœss
->::
-_guid
- = 0;
-
-	@thread.h
+	@redis_mysql/thread.h
 
 1 #i‚de‡
 _THREAD_H_01_
@@ -104271,18 +97429,261 @@ thªad
 _d©a
 ;
 
+	@test/head.h
+
+1 #i‚de‡
+_HEAD_H_
+
+
+2 
+	#_HEAD_H_
+
+
+	)
+
+4 
+	~"°dio.h
+"
+
+5 
+	~"°rög.h
+"
+
+6 
+	~<time.h
+>
+
+7 
+	~<uni°d.h
+>
+
+8 
+	~<thªad
+>
+
+9 
+	~<glog/loggög.h
+>
+
+10 
+	~<gÊags/gÊags.h
+>
+
+	@test/main.cpp
+
+1 
+	~"hód.h
+"
+
+2 
+	~<io°ªam
+>
+
+3 
+	~<s°ªam
+>
+
+4 
+	~<time.h
+>
+
+5 
+	~<iom™ù
+>
+
+6 
+	~"mysql2ªdis.h
+"
+
+8 
+	$ã°_mysql
+()
+
+11 
+Mysql2RedisD©aba£
+* 
+lﬂdî_db
+ = 
+	`lﬂd_d©aba£
+("gl","127.0.0.1",3306,"root","firefly");
+
+13 
+	}
+}
+
+15 
+DEFINE_boﬁ
+(
+d´m⁄
+,
+Ál£
+,"if startÇot daemon");
+
+16 
+	$maö
+(
+¨gc
+,** 
+¨gv
+)
+
+18 
+googÀ
+::
+	`P¨£Comm™dLöeFœgs
+(&
+¨gc
+,&
+¨gv
+,
+åue
+);
+
+19 
+googÀ
+::
+	`InôGoogÀLoggög
+(
+¨gv
+[0]);
+
+20 
+FLAGS_logto°dîr
+ = 
+åue
+;
+
+21 
+	`LOG
+(
+INFO
+)<<"start mini ";
+
+22 
+	`ã°_mysql
+();
+
+27 
+	}
+}
+
+	@test/mysql2redis.h
+
+1 #i‚de‡
+_MYSQL2REDIS_H_
+
+
+2 
+	#_MYSQL2REDIS_H_
+
+
+	)
+
+4 
+	sMysqlRedisRow
+
+
+6 c⁄° * 
+	mkey
+;
+
+7 c⁄° ** 
+	md©a
+;
+
+10 
+	sMySql2RedisTabÀ
+
+
+12 
+	md©a_cﬁumn_size
+;
+
+13 
+	md©a_row_size
+;
+
+14 
+	mèbÀ_«me
+[100];
+
+16 
+MysqlRedisRow
+** 
+	mrows
+;
+
+17 ** 
+	mmysql_fõlds
+;
+
+18 
+MySql2RedisTabÀ
+()
+
+20 
+	md©a_cﬁumn_size
+ = 0;
+
+21 
+	md©a_row_size
+ = 0;
+
+25 
+	#MAX_TABLE_SIZE
+ 100
+
+	)
+
+26 
+	sMysql2RedisD©aba£
+
+
+28 
+	mdb_«me
+[100];
+
+29 
+MySql2RedisTabÀ
+* 
+	mÆl_èbÀ
+[
+MAX_TABLE_SIZE
+];
+
+30 
+	mèbÀ_size
+;
+
+43 
+Mysql2RedisD©aba£
+* 
+lﬂd_d©aba£
+(c⁄° * 
+db_«me
+,c⁄° * 
+ù_°r
+,
+p‹t
+,c⁄° * 
+u£r_«me
+,c⁄° * 
+pwd
+);
+
+44 
+dump_d©a_ba£
+(
+Mysql2RedisD©aba£
+*);
+
 	@
 1
 .
 0
-79
-2320
+67
+2298
 CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
-car.h
-data.pb.cc
-data.pb.h
-db_thread.h
-head.h
 include/gflags/gflags.h
 include/gflags/gflags_completions.h
 include/glog/log_severity.h
@@ -104338,21 +97739,14 @@ include/protobuf/unknown_field_set.h
 include/protobuf/wire_format.h
 include/protobuf/wire_format_lite.h
 include/protobuf/wire_format_lite_inl.h
-io_handler.h
-key_builder.h
-lock.h
-main.cpp
-md5.cpp
-md5.h
-msg_event.h
-mysql_connection.cpp
-mysql_connection.h
-mysql_loader.h
-net/io_handler.h
-player_object.h
-queue.h
-redis_connection.cpp
-redis_connection.h
-redis_object.h
-rst.h
-thread.h
+redis_mysql/head.h
+redis_mysql/mysql2redis.cpp
+redis_mysql/mysql2redis.h
+redis_mysql/mysql_connection.cpp
+redis_mysql/mysql_connection.h
+redis_mysql/mysql_loader.cpp
+redis_mysql/mysql_loader.h
+redis_mysql/thread.h
+test/head.h
+test/main.cpp
+test/mysql2redis.h

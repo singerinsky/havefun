@@ -5,34 +5,10 @@ CMakeFiles/mini_run.dir/data.pb.o
  /home/gl/workspace/havefun/data.pb.cc
  /home/gl/workspace/havefun/data.pb.h
 CMakeFiles/mini_run.dir/main.o
- /home/gl/workspace/havefun/car.h
- /home/gl/workspace/havefun/data.pb.h
- /home/gl/workspace/havefun/db_thread.h
- /home/gl/workspace/havefun/head.h
- /home/gl/workspace/havefun/lock.h
  /home/gl/workspace/havefun/main.cpp
- /home/gl/workspace/havefun/md5.h
- /home/gl/workspace/havefun/mysql_connection.h
- /home/gl/workspace/havefun/mysql_loader.h
- /home/gl/workspace/havefun/player_object.h
- /home/gl/workspace/havefun/queue.h
- /home/gl/workspace/havefun/redis_connection.h
- /home/gl/workspace/havefun/rst.h
- /home/gl/workspace/havefun/thread.h
- include/hiredis/hiredis.h
- include/hiredis/read.h
- include/hiredis/sds.h
- include/hiredis/win32.h
 CMakeFiles/mini_run.dir/md5.o
  /home/gl/workspace/havefun/md5.cpp
  /home/gl/workspace/havefun/md5.h
-CMakeFiles/mini_run.dir/mysql_connection.o
- /home/gl/workspace/havefun/mysql_connection.cpp
- /home/gl/workspace/havefun/mysql_connection.h
-CMakeFiles/mini_run.dir/redis_connection.o
- /home/gl/workspace/havefun/redis_connection.cpp
- /home/gl/workspace/havefun/redis_connection.h
- include/hiredis/hiredis.h
- include/hiredis/read.h
- include/hiredis/sds.h
- include/hiredis/win32.h
+CMakeFiles/mini_run.dir/message_filter.o
+ /home/gl/workspace/havefun/message_filter.cpp
+ /home/gl/workspace/havefun/message_filter.h
