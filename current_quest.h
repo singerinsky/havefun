@@ -31,6 +31,8 @@ class CurrentQuest
         void finish();
         //保存到db
         void save_to_pb(quest_data* data);
+        //从pb加载
+        bool load_from_pb(const quest_data* data);
 
         QuestStatus get_quest_status(){return _quest_status;}
 

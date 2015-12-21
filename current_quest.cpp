@@ -63,3 +63,10 @@ void CurrentQuest::save_to_pb(quest_data* data)
         itr->save(action_data);
     }
 }
+
+bool CurrentQuest::load_from_pb(const quest_data* data)
+{
+    _quest_id = data->get_quest_id();
+    _quest_status = data->get_quest_status();
+    _quest_type = data->get_quest_type();
+}
