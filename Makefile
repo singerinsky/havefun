@@ -112,6 +112,21 @@ mini_run/fast:
 .PHONY : mini_run/fast
 
 # target to build an object file
+current_quest.o:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/current_quest.o
+.PHONY : current_quest.o
+
+# target to preprocess a source file
+current_quest.i:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/current_quest.i
+.PHONY : current_quest.i
+
+# target to generate assembly for a file
+current_quest.s:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/current_quest.s
+.PHONY : current_quest.s
+
+# target to build an object file
 data.pb.o:
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/data.pb.o
 .PHONY : data.pb.o
@@ -142,21 +157,6 @@ main.s:
 .PHONY : main.s
 
 # target to build an object file
-md5.o:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/md5.o
-.PHONY : md5.o
-
-# target to preprocess a source file
-md5.i:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/md5.i
-.PHONY : md5.i
-
-# target to generate assembly for a file
-md5.s:
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/md5.s
-.PHONY : md5.s
-
-# target to build an object file
 message_filter.o:
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/message_filter.o
 .PHONY : message_filter.o
@@ -171,6 +171,21 @@ message_filter.s:
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/message_filter.s
 .PHONY : message_filter.s
 
+# target to build an object file
+role_quest.o:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/role_quest.o
+.PHONY : role_quest.o
+
+# target to preprocess a source file
+role_quest.i:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/role_quest.i
+.PHONY : role_quest.i
+
+# target to generate assembly for a file
+role_quest.s:
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/role_quest.s
+.PHONY : role_quest.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -180,18 +195,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... mini_run"
 	@echo "... rebuild_cache"
+	@echo "... current_quest.o"
+	@echo "... current_quest.i"
+	@echo "... current_quest.s"
 	@echo "... data.pb.o"
 	@echo "... data.pb.i"
 	@echo "... data.pb.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... md5.o"
-	@echo "... md5.i"
-	@echo "... md5.s"
 	@echo "... message_filter.o"
 	@echo "... message_filter.i"
 	@echo "... message_filter.s"
+	@echo "... role_quest.o"
+	@echo "... role_quest.i"
+	@echo "... role_quest.s"
 .PHONY : help
 
 

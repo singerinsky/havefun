@@ -3,3 +3,24 @@ message player_info
 	required int32 player_id = 1;
 	required string player_name = 2;
 }
+
+enum quest_action_type
+{
+   quest_action_killnpc = 0;
+   quest_action_get_item = 1;
+}
+
+message quest_action_data
+{
+    required int32 action_type = 1;
+    repeated int32 action_param = 2;
+}
+
+message quest_data
+{
+    required int32 role_id = 1;
+    required int32 quest_id = 2;
+    required int32 quest_type = 3;
+    required int32 quest_status = 4;
+    repeated quest_action_data actions = 5;
+}

@@ -49,9 +49,32 @@ include CMakeFiles/mini_run.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mini_run.dir/flags.make
 
+CMakeFiles/mini_run.dir/role_quest.o: CMakeFiles/mini_run.dir/flags.make
+CMakeFiles/mini_run.dir/role_quest.o: role_quest.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/role_quest.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/role_quest.o -c /home/gl/workspace/havefun/role_quest.cpp
+
+CMakeFiles/mini_run.dir/role_quest.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mini_run.dir/role_quest.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gl/workspace/havefun/role_quest.cpp > CMakeFiles/mini_run.dir/role_quest.i
+
+CMakeFiles/mini_run.dir/role_quest.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mini_run.dir/role_quest.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gl/workspace/havefun/role_quest.cpp -o CMakeFiles/mini_run.dir/role_quest.s
+
+CMakeFiles/mini_run.dir/role_quest.o.requires:
+.PHONY : CMakeFiles/mini_run.dir/role_quest.o.requires
+
+CMakeFiles/mini_run.dir/role_quest.o.provides: CMakeFiles/mini_run.dir/role_quest.o.requires
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/role_quest.o.provides.build
+.PHONY : CMakeFiles/mini_run.dir/role_quest.o.provides
+
+CMakeFiles/mini_run.dir/role_quest.o.provides.build: CMakeFiles/mini_run.dir/role_quest.o
+
 CMakeFiles/mini_run.dir/message_filter.o: CMakeFiles/mini_run.dir/flags.make
 CMakeFiles/mini_run.dir/message_filter.o: message_filter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/message_filter.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/message_filter.o -c /home/gl/workspace/havefun/message_filter.cpp
 
@@ -72,32 +95,32 @@ CMakeFiles/mini_run.dir/message_filter.o.provides: CMakeFiles/mini_run.dir/messa
 
 CMakeFiles/mini_run.dir/message_filter.o.provides.build: CMakeFiles/mini_run.dir/message_filter.o
 
-CMakeFiles/mini_run.dir/md5.o: CMakeFiles/mini_run.dir/flags.make
-CMakeFiles/mini_run.dir/md5.o: md5.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/md5.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/md5.o -c /home/gl/workspace/havefun/md5.cpp
+CMakeFiles/mini_run.dir/current_quest.o: CMakeFiles/mini_run.dir/flags.make
+CMakeFiles/mini_run.dir/current_quest.o: current_quest.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/current_quest.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/current_quest.o -c /home/gl/workspace/havefun/current_quest.cpp
 
-CMakeFiles/mini_run.dir/md5.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mini_run.dir/md5.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gl/workspace/havefun/md5.cpp > CMakeFiles/mini_run.dir/md5.i
+CMakeFiles/mini_run.dir/current_quest.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mini_run.dir/current_quest.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/gl/workspace/havefun/current_quest.cpp > CMakeFiles/mini_run.dir/current_quest.i
 
-CMakeFiles/mini_run.dir/md5.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mini_run.dir/md5.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gl/workspace/havefun/md5.cpp -o CMakeFiles/mini_run.dir/md5.s
+CMakeFiles/mini_run.dir/current_quest.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mini_run.dir/current_quest.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/gl/workspace/havefun/current_quest.cpp -o CMakeFiles/mini_run.dir/current_quest.s
 
-CMakeFiles/mini_run.dir/md5.o.requires:
-.PHONY : CMakeFiles/mini_run.dir/md5.o.requires
+CMakeFiles/mini_run.dir/current_quest.o.requires:
+.PHONY : CMakeFiles/mini_run.dir/current_quest.o.requires
 
-CMakeFiles/mini_run.dir/md5.o.provides: CMakeFiles/mini_run.dir/md5.o.requires
-	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/md5.o.provides.build
-.PHONY : CMakeFiles/mini_run.dir/md5.o.provides
+CMakeFiles/mini_run.dir/current_quest.o.provides: CMakeFiles/mini_run.dir/current_quest.o.requires
+	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/current_quest.o.provides.build
+.PHONY : CMakeFiles/mini_run.dir/current_quest.o.provides
 
-CMakeFiles/mini_run.dir/md5.o.provides.build: CMakeFiles/mini_run.dir/md5.o
+CMakeFiles/mini_run.dir/current_quest.o.provides.build: CMakeFiles/mini_run.dir/current_quest.o
 
 CMakeFiles/mini_run.dir/data.pb.o: CMakeFiles/mini_run.dir/flags.make
 CMakeFiles/mini_run.dir/data.pb.o: data.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/data.pb.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/data.pb.o -c /home/gl/workspace/havefun/data.pb.cc
 
@@ -120,7 +143,7 @@ CMakeFiles/mini_run.dir/data.pb.o.provides.build: CMakeFiles/mini_run.dir/data.p
 
 CMakeFiles/mini_run.dir/main.o: CMakeFiles/mini_run.dir/flags.make
 CMakeFiles/mini_run.dir/main.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/mini_run.dir/main.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mini_run.dir/main.o -c /home/gl/workspace/havefun/main.cpp
 
@@ -143,16 +166,18 @@ CMakeFiles/mini_run.dir/main.o.provides.build: CMakeFiles/mini_run.dir/main.o
 
 # Object files for target mini_run
 mini_run_OBJECTS = \
+"CMakeFiles/mini_run.dir/role_quest.o" \
 "CMakeFiles/mini_run.dir/message_filter.o" \
-"CMakeFiles/mini_run.dir/md5.o" \
+"CMakeFiles/mini_run.dir/current_quest.o" \
 "CMakeFiles/mini_run.dir/data.pb.o" \
 "CMakeFiles/mini_run.dir/main.o"
 
 # External object files for target mini_run
 mini_run_EXTERNAL_OBJECTS =
 
+mini_run: CMakeFiles/mini_run.dir/role_quest.o
 mini_run: CMakeFiles/mini_run.dir/message_filter.o
-mini_run: CMakeFiles/mini_run.dir/md5.o
+mini_run: CMakeFiles/mini_run.dir/current_quest.o
 mini_run: CMakeFiles/mini_run.dir/data.pb.o
 mini_run: CMakeFiles/mini_run.dir/main.o
 mini_run: CMakeFiles/mini_run.dir/build.make
@@ -164,8 +189,9 @@ mini_run: CMakeFiles/mini_run.dir/link.txt
 CMakeFiles/mini_run.dir/build: mini_run
 .PHONY : CMakeFiles/mini_run.dir/build
 
+CMakeFiles/mini_run.dir/requires: CMakeFiles/mini_run.dir/role_quest.o.requires
 CMakeFiles/mini_run.dir/requires: CMakeFiles/mini_run.dir/message_filter.o.requires
-CMakeFiles/mini_run.dir/requires: CMakeFiles/mini_run.dir/md5.o.requires
+CMakeFiles/mini_run.dir/requires: CMakeFiles/mini_run.dir/current_quest.o.requires
 CMakeFiles/mini_run.dir/requires: CMakeFiles/mini_run.dir/data.pb.o.requires
 CMakeFiles/mini_run.dir/requires: CMakeFiles/mini_run.dir/main.o.requires
 .PHONY : CMakeFiles/mini_run.dir/requires

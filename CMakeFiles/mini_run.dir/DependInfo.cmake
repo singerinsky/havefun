@@ -4,10 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/gl/workspace/havefun/current_quest.cpp" "/home/gl/workspace/havefun/CMakeFiles/mini_run.dir/current_quest.o"
   "/home/gl/workspace/havefun/data.pb.cc" "/home/gl/workspace/havefun/CMakeFiles/mini_run.dir/data.pb.o"
   "/home/gl/workspace/havefun/main.cpp" "/home/gl/workspace/havefun/CMakeFiles/mini_run.dir/main.o"
-  "/home/gl/workspace/havefun/md5.cpp" "/home/gl/workspace/havefun/CMakeFiles/mini_run.dir/md5.o"
   "/home/gl/workspace/havefun/message_filter.cpp" "/home/gl/workspace/havefun/CMakeFiles/mini_run.dir/message_filter.o"
+  "/home/gl/workspace/havefun/role_quest.cpp" "/home/gl/workspace/havefun/CMakeFiles/mini_run.dir/role_quest.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

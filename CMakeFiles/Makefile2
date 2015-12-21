@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/gl/workspace/havefun
 CMakeFiles/mini_run.dir/all:
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/depend
 	$(MAKE) -f CMakeFiles/mini_run.dir/build.make CMakeFiles/mini_run.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles  1 2 3 4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/gl/workspace/havefun/CMakeFiles  1 2 3 4 5
 	@echo "Built target mini_run"
 .PHONY : CMakeFiles/mini_run.dir/all
 
@@ -69,7 +69,7 @@ all: CMakeFiles/mini_run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mini_run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gl/workspace/havefun/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gl/workspace/havefun/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mini_run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gl/workspace/havefun/CMakeFiles 0
 .PHONY : CMakeFiles/mini_run.dir/rule

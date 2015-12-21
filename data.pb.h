@@ -23,6 +23,7 @@
 #include <google/protobuf/message.h>
 #include <google/protobuf/repeated_field.h>
 #include <google/protobuf/extension_set.h>
+#include <google/protobuf/generated_enum_reflection.h>
 #include <google/protobuf/unknown_field_set.h>
 // @@protoc_insertion_point(includes)
 
@@ -32,7 +33,28 @@ void protobuf_AssignDesc_data_2eproto();
 void protobuf_ShutdownFile_data_2eproto();
 
 class player_info;
+class quest_action_data;
+class quest_data;
 
+enum quest_action_type {
+  quest_action_killnpc = 0,
+  quest_action_get_item = 1
+};
+bool quest_action_type_IsValid(int value);
+const quest_action_type quest_action_type_MIN = quest_action_killnpc;
+const quest_action_type quest_action_type_MAX = quest_action_get_item;
+const int quest_action_type_ARRAYSIZE = quest_action_type_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* quest_action_type_descriptor();
+inline const ::std::string& quest_action_type_Name(quest_action_type value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    quest_action_type_descriptor(), value);
+}
+inline bool quest_action_type_Parse(
+    const ::std::string& name, quest_action_type* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<quest_action_type>(
+    quest_action_type_descriptor(), name, value);
+}
 // ===================================================================
 
 class player_info : public ::google::protobuf::Message {
@@ -129,6 +151,226 @@ class player_info : public ::google::protobuf::Message {
 
   void InitAsDefaultInstance();
   static player_info* default_instance_;
+};
+// -------------------------------------------------------------------
+
+class quest_action_data : public ::google::protobuf::Message {
+ public:
+  quest_action_data();
+  virtual ~quest_action_data();
+
+  quest_action_data(const quest_action_data& from);
+
+  inline quest_action_data& operator=(const quest_action_data& from) {
+    CopyFrom(from);
+    return *this;
+  }
+
+  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {
+    return _unknown_fields_;
+  }
+
+  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {
+    return &_unknown_fields_;
+  }
+
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const quest_action_data& default_instance();
+
+  void Swap(quest_action_data* other);
+
+  // implements Message ----------------------------------------------
+
+  quest_action_data* New() const;
+  void CopyFrom(const ::google::protobuf::Message& from);
+  void MergeFrom(const ::google::protobuf::Message& from);
+  void CopyFrom(const quest_action_data& from);
+  void MergeFrom(const quest_action_data& from);
+  void Clear();
+  bool IsInitialized() const;
+
+  int ByteSize() const;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input);
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const;
+  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const;
+  int GetCachedSize() const { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const;
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // required int32 action_type = 1;
+  inline bool has_action_type() const;
+  inline void clear_action_type();
+  static const int kActionTypeFieldNumber = 1;
+  inline ::google::protobuf::int32 action_type() const;
+  inline void set_action_type(::google::protobuf::int32 value);
+
+  // repeated int32 action_param = 2;
+  inline int action_param_size() const;
+  inline void clear_action_param();
+  static const int kActionParamFieldNumber = 2;
+  inline ::google::protobuf::int32 action_param(int index) const;
+  inline void set_action_param(int index, ::google::protobuf::int32 value);
+  inline void add_action_param(::google::protobuf::int32 value);
+  inline const ::google::protobuf::RepeatedField< ::google::protobuf::int32 >&
+      action_param() const;
+  inline ::google::protobuf::RepeatedField< ::google::protobuf::int32 >*
+      mutable_action_param();
+
+  // @@protoc_insertion_point(class_scope:quest_action_data)
+ private:
+  inline void set_has_action_type();
+  inline void clear_has_action_type();
+
+  ::google::protobuf::UnknownFieldSet _unknown_fields_;
+
+  ::google::protobuf::RepeatedField< ::google::protobuf::int32 > action_param_;
+  ::google::protobuf::int32 action_type_;
+
+  mutable int _cached_size_;
+  ::google::protobuf::uint32 _has_bits_[(2 + 31) / 32];
+
+  friend void  protobuf_AddDesc_data_2eproto();
+  friend void protobuf_AssignDesc_data_2eproto();
+  friend void protobuf_ShutdownFile_data_2eproto();
+
+  void InitAsDefaultInstance();
+  static quest_action_data* default_instance_;
+};
+// -------------------------------------------------------------------
+
+class quest_data : public ::google::protobuf::Message {
+ public:
+  quest_data();
+  virtual ~quest_data();
+
+  quest_data(const quest_data& from);
+
+  inline quest_data& operator=(const quest_data& from) {
+    CopyFrom(from);
+    return *this;
+  }
+
+  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {
+    return _unknown_fields_;
+  }
+
+  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {
+    return &_unknown_fields_;
+  }
+
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const quest_data& default_instance();
+
+  void Swap(quest_data* other);
+
+  // implements Message ----------------------------------------------
+
+  quest_data* New() const;
+  void CopyFrom(const ::google::protobuf::Message& from);
+  void MergeFrom(const ::google::protobuf::Message& from);
+  void CopyFrom(const quest_data& from);
+  void MergeFrom(const quest_data& from);
+  void Clear();
+  bool IsInitialized() const;
+
+  int ByteSize() const;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input);
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const;
+  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const;
+  int GetCachedSize() const { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const;
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // required int32 role_id = 1;
+  inline bool has_role_id() const;
+  inline void clear_role_id();
+  static const int kRoleIdFieldNumber = 1;
+  inline ::google::protobuf::int32 role_id() const;
+  inline void set_role_id(::google::protobuf::int32 value);
+
+  // required int32 quest_id = 2;
+  inline bool has_quest_id() const;
+  inline void clear_quest_id();
+  static const int kQuestIdFieldNumber = 2;
+  inline ::google::protobuf::int32 quest_id() const;
+  inline void set_quest_id(::google::protobuf::int32 value);
+
+  // required int32 quest_type = 3;
+  inline bool has_quest_type() const;
+  inline void clear_quest_type();
+  static const int kQuestTypeFieldNumber = 3;
+  inline ::google::protobuf::int32 quest_type() const;
+  inline void set_quest_type(::google::protobuf::int32 value);
+
+  // required int32 quest_status = 4;
+  inline bool has_quest_status() const;
+  inline void clear_quest_status();
+  static const int kQuestStatusFieldNumber = 4;
+  inline ::google::protobuf::int32 quest_status() const;
+  inline void set_quest_status(::google::protobuf::int32 value);
+
+  // repeated .quest_action_data actions = 5;
+  inline int actions_size() const;
+  inline void clear_actions();
+  static const int kActionsFieldNumber = 5;
+  inline const ::quest_action_data& actions(int index) const;
+  inline ::quest_action_data* mutable_actions(int index);
+  inline ::quest_action_data* add_actions();
+  inline const ::google::protobuf::RepeatedPtrField< ::quest_action_data >&
+      actions() const;
+  inline ::google::protobuf::RepeatedPtrField< ::quest_action_data >*
+      mutable_actions();
+
+  // @@protoc_insertion_point(class_scope:quest_data)
+ private:
+  inline void set_has_role_id();
+  inline void clear_has_role_id();
+  inline void set_has_quest_id();
+  inline void clear_has_quest_id();
+  inline void set_has_quest_type();
+  inline void clear_has_quest_type();
+  inline void set_has_quest_status();
+  inline void clear_has_quest_status();
+
+  ::google::protobuf::UnknownFieldSet _unknown_fields_;
+
+  ::google::protobuf::int32 role_id_;
+  ::google::protobuf::int32 quest_id_;
+  ::google::protobuf::int32 quest_type_;
+  ::google::protobuf::int32 quest_status_;
+  ::google::protobuf::RepeatedPtrField< ::quest_action_data > actions_;
+
+  mutable int _cached_size_;
+  ::google::protobuf::uint32 _has_bits_[(5 + 31) / 32];
+
+  friend void  protobuf_AddDesc_data_2eproto();
+  friend void protobuf_AssignDesc_data_2eproto();
+  friend void protobuf_ShutdownFile_data_2eproto();
+
+  void InitAsDefaultInstance();
+  static quest_data* default_instance_;
 };
 // ===================================================================
 
@@ -229,6 +471,174 @@ inline void player_info::set_allocated_player_name(::std::string* player_name) {
   }
 }
 
+// -------------------------------------------------------------------
+
+// quest_action_data
+
+// required int32 action_type = 1;
+inline bool quest_action_data::has_action_type() const {
+  return (_has_bits_[0] & 0x00000001u) != 0;
+}
+inline void quest_action_data::set_has_action_type() {
+  _has_bits_[0] |= 0x00000001u;
+}
+inline void quest_action_data::clear_has_action_type() {
+  _has_bits_[0] &= ~0x00000001u;
+}
+inline void quest_action_data::clear_action_type() {
+  action_type_ = 0;
+  clear_has_action_type();
+}
+inline ::google::protobuf::int32 quest_action_data::action_type() const {
+  return action_type_;
+}
+inline void quest_action_data::set_action_type(::google::protobuf::int32 value) {
+  set_has_action_type();
+  action_type_ = value;
+}
+
+// repeated int32 action_param = 2;
+inline int quest_action_data::action_param_size() const {
+  return action_param_.size();
+}
+inline void quest_action_data::clear_action_param() {
+  action_param_.Clear();
+}
+inline ::google::protobuf::int32 quest_action_data::action_param(int index) const {
+  return action_param_.Get(index);
+}
+inline void quest_action_data::set_action_param(int index, ::google::protobuf::int32 value) {
+  action_param_.Set(index, value);
+}
+inline void quest_action_data::add_action_param(::google::protobuf::int32 value) {
+  action_param_.Add(value);
+}
+inline const ::google::protobuf::RepeatedField< ::google::protobuf::int32 >&
+quest_action_data::action_param() const {
+  return action_param_;
+}
+inline ::google::protobuf::RepeatedField< ::google::protobuf::int32 >*
+quest_action_data::mutable_action_param() {
+  return &action_param_;
+}
+
+// -------------------------------------------------------------------
+
+// quest_data
+
+// required int32 role_id = 1;
+inline bool quest_data::has_role_id() const {
+  return (_has_bits_[0] & 0x00000001u) != 0;
+}
+inline void quest_data::set_has_role_id() {
+  _has_bits_[0] |= 0x00000001u;
+}
+inline void quest_data::clear_has_role_id() {
+  _has_bits_[0] &= ~0x00000001u;
+}
+inline void quest_data::clear_role_id() {
+  role_id_ = 0;
+  clear_has_role_id();
+}
+inline ::google::protobuf::int32 quest_data::role_id() const {
+  return role_id_;
+}
+inline void quest_data::set_role_id(::google::protobuf::int32 value) {
+  set_has_role_id();
+  role_id_ = value;
+}
+
+// required int32 quest_id = 2;
+inline bool quest_data::has_quest_id() const {
+  return (_has_bits_[0] & 0x00000002u) != 0;
+}
+inline void quest_data::set_has_quest_id() {
+  _has_bits_[0] |= 0x00000002u;
+}
+inline void quest_data::clear_has_quest_id() {
+  _has_bits_[0] &= ~0x00000002u;
+}
+inline void quest_data::clear_quest_id() {
+  quest_id_ = 0;
+  clear_has_quest_id();
+}
+inline ::google::protobuf::int32 quest_data::quest_id() const {
+  return quest_id_;
+}
+inline void quest_data::set_quest_id(::google::protobuf::int32 value) {
+  set_has_quest_id();
+  quest_id_ = value;
+}
+
+// required int32 quest_type = 3;
+inline bool quest_data::has_quest_type() const {
+  return (_has_bits_[0] & 0x00000004u) != 0;
+}
+inline void quest_data::set_has_quest_type() {
+  _has_bits_[0] |= 0x00000004u;
+}
+inline void quest_data::clear_has_quest_type() {
+  _has_bits_[0] &= ~0x00000004u;
+}
+inline void quest_data::clear_quest_type() {
+  quest_type_ = 0;
+  clear_has_quest_type();
+}
+inline ::google::protobuf::int32 quest_data::quest_type() const {
+  return quest_type_;
+}
+inline void quest_data::set_quest_type(::google::protobuf::int32 value) {
+  set_has_quest_type();
+  quest_type_ = value;
+}
+
+// required int32 quest_status = 4;
+inline bool quest_data::has_quest_status() const {
+  return (_has_bits_[0] & 0x00000008u) != 0;
+}
+inline void quest_data::set_has_quest_status() {
+  _has_bits_[0] |= 0x00000008u;
+}
+inline void quest_data::clear_has_quest_status() {
+  _has_bits_[0] &= ~0x00000008u;
+}
+inline void quest_data::clear_quest_status() {
+  quest_status_ = 0;
+  clear_has_quest_status();
+}
+inline ::google::protobuf::int32 quest_data::quest_status() const {
+  return quest_status_;
+}
+inline void quest_data::set_quest_status(::google::protobuf::int32 value) {
+  set_has_quest_status();
+  quest_status_ = value;
+}
+
+// repeated .quest_action_data actions = 5;
+inline int quest_data::actions_size() const {
+  return actions_.size();
+}
+inline void quest_data::clear_actions() {
+  actions_.Clear();
+}
+inline const ::quest_action_data& quest_data::actions(int index) const {
+  return actions_.Get(index);
+}
+inline ::quest_action_data* quest_data::mutable_actions(int index) {
+  return actions_.Mutable(index);
+}
+inline ::quest_action_data* quest_data::add_actions() {
+  return actions_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::quest_action_data >&
+quest_data::actions() const {
+  return actions_;
+}
+inline ::google::protobuf::RepeatedPtrField< ::quest_action_data >*
+quest_data::mutable_actions() {
+  return &actions_;
+}
+
 
 // @@protoc_insertion_point(namespace_scope)
 
@@ -236,6 +646,10 @@ inline void player_info::set_allocated_player_name(::std::string* player_name) {
 namespace google {
 namespace protobuf {
 
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::quest_action_type>() {
+  return ::quest_action_type_descriptor();
+}
 
 }  // namespace google
 }  // namespace protobuf
