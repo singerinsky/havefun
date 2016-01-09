@@ -1,6 +1,7 @@
 #ifndef _ENUM_H_
 #define _ENUM_H_
 
+
 typedef int PLAYER_ID;
 typedef int QUEST_ID;
 typedef int NPC_ID;
